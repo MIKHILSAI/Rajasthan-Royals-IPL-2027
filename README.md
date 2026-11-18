@@ -28,7 +28,6 @@ The application is a client-side React dashboard backed by a curated JSON datase
 - [Application routes](#application-routes)
 - [Architecture](#architecture)
 - [Data and scoring pipeline](#data-and-scoring-pipeline)
-- [Visual analytics](#visual-analytics)
 - [Technology stack](#technology-stack)
 - [Project structure](#project-structure)
 - [Getting started](#getting-started)
@@ -370,19 +369,6 @@ Additional rules:
 - Fixed seeds are used for bootstrap and model sampling
 
 ---
-
-## Visual analytics
-
-The dashboard uses Recharts for interactive, responsive visualizations.
-
-```mermaid
-%%{init: {'theme':'base','themeVariables': {'primaryColor':'#E6007E','primaryTextColor':'#FFFFFF','lineColor':'#6286C5','secondaryColor':'#15956C','tertiaryColor':'#F0A33A'}}}%%
-xychart-beta
-  title "Pressure vs model validation"
-  x-axis ["Chase", "First innings"]
-  y-axis "AUC" 0 --> 1
-  bar [0.891, 0.691]
-```
 
 ### Charts in the application
 
