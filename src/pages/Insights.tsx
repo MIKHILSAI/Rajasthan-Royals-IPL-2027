@@ -37,8 +37,8 @@ export function PressureModel() {
 }
 
 function RankChart({ players, label }: { players: any[]; label: string }) {
-  const rows = players.map((player) => ({ name: firstName(player.name), fullName: player.name, base: player.rank_p10, span: Math.max(0, player.rank_p90 - player.rank_p10), rank: player.rank, rank_p10: player.rank_p10, rank_p90: player.rank_p90 })).sort((a, b) => a.rank - b.rank)
-  return <ChartCard title={`${label} bootstrap rank ranges`} caption="10th–90th percentile range with final rank marked in pink."><div className="chart-h-320">{noData(rows) ? <div className="empty-chart">No data</div> : <ResponsiveContainer width="100%" height="100%"><ComposedChart data={rows} layout="vertical" margin={{ left: 6, right: 18, top: 8, bottom: 16 }}><CartesianGrid horizontal={false}/><XAxis type="number" domain={[1, 40]} label={{ value: 'Rank (1 = best)', position: 'insideBottom', offset: -8 }}/><YAxis type="category" dataKey="name" width={84}/><Tooltip contentStyle={tipStyle} labelFormatter={(_, payload) => { const row = payload?.[0]?.payload; return row ? `${row.fullName}: final rank ${row.rank}, 10th-90th percentile range ${row.rank_p10} to ${row.rank_p90}` : '' }}/><Bar dataKey="base" stackId="r" fill="transparent"/><Bar dataKey="span" stackId="r" fill="#F4A6CF" radius={6}/><Scatter data={rows} dataKey="rank" fill={pink}/></ComposedChart></ResponsiveContainer>}</div></ChartCard>
+  const rows = players.slice(0, 10)
+  return <ChartCard title={`${label} bootstrap rank ranges`} caption="10th–90th percentile range with final rank marked in pink."><div className="chart-h-320">{noData(rows) ? <div className="empty-chart">No data</div> : <RankedRange rows={rows}/>}</div></ChartCard>
 }
 
 export function Reliability() {

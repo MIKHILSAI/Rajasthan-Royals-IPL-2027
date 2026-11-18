@@ -52,3 +52,8 @@ th{border-bottom:1px solid var(--border)}
 .charts-grid>*{min-width:0}
 @media(max-width:760px){.reusable-card-header{padding:20px 20px 14px}.reusable-card-body,.chart-card-body{padding:0 20px 20px}.table-card-body{padding-bottom:20px}.table-card .table-scroll{padding:0 20px}.uncertain-list{padding:0 20px 12px}.sensitivity-columns{grid-template-columns:1fr}.chart-h-320{height:300px;min-height:300px}.uncertain-row{gap:8px!important}.reusable-card-heading h3{font-size:15px}}
 @media print{.sidebar,.topbar,.footer,.mobile-tabs,.button,.profile-nav{display:none!important}.report-page section,.report-page .charts-grid>*{break-inside:avoid}.report-page>.page-title,.report-summary,.report-tables,.report-page .charts-grid,.report-page>.insight-banner{break-before:auto}.report-page .section-heading{break-before:page}}
+.compare-chart-grid>.chart-card{display:flex;flex-direction:column;min-height:0}
+.compare-chart-grid>.chart-card>.chart-card-body{display:flex;flex:1;min-height:0}
+.comparison-chart{width:100%;min-width:0;max-width:100%}
+@media(max-width:1100px){.compare-chart-grid{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:760px){.compare-chart-grid>.chart-card>.chart-card-body{padding-right:16px;padding-left:16px}.comparison-chart{max-height:380px}}
