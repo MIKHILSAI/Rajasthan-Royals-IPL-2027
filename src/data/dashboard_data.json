@@ -1,0 +1,9257 @@
+{
+ "meta": {
+  "title": "Pressure Players: Who Delivers When It Matters",
+  "matches": 777,
+  "balls": 184156,
+  "high_pressure_balls": 36853,
+  "eligible_batters": 77,
+  "eligible_bowlers": 92,
+  "auc_chase": 0.891,
+  "auc_first_innings": 0.691,
+  "weights": {
+   "pressure_value": 0.65,
+   "consistency": 0.2,
+   "stepup": 0.15
+  },
+  "units": "Pressure value and step-up are win-probability points per 100 balls; match_series values are win-probability points added per pressure innings (leverage-adjusted)"
+ },
+ "players": {
+  "bat": [
+   {
+    "rank": 1,
+    "name": "Phil Salt",
+    "pid": 5553,
+    "score": 2.17,
+    "pressure_value": 22.4,
+    "everyday_skill": 23.6,
+    "stepup": -1.2,
+    "consistency_raw": 0.71,
+    "consistency_smoothed": 0.66,
+    "pressure_balls": 361,
+    "pressure_innings": 28,
+    "positive_innings": 20,
+    "top10_prob": 0.98,
+    "rank_p10": 1,
+    "rank_p90": 6,
+    "pressure": {
+     "balls": 361,
+     "runs": 564,
+     "sr": 156.2,
+     "boundary_pct": 26.3,
+     "dot_pct": 42.7,
+     "outs": 18,
+     "outs_per100": 5.0,
+     "avg": 31.3,
+     "value_per100": 17.4
+    },
+    "normal": {
+     "balls": 663,
+     "runs": 1182,
+     "sr": 178.3,
+     "boundary_pct": 27.8,
+     "dot_pct": 30.2,
+     "outs": 38,
+     "outs_per100": 5.7,
+     "avg": 31.1,
+     "value_per100": 29.4
+    },
+    "comp": {
+     "IPL": {
+      "balls": 174,
+      "runs": 285,
+      "sr": 163.8,
+      "boundary_pct": 28.7,
+      "dot_pct": 43.1,
+      "outs": 10,
+      "outs_per100": 5.7,
+      "avg": 28.5,
+      "value_per100": 16.9
+     },
+     "T20I": {
+      "balls": 187,
+      "runs": 279,
+      "sr": 149.2,
+      "boundary_pct": 24.1,
+      "dot_pct": 42.2,
+      "outs": 8,
+      "outs_per100": 4.3,
+      "avg": 34.9,
+      "value_per100": 17.8
+     }
+    },
+    "innings": {
+     "1st innings": {
+      "balls": 87,
+      "runs": 130,
+      "sr": 149.4,
+      "boundary_pct": 27.6,
+      "dot_pct": 46.0,
+      "outs": 5,
+      "outs_per100": 5.7,
+      "avg": 26.0,
+      "value_per100": 14.9
+     },
+     "Chase (2nd innings)": {
+      "balls": 274,
+      "runs": 434,
+      "sr": 158.4,
+      "boundary_pct": 25.9,
+      "dot_pct": 41.6,
+      "outs": 13,
+      "outs_per100": 4.7,
+      "avg": 33.4,
+      "value_per100": 18.2
+     }
+    },
+    "phase": {
+     "Powerplay (1-6)": {
+      "balls": 280,
+      "runs": 456,
+      "sr": 162.9,
+      "boundary_pct": 29.3,
+      "dot_pct": 45.7,
+      "outs": 13,
+      "outs_per100": 4.6,
+      "avg": 35.1,
+      "value_per100": 30.7
+     },
+     "Middle (7-15)": {
+      "balls": 73,
+      "runs": 88,
+      "sr": 120.5,
+      "boundary_pct": 13.7,
+      "dot_pct": 32.9,
+      "outs": 5,
+      "outs_per100": 6.8,
+      "avg": 17.6,
+      "value_per100": -36.8
+     },
+     "Death (16-20)": {
+      "balls": 8,
+      "runs": 20,
+      "sr": 250.0,
+      "boundary_pct": 37.5,
+      "dot_pct": 25.0,
+      "outs": 0,
+      "outs_per100": 0.0,
+      "avg": null,
+      "value_per100": 45.2
+     }
+    },
+    "wickets_context": {
+     "0-2 wkts down": {
+      "balls": 334,
+      "runs": 534,
+      "sr": 159.9,
+      "boundary_pct": 27.5,
+      "dot_pct": 43.1,
+      "outs": 17,
+      "outs_per100": 5.1,
+      "avg": 31.4,
+      "value_per100": 20.4
+     },
+     "3-5 wkts down": {
+      "balls": 27,
+      "runs": 30,
+      "sr": 111.1,
+      "boundary_pct": 11.1,
+      "dot_pct": 37.0,
+      "outs": 1,
+      "outs_per100": 3.7,
+      "avg": 30.0,
+      "value_per100": -20.5
+     },
+     "6+ wkts down": {
+      "balls": 0
+     }
+    },
+    "season": {
+     "2022": {
+      "balls": 19,
+      "runs": 44,
+      "sr": 231.6,
+      "boundary_pct": 47.4,
+      "dot_pct": 21.1,
+      "outs": 1,
+      "outs_per100": 5.3,
+      "avg": 44.0,
+      "value_per100": 67.7
+     },
+     "2023": {
+      "balls": 112,
+      "runs": 182,
+      "sr": 162.5,
+      "boundary_pct": 23.2,
+      "dot_pct": 31.2,
+      "outs": 4,
+      "outs_per100": 3.6,
+      "avg": 45.5,
+      "value_per100": 18.2
+     },
+     "2024": {
+      "balls": 54,
+      "runs": 89,
+      "sr": 164.8,
+      "boundary_pct": 29.6,
+      "dot_pct": 48.1,
+      "outs": 3,
+      "outs_per100": 5.6,
+      "avg": 29.7,
+      "value_per100": 38.0
+     },
+     "2025": {
+      "balls": 119,
+      "runs": 171,
+      "sr": 143.7,
+      "boundary_pct": 26.1,
+      "dot_pct": 52.9,
+      "outs": 6,
+      "outs_per100": 5.0,
+      "avg": 28.5,
+      "value_per100": 16.5
+     },
+     "2026": {
+      "balls": 57,
+      "runs": 78,
+      "sr": 136.8,
+      "boundary_pct": 22.8,
+      "dot_pct": 45.6,
+      "outs": 4,
+      "outs_per100": 7.0,
+      "avg": 19.5,
+      "value_per100": -18.6
+     }
+    },
+    "match_series": [
+     {
+      "date": "2022-01-30",
+      "value": -3.06,
+      "balls": 5,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-09-20",
+      "value": 2.56,
+      "balls": 5,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-09-30",
+      "value": 6.27,
+      "balls": 5,
+      "comp": "T20I"
+     },
+     {
+      "date": "2023-03-09",
+      "value": 7.45,
+      "balls": 5,
+      "comp": "T20I"
+     },
+     {
+      "date": "2023-04-29",
+      "value": 0.95,
+      "balls": 23,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-06",
+      "value": 18.68,
+      "balls": 17,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-10",
+      "value": -7.28,
+      "balls": 5,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-13",
+      "value": 0.88,
+      "balls": 5,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-12-14",
+      "value": -4.64,
+      "balls": 17,
+      "comp": "T20I"
+     },
+     {
+      "date": "2023-12-16",
+      "value": 4.03,
+      "balls": 31,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-03-29",
+      "value": 7.87,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-05-05",
+      "value": 11.68,
+      "balls": 9,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-09-11",
+      "value": 3.62,
+      "balls": 9,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-09-13",
+      "value": 2.36,
+      "balls": 7,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-11-10",
+      "value": 2.87,
+      "balls": 12,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-01-28",
+      "value": 6.31,
+      "balls": 4,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-01-31",
+      "value": -7.53,
+      "balls": 19,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-03-22",
+      "value": 2.8,
+      "balls": 9,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-13",
+      "value": 19.29,
+      "balls": 18,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-23",
+      "value": -1.36,
+      "balls": 15,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-27",
+      "value": 2.23,
+      "balls": 19,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-09-17",
+      "value": 6.03,
+      "balls": 10,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-01-30",
+      "value": -0.56,
+      "balls": 9,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-03-28",
+      "value": -2.24,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-12",
+      "value": 1.1,
+      "balls": 11,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-18",
+      "value": -8.92,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-07-07",
+      "value": 1.84,
+      "balls": 14,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-07-09",
+      "value": 5.05,
+      "balls": 9,
+      "comp": "T20I"
+     }
+    ],
+    "percentiles": {
+     "P": 100.0,
+     "C": 100.0,
+     "dev": 47.0,
+     "n": 81.0,
+     "boundary_pct": 89.0
+    },
+    "strengths": [
+     "Boundary hitting under pressure: 26.3% of balls reach the boundary (better than 89% of eligible players)",
+     "Chasing under pressure: 18.2 win-probability points per 100 balls (top 14% of eligible players)",
+     "Consistency: positive in 20 of 28 pressure innings",
+     "Highly stable pick: in the top 10 in 98% of bootstrap resamples"
+    ],
+    "weaknesses": [
+     "Dot-ball control under pressure: 42.7% dot balls (weaker than 84% of eligible players)"
+    ]
+   },
+   {
+    "rank": 2,
+    "name": "Vaibhav Sooryavanshi",
+    "pid": 50284,
+    "score": 2.16,
+    "pressure_value": 20.3,
+    "everyday_skill": 16.6,
+    "stepup": 3.7,
+    "consistency_raw": 0.69,
+    "consistency_smoothed": 0.61,
+    "pressure_balls": 164,
+    "pressure_innings": 13,
+    "positive_innings": 9,
+    "top10_prob": 0.91,
+    "rank_p10": 1,
+    "rank_p90": 10,
+    "pressure": {
+     "balls": 164,
+     "runs": 334,
+     "sr": 203.7,
+     "boundary_pct": 36.0,
+     "dot_pct": 39.6,
+     "outs": 4,
+     "outs_per100": 2.4,
+     "avg": 83.5,
+     "value_per100": 54.5
+    },
+    "normal": {
+     "balls": 236,
+     "runs": 552,
+     "sr": 233.9,
+     "boundary_pct": 38.1,
+     "dot_pct": 27.5,
+     "outs": 13,
+     "outs_per100": 5.5,
+     "avg": 42.5,
+     "value_per100": 65.7
+    },
+    "comp": {
+     "IPL": {
+      "balls": 148,
+      "runs": 314,
+      "sr": 212.2,
+      "boundary_pct": 37.8,
+      "dot_pct": 38.5,
+      "outs": 3,
+      "outs_per100": 2.0,
+      "avg": 104.7,
+      "value_per100": 59.6
+     },
+     "T20I": {
+      "balls": 16,
+      "runs": 20,
+      "sr": 125.0,
+      "boundary_pct": 18.8,
+      "dot_pct": 50.0,
+      "outs": 1,
+      "outs_per100": 6.2,
+      "avg": 20.0,
+      "value_per100": 6.5
+     }
+    },
+    "innings": {
+     "1st innings": {
+      "balls": 32,
+      "runs": 58,
+      "sr": 181.2,
+      "boundary_pct": 34.4,
+      "dot_pct": 40.6,
+      "outs": 0,
+      "outs_per100": 0.0,
+      "avg": null,
+      "value_per100": 34.9
+     },
+     "Chase (2nd innings)": {
+      "balls": 132,
+      "runs": 276,
+      "sr": 209.1,
+      "boundary_pct": 36.4,
+      "dot_pct": 39.4,
+      "outs": 4,
+      "outs_per100": 3.0,
+      "avg": 69.0,
+      "value_per100": 59.2
+     }
+    },
+    "phase": {
+     "Powerplay (1-6)": {
+      "balls": 121,
+      "runs": 235,
+      "sr": 194.2,
+      "boundary_pct": 35.5,
+      "dot_pct": 43.0,
+      "outs": 2,
+      "outs_per100": 1.7,
+      "avg": 117.5,
+      "value_per100": 41.1
+     },
+     "Middle (7-15)": {
+      "balls": 43,
+      "runs": 99,
+      "sr": 230.2,
+      "boundary_pct": 37.2,
+      "dot_pct": 30.2,
+      "outs": 2,
+      "outs_per100": 4.7,
+      "avg": 49.5,
+      "value_per100": 92.0
+     },
+     "Death (16-20)": {
+      "balls": 0
+     }
+    },
+    "wickets_context": {
+     "0-2 wkts down": {
+      "balls": 164,
+      "runs": 334,
+      "sr": 203.7,
+      "boundary_pct": 36.0,
+      "dot_pct": 39.6,
+      "outs": 4,
+      "outs_per100": 2.4,
+      "avg": 83.5,
+      "value_per100": 54.5
+     },
+     "3-5 wkts down": {
+      "balls": 0
+     },
+     "6+ wkts down": {
+      "balls": 0
+     }
+    },
+    "season": {
+     "2025": {
+      "balls": 66,
+      "runs": 117,
+      "sr": 177.3,
+      "boundary_pct": 27.3,
+      "dot_pct": 39.4,
+      "outs": 2,
+      "outs_per100": 3.0,
+      "avg": 58.5,
+      "value_per100": 39.5
+     },
+     "2026": {
+      "balls": 98,
+      "runs": 217,
+      "sr": 221.4,
+      "boundary_pct": 41.8,
+      "dot_pct": 39.8,
+      "outs": 2,
+      "outs_per100": 2.0,
+      "avg": 108.5,
+      "value_per100": 64.5
+     }
+    },
+    "match_series": [
+     {
+      "date": "2025-04-19",
+      "value": 11.23,
+      "balls": 19,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-24",
+      "value": -2.78,
+      "balls": 8,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-28",
+      "value": -0.23,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-18",
+      "value": -0.52,
+      "balls": 6,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-20",
+      "value": 20.03,
+      "balls": 26,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-04",
+      "value": 3.65,
+      "balls": 10,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-10",
+      "value": 23.16,
+      "balls": 10,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-28",
+      "value": 7.1,
+      "balls": 9,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-09",
+      "value": 6.18,
+      "balls": 12,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-19",
+      "value": 21.67,
+      "balls": 24,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-27",
+      "value": 1.84,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-29",
+      "value": 0.37,
+      "balls": 9,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-10-24",
+      "value": -12.34,
+      "balls": 8,
+      "comp": "T20I"
+     }
+    ],
+    "percentiles": {
+     "P": 97.0,
+     "C": 99.0,
+     "dev": 100.0,
+     "n": 19.0,
+     "boundary_pct": 100.0
+    },
+    "strengths": [
+     "Scoring rate under pressure: strike rate 204 (better than 100% of eligible players)",
+     "Boundary hitting under pressure: 36.0% of balls reach the boundary (better than 100% of eligible players)",
+     "Wicket preservation under pressure: 2.4 dismissals per 100 balls (better than 94% of eligible players)",
+     "Chasing under pressure: 59.2 win-probability points per 100 balls (top 1% of eligible players)",
+     "Consistency: positive in 9 of 13 pressure innings",
+     "Steps up: performs better under pressure than his own everyday level suggests",
+     "Highly stable pick: in the top 10 in 91% of bootstrap resamples"
+    ],
+    "weaknesses": [
+     "Evidence comes almost entirely from IPL matches (148 of 164 pressure balls)",
+     "Small sample: 164 pressure balls in 13 pressure innings, so higher uncertainty"
+    ]
+   },
+   {
+    "rank": 3,
+    "name": "Abhishek Sharma",
+    "pid": 6281,
+    "score": 1.73,
+    "pressure_value": 21.0,
+    "everyday_skill": 23.8,
+    "stepup": -2.8,
+    "consistency_raw": 0.6,
+    "consistency_smoothed": 0.59,
+    "pressure_balls": 550,
+    "pressure_innings": 48,
+    "positive_innings": 29,
+    "top10_prob": 0.88,
+    "rank_p10": 1,
+    "rank_p90": 11,
+    "pressure": {
+     "balls": 550,
+     "runs": 937,
+     "sr": 170.4,
+     "boundary_pct": 26.9,
+     "dot_pct": 37.8,
+     "outs": 27,
+     "outs_per100": 4.9,
+     "avg": 34.7,
+     "value_per100": 13.2
+    },
+    "normal": {
+     "balls": 984,
+     "runs": 2048,
+     "sr": 208.1,
+     "boundary_pct": 34.0,
+     "dot_pct": 31.0,
+     "outs": 59,
+     "outs_per100": 6.0,
+     "avg": 34.7,
+     "value_per100": 32.8
+    },
+    "comp": {
+     "IPL": {
+      "balls": 415,
+      "runs": 704,
+      "sr": 169.6,
+      "boundary_pct": 26.5,
+      "dot_pct": 36.1,
+      "outs": 20,
+      "outs_per100": 4.8,
+      "avg": 35.2,
+      "value_per100": 16.9
+     },
+     "T20I": {
+      "balls": 135,
+      "runs": 233,
+      "sr": 172.6,
+      "boundary_pct": 28.1,
+      "dot_pct": 43.0,
+      "outs": 7,
+      "outs_per100": 5.2,
+      "avg": 33.3,
+      "value_per100": 1.8
+     }
+    },
+    "innings": {
+     "1st innings": {
+      "balls": 155,
+      "runs": 207,
+      "sr": 133.5,
+      "boundary_pct": 22.6,
+      "dot_pct": 50.3,
+      "outs": 7,
+      "outs_per100": 4.5,
+      "avg": 29.6,
+      "value_per100": -2.8
+     },
+     "Chase (2nd innings)": {
+      "balls": 395,
+      "runs": 730,
+      "sr": 184.8,
+      "boundary_pct": 28.6,
+      "dot_pct": 32.9,
+      "outs": 20,
+      "outs_per100": 5.1,
+      "avg": 36.5,
+      "value_per100": 19.5
+     }
+    },
+    "phase": {
+     "Powerplay (1-6)": {
+      "balls": 413,
+      "runs": 675,
+      "sr": 163.4,
+      "boundary_pct": 27.4,
+      "dot_pct": 43.1,
+      "outs": 17,
+      "outs_per100": 4.1,
+      "avg": 39.7,
+      "value_per100": 15.2
+     },
+     "Middle (7-15)": {
+      "balls": 137,
+      "runs": 262,
+      "sr": 191.2,
+      "boundary_pct": 25.5,
+      "dot_pct": 21.9,
+      "outs": 10,
+      "outs_per100": 7.3,
+      "avg": 26.2,
+      "value_per100": 7.4
+     },
+     "Death (16-20)": {
+      "balls": 0
+     }
+    },
+    "wickets_context": {
+     "0-2 wkts down": {
+      "balls": 543,
+      "runs": 933,
+      "sr": 171.8,
+      "boundary_pct": 27.3,
+      "dot_pct": 37.8,
+      "outs": 24,
+      "outs_per100": 4.4,
+      "avg": 38.9,
+      "value_per100": 19.1
+     },
+     "3-5 wkts down": {
+      "balls": 7,
+      "runs": 4,
+      "sr": 57.1,
+      "boundary_pct": 0.0,
+      "dot_pct": 42.9,
+      "outs": 3,
+      "outs_per100": 42.9,
+      "avg": 1.3,
+      "value_per100": -445.7
+     },
+     "6+ wkts down": {
+      "balls": 0
+     }
+    },
+    "season": {
+     "2022": {
+      "balls": 88,
+      "runs": 123,
+      "sr": 139.8,
+      "boundary_pct": 15.9,
+      "dot_pct": 33.0,
+      "outs": 3,
+      "outs_per100": 3.4,
+      "avg": 41.0,
+      "value_per100": 16.0
+     },
+     "2023": {
+      "balls": 36,
+      "runs": 43,
+      "sr": 119.4,
+      "boundary_pct": 19.4,
+      "dot_pct": 44.4,
+      "outs": 5,
+      "outs_per100": 13.9,
+      "avg": 8.6,
+      "value_per100": -94.8
+     },
+     "2024": {
+      "balls": 100,
+      "runs": 165,
+      "sr": 165.0,
+      "boundary_pct": 27.0,
+      "dot_pct": 45.0,
+      "outs": 6,
+      "outs_per100": 6.0,
+      "avg": 27.5,
+      "value_per100": 0.4
+     },
+     "2025": {
+      "balls": 168,
+      "runs": 329,
+      "sr": 195.8,
+      "boundary_pct": 32.1,
+      "dot_pct": 33.3,
+      "outs": 4,
+      "outs_per100": 2.4,
+      "avg": 82.2,
+      "value_per100": 34.7
+     },
+     "2026": {
+      "balls": 158,
+      "runs": 277,
+      "sr": 175.3,
+      "boundary_pct": 29.1,
+      "dot_pct": 39.2,
+      "outs": 9,
+      "outs_per100": 5.7,
+      "avg": 30.8,
+      "value_per100": 21.5
+     }
+    },
+    "match_series": [
+     {
+      "date": "2022-04-04",
+      "value": -9.89,
+      "balls": 8,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-04-09",
+      "value": 4.53,
+      "balls": 21,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-04-11",
+      "value": 7.5,
+      "balls": 17,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-04-15",
+      "value": -3.28,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-04-17",
+      "value": 1.17,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-05-01",
+      "value": 9.24,
+      "balls": 9,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-05-05",
+      "value": 0.12,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-05-14",
+      "value": 5.83,
+      "balls": 15,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-24",
+      "value": -6.52,
+      "balls": 5,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-29",
+      "value": -3.01,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-07",
+      "value": 0.23,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-13",
+      "value": 3.18,
+      "balls": 5,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-15",
+      "value": -22.04,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-03-23",
+      "value": -2.02,
+      "balls": 19,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-04-25",
+      "value": 1.54,
+      "balls": 8,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-04-28",
+      "value": -4.04,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-05-06",
+      "value": -2.33,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-05-08",
+      "value": 1.84,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-05-19",
+      "value": 11.17,
+      "balls": 21,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-05-21",
+      "value": -5.02,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-11-08",
+      "value": -4.81,
+      "balls": 5,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-11-15",
+      "value": -2.56,
+      "balls": 6,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-01-28",
+      "value": -2.6,
+      "balls": 10,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-03-23",
+      "value": 5.94,
+      "balls": 5,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-06",
+      "value": -5.74,
+      "balls": 16,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-12",
+      "value": 33.37,
+      "balls": 39,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-02",
+      "value": -4.1,
+      "balls": 27,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-19",
+      "value": 23.08,
+      "balls": 15,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-23",
+      "value": -1.55,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-09-21",
+      "value": 9.28,
+      "balls": 10,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-09-26",
+      "value": -0.86,
+      "balls": 5,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-11-02",
+      "value": 7.96,
+      "balls": 7,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-12-11",
+      "value": 1.31,
+      "balls": 8,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-12-19",
+      "value": -1.51,
+      "balls": 5,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-03-28",
+      "value": -8.28,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-11",
+      "value": 17.7,
+      "balls": 8,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-25",
+      "value": 0.43,
+      "balls": 22,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-29",
+      "value": 12.66,
+      "balls": 19,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-06",
+      "value": 9.55,
+      "balls": 6,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-18",
+      "value": 2.17,
+      "balls": 21,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-22",
+      "value": 0.08,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-06-26",
+      "value": -10.37,
+      "balls": 6,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-07-07",
+      "value": 0.81,
+      "balls": 6,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-09-15",
+      "value": 6.24,
+      "balls": 4,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-09-17",
+      "value": 1.62,
+      "balls": 4,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-10-09",
+      "value": 0.62,
+      "balls": 4,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-10-22",
+      "value": 4.1,
+      "balls": 4,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-10-24",
+      "value": 0.85,
+      "balls": 13,
+      "comp": "T20I"
+     }
+    ],
+    "percentiles": {
+     "P": 99.0,
+     "C": 84.0,
+     "dev": 21.0,
+     "n": 97.0,
+     "boundary_pct": 94.0
+    },
+    "strengths": [
+     "Scoring rate under pressure: strike rate 170 (better than 92% of eligible players)",
+     "Boundary hitting under pressure: 26.9% of balls reach the boundary (better than 94% of eligible players)",
+     "Chasing under pressure: 19.5 win-probability points per 100 balls (top 9% of eligible players)",
+     "Consistency: positive in 29 of 48 pressure innings",
+     "Highly stable pick: in the top 10 in 88% of bootstrap resamples"
+    ],
+    "weaknesses": [
+     "Does not step up: pressure level is at or below his own everyday level"
+    ]
+   },
+   {
+    "rank": 4,
+    "name": "Yashasvi Jaiswal",
+    "pid": 6819,
+    "score": 1.47,
+    "pressure_value": 15.1,
+    "everyday_skill": 15.1,
+    "stepup": -0.1,
+    "consistency_raw": 0.66,
+    "consistency_smoothed": 0.62,
+    "pressure_balls": 531,
+    "pressure_innings": 38,
+    "positive_innings": 25,
+    "top10_prob": 0.81,
+    "rank_p10": 2,
+    "rank_p90": 14,
+    "pressure": {
+     "balls": 531,
+     "runs": 834,
+     "sr": 157.1,
+     "boundary_pct": 25.0,
+     "dot_pct": 35.8,
+     "outs": 25,
+     "outs_per100": 4.7,
+     "avg": 33.4,
+     "value_per100": 14.9
+    },
+    "normal": {
+     "balls": 792,
+     "runs": 1222,
+     "sr": 154.3,
+     "boundary_pct": 24.9,
+     "dot_pct": 39.6,
+     "outs": 31,
+     "outs_per100": 3.9,
+     "avg": 39.4,
+     "value_per100": 11.8
+    },
+    "comp": {
+     "IPL": {
+      "balls": 479,
+      "runs": 746,
+      "sr": 155.7,
+      "boundary_pct": 24.4,
+      "dot_pct": 35.7,
+      "outs": 23,
+      "outs_per100": 4.8,
+      "avg": 32.4,
+      "value_per100": 10.2
+     },
+     "T20I": {
+      "balls": 52,
+      "runs": 88,
+      "sr": 169.2,
+      "boundary_pct": 30.8,
+      "dot_pct": 36.5,
+      "outs": 2,
+      "outs_per100": 3.8,
+      "avg": 44.0,
+      "value_per100": 58.3
+     }
+    },
+    "innings": {
+     "1st innings": {
+      "balls": 90,
+      "runs": 98,
+      "sr": 108.9,
+      "boundary_pct": 15.6,
+      "dot_pct": 46.7,
+      "outs": 4,
+      "outs_per100": 4.4,
+      "avg": 24.5,
+      "value_per100": -2.6
+     },
+     "Chase (2nd innings)": {
+      "balls": 441,
+      "runs": 736,
+      "sr": 166.9,
+      "boundary_pct": 27.0,
+      "dot_pct": 33.6,
+      "outs": 21,
+      "outs_per100": 4.8,
+      "avg": 35.0,
+      "value_per100": 18.5
+     }
+    },
+    "phase": {
+     "Powerplay (1-6)": {
+      "balls": 352,
+      "runs": 571,
+      "sr": 162.2,
+      "boundary_pct": 28.7,
+      "dot_pct": 42.0,
+      "outs": 13,
+      "outs_per100": 3.7,
+      "avg": 43.9,
+      "value_per100": 20.9
+     },
+     "Middle (7-15)": {
+      "balls": 175,
+      "runs": 254,
+      "sr": 145.1,
+      "boundary_pct": 17.1,
+      "dot_pct": 23.4,
+      "outs": 11,
+      "outs_per100": 6.3,
+      "avg": 23.1,
+      "value_per100": 1.6
+     },
+     "Death (16-20)": {
+      "balls": 4,
+      "runs": 9,
+      "sr": 225.0,
+      "boundary_pct": 50.0,
+      "dot_pct": 25.0,
+      "outs": 1,
+      "outs_per100": 25.0,
+      "avg": 9.0,
+      "value_per100": 70.8
+     }
+    },
+    "wickets_context": {
+     "0-2 wkts down": {
+      "balls": 513,
+      "runs": 805,
+      "sr": 156.9,
+      "boundary_pct": 25.1,
+      "dot_pct": 36.3,
+      "outs": 23,
+      "outs_per100": 4.5,
+      "avg": 35.0,
+      "value_per100": 15.1
+     },
+     "3-5 wkts down": {
+      "balls": 18,
+      "runs": 29,
+      "sr": 161.1,
+      "boundary_pct": 22.2,
+      "dot_pct": 22.2,
+      "outs": 2,
+      "outs_per100": 11.1,
+      "avg": 14.5,
+      "value_per100": 9.6
+     },
+     "6+ wkts down": {
+      "balls": 0
+     }
+    },
+    "season": {
+     "2022": {
+      "balls": 52,
+      "runs": 88,
+      "sr": 169.2,
+      "boundary_pct": 25.0,
+      "dot_pct": 26.9,
+      "outs": 1,
+      "outs_per100": 1.9,
+      "avg": 88.0,
+      "value_per100": 48.2
+     },
+     "2023": {
+      "balls": 134,
+      "runs": 185,
+      "sr": 138.1,
+      "boundary_pct": 21.6,
+      "dot_pct": 40.3,
+      "outs": 7,
+      "outs_per100": 5.2,
+      "avg": 26.4,
+      "value_per100": 11.0
+     },
+     "2024": {
+      "balls": 132,
+      "runs": 218,
+      "sr": 165.2,
+      "boundary_pct": 27.3,
+      "dot_pct": 34.8,
+      "outs": 8,
+      "outs_per100": 6.1,
+      "avg": 27.2,
+      "value_per100": 25.3
+     },
+     "2025": {
+      "balls": 136,
+      "runs": 227,
+      "sr": 166.9,
+      "boundary_pct": 26.5,
+      "dot_pct": 35.3,
+      "outs": 6,
+      "outs_per100": 4.4,
+      "avg": 37.8,
+      "value_per100": 6.5
+     },
+     "2026": {
+      "balls": 77,
+      "runs": 116,
+      "sr": 150.6,
+      "boundary_pct": 24.7,
+      "dot_pct": 36.4,
+      "outs": 3,
+      "outs_per100": 3.9,
+      "avg": 38.7,
+      "value_per100": -3.7
+     }
+    },
+    "match_series": [
+     {
+      "date": "2022-05-07",
+      "value": 21.59,
+      "balls": 37,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-05-20",
+      "value": -0.34,
+      "balls": 11,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-05",
+      "value": 3.37,
+      "balls": 6,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-12",
+      "value": -4.42,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-16",
+      "value": -3.27,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-23",
+      "value": 2.89,
+      "balls": 26,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-30",
+      "value": 0.47,
+      "balls": 5,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-05",
+      "value": -6.19,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-07",
+      "value": 1.0,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-19",
+      "value": 2.89,
+      "balls": 34,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-08-12",
+      "value": 6.29,
+      "balls": 15,
+      "comp": "T20I"
+     },
+     {
+      "date": "2023-08-20",
+      "value": 0.43,
+      "balls": 6,
+      "comp": "T20I"
+     },
+     {
+      "date": "2023-11-23",
+      "value": 9.41,
+      "balls": 6,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-01-14",
+      "value": 7.07,
+      "balls": 4,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-04-16",
+      "value": 3.14,
+      "balls": 9,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-04-22",
+      "value": 5.9,
+      "balls": 20,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-04-27",
+      "value": -5.98,
+      "balls": 17,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-05-02",
+      "value": 8.65,
+      "balls": 25,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-05-15",
+      "value": 1.54,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-05-22",
+      "value": 2.14,
+      "balls": 22,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-05-24",
+      "value": 5.68,
+      "balls": 19,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-03-26",
+      "value": -2.05,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-05",
+      "value": -0.86,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-09",
+      "value": -0.58,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-16",
+      "value": 10.64,
+      "balls": 24,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-19",
+      "value": -3.1,
+      "balls": 46,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-24",
+      "value": 8.51,
+      "balls": 10,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-28",
+      "value": -5.17,
+      "balls": 8,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-01",
+      "value": -4.74,
+      "balls": 5,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-18",
+      "value": 2.63,
+      "balls": 15,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-20",
+      "value": 5.44,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-04",
+      "value": 4.61,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-10",
+      "value": 1.16,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-22",
+      "value": -3.36,
+      "balls": 5,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-28",
+      "value": 0.36,
+      "balls": 19,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-09",
+      "value": -5.76,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-19",
+      "value": 1.37,
+      "balls": 20,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-27",
+      "value": 1.56,
+      "balls": 7,
+      "comp": "IPL"
+     }
+    ],
+    "percentiles": {
+     "P": 96.0,
+     "C": 92.0,
+     "dev": 66.0,
+     "n": 92.0,
+     "boundary_pct": 83.0
+    },
+    "strengths": [
+     "Boundary hitting under pressure: 25.0% of balls reach the boundary (better than 83% of eligible players)",
+     "Chasing under pressure: 18.5 win-probability points per 100 balls (top 13% of eligible players)",
+     "Consistency: positive in 25 of 38 pressure innings",
+     "Highly stable pick: in the top 10 in 81% of bootstrap resamples"
+    ],
+    "weaknesses": [
+     "Evidence comes almost entirely from IPL matches (479 of 531 pressure balls)"
+    ]
+   },
+   {
+    "rank": 5,
+    "name": "Travis Head",
+    "pid": 2367,
+    "score": 1.21,
+    "pressure_value": 14.9,
+    "everyday_skill": 14.9,
+    "stepup": -0.0,
+    "consistency_raw": 0.55,
+    "consistency_smoothed": 0.54,
+    "pressure_balls": 303,
+    "pressure_innings": 31,
+    "positive_innings": 17,
+    "top10_prob": 0.52,
+    "rank_p10": 3,
+    "rank_p90": 24,
+    "pressure": {
+     "balls": 303,
+     "runs": 483,
+     "sr": 159.4,
+     "boundary_pct": 27.4,
+     "dot_pct": 43.2,
+     "outs": 18,
+     "outs_per100": 5.9,
+     "avg": 26.8,
+     "value_per100": 14.7
+    },
+    "normal": {
+     "balls": 474,
+     "runs": 893,
+     "sr": 188.4,
+     "boundary_pct": 31.9,
+     "dot_pct": 32.9,
+     "outs": 29,
+     "outs_per100": 6.1,
+     "avg": 30.8,
+     "value_per100": 29.2
+    },
+    "comp": {
+     "IPL": {
+      "balls": 197,
+      "runs": 303,
+      "sr": 153.8,
+      "boundary_pct": 25.4,
+      "dot_pct": 43.1,
+      "outs": 12,
+      "outs_per100": 6.1,
+      "avg": 25.2,
+      "value_per100": 8.6
+     },
+     "T20I": {
+      "balls": 106,
+      "runs": 180,
+      "sr": 169.8,
+      "boundary_pct": 31.1,
+      "dot_pct": 43.4,
+      "outs": 6,
+      "outs_per100": 5.7,
+      "avg": 30.0,
+      "value_per100": 26.2
+     }
+    },
+    "innings": {
+     "1st innings": {
+      "balls": 108,
+      "runs": 149,
+      "sr": 138.0,
+      "boundary_pct": 22.2,
+      "dot_pct": 42.6,
+      "outs": 6,
+      "outs_per100": 5.6,
+      "avg": 24.8,
+      "value_per100": 13.2
+     },
+     "Chase (2nd innings)": {
+      "balls": 195,
+      "runs": 334,
+      "sr": 171.3,
+      "boundary_pct": 30.3,
+      "dot_pct": 43.6,
+      "outs": 12,
+      "outs_per100": 6.2,
+      "avg": 27.8,
+      "value_per100": 15.6
+     }
+    },
+    "phase": {
+     "Powerplay (1-6)": {
+      "balls": 274,
+      "runs": 417,
+      "sr": 152.2,
+      "boundary_pct": 26.3,
+      "dot_pct": 44.9,
+      "outs": 16,
+      "outs_per100": 5.8,
+      "avg": 26.1,
+      "value_per100": 10.4
+     },
+     "Middle (7-15)": {
+      "balls": 29,
+      "runs": 66,
+      "sr": 227.6,
+      "boundary_pct": 37.9,
+      "dot_pct": 27.6,
+      "outs": 2,
+      "outs_per100": 6.9,
+      "avg": 33.0,
+      "value_per100": 55.4
+     },
+     "Death (16-20)": {
+      "balls": 0
+     }
+    },
+    "wickets_context": {
+     "0-2 wkts down": {
+      "balls": 303,
+      "runs": 483,
+      "sr": 159.4,
+      "boundary_pct": 27.4,
+      "dot_pct": 43.2,
+      "outs": 18,
+      "outs_per100": 5.9,
+      "avg": 26.8,
+      "value_per100": 14.7
+     },
+     "3-5 wkts down": {
+      "balls": 0
+     },
+     "6+ wkts down": {
+      "balls": 0
+     }
+    },
+    "season": {
+     "2023": {
+      "balls": 46,
+      "runs": 99,
+      "sr": 215.2,
+      "boundary_pct": 41.3,
+      "dot_pct": 34.8,
+      "outs": 0,
+      "outs_per100": 0.0,
+      "avg": null,
+      "value_per100": 67.2
+     },
+     "2024": {
+      "balls": 70,
+      "runs": 101,
+      "sr": 144.3,
+      "boundary_pct": 22.9,
+      "dot_pct": 41.4,
+      "outs": 5,
+      "outs_per100": 7.1,
+      "avg": 20.2,
+      "value_per100": 9.8
+     },
+     "2025": {
+      "balls": 100,
+      "runs": 137,
+      "sr": 137.0,
+      "boundary_pct": 24.0,
+      "dot_pct": 46.0,
+      "outs": 6,
+      "outs_per100": 6.0,
+      "avg": 22.8,
+      "value_per100": 14.9
+     },
+     "2026": {
+      "balls": 87,
+      "runs": 146,
+      "sr": 167.8,
+      "boundary_pct": 27.6,
+      "dot_pct": 46.0,
+      "outs": 7,
+      "outs_per100": 8.0,
+      "avg": 20.9,
+      "value_per100": -9.3
+     }
+    },
+    "match_series": [
+     {
+      "date": "2023-09-03",
+      "value": 17.18,
+      "balls": 23,
+      "comp": "T20I"
+     },
+     {
+      "date": "2023-11-28",
+      "value": 2.63,
+      "balls": 12,
+      "comp": "T20I"
+     },
+     {
+      "date": "2023-12-01",
+      "value": 11.13,
+      "balls": 11,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-02-21",
+      "value": -2.97,
+      "balls": 9,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-03-27",
+      "value": 12.84,
+      "balls": 9,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-03-31",
+      "value": -3.92,
+      "balls": 6,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-04-09",
+      "value": 3.13,
+      "balls": 9,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-04-28",
+      "value": 6.24,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-05-02",
+      "value": 4.7,
+      "balls": 9,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-05-24",
+      "value": -4.21,
+      "balls": 6,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-09-11",
+      "value": -1.41,
+      "balls": 4,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-03-23",
+      "value": -0.24,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-06",
+      "value": 0.17,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-12",
+      "value": 2.39,
+      "balls": 27,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-02",
+      "value": -1.59,
+      "balls": 16,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-23",
+      "value": 9.76,
+      "balls": 6,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-08-12",
+      "value": -9.63,
+      "balls": 8,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-08-16",
+      "value": -1.96,
+      "balls": 6,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-10-01",
+      "value": 1.71,
+      "balls": 10,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-11-02",
+      "value": 8.33,
+      "balls": 4,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-01-29",
+      "value": 12.07,
+      "balls": 9,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-01-31",
+      "value": -8.56,
+      "balls": 5,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-03-28",
+      "value": 2.61,
+      "balls": 9,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-11",
+      "value": -7.94,
+      "balls": 5,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-21",
+      "value": -2.88,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-25",
+      "value": 0.02,
+      "balls": 5,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-29",
+      "value": 8.65,
+      "balls": 23,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-12",
+      "value": -6.14,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-18",
+      "value": -8.42,
+      "balls": 6,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-22",
+      "value": -0.04,
+      "balls": 6,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-27",
+      "value": 2.77,
+      "balls": 4,
+      "comp": "IPL"
+     }
+    ],
+    "percentiles": {
+     "P": 95.0,
+     "C": 71.0,
+     "dev": 69.0,
+     "n": 70.0,
+     "boundary_pct": 97.0
+    },
+    "strengths": [
+     "Scoring rate under pressure: strike rate 159 (better than 79% of eligible players)",
+     "Boundary hitting under pressure: 27.4% of balls reach the boundary (better than 97% of eligible players)",
+     "Chasing under pressure: 15.6 win-probability points per 100 balls (top 22% of eligible players)"
+    ],
+    "weaknesses": [
+     "Dot-ball control under pressure: 43.2% dot balls (weaker than 87% of eligible players)"
+    ]
+   },
+   {
+    "rank": 6,
+    "name": "Ryan Rickelton",
+    "pid": 4007,
+    "score": 1.11,
+    "pressure_value": 12.8,
+    "everyday_skill": 11.3,
+    "stepup": 1.5,
+    "consistency_raw": 0.55,
+    "consistency_smoothed": 0.53,
+    "pressure_balls": 311,
+    "pressure_innings": 22,
+    "positive_innings": 12,
+    "top10_prob": 0.43,
+    "rank_p10": 4,
+    "rank_p90": 31,
+    "pressure": {
+     "balls": 311,
+     "runs": 490,
+     "sr": 157.6,
+     "boundary_pct": 24.8,
+     "dot_pct": 41.2,
+     "outs": 14,
+     "outs_per100": 4.5,
+     "avg": 35.0,
+     "value_per100": 20.1
+    },
+    "normal": {
+     "balls": 299,
+     "runs": 485,
+     "sr": 162.2,
+     "boundary_pct": 22.4,
+     "dot_pct": 35.1,
+     "outs": 15,
+     "outs_per100": 5.0,
+     "avg": 32.3,
+     "value_per100": 12.8
+    },
+    "comp": {
+     "IPL": {
+      "balls": 187,
+      "runs": 326,
+      "sr": 174.3,
+      "boundary_pct": 30.5,
+      "dot_pct": 42.8,
+      "outs": 10,
+      "outs_per100": 5.3,
+      "avg": 32.6,
+      "value_per100": 29.2
+     },
+     "T20I": {
+      "balls": 124,
+      "runs": 164,
+      "sr": 132.3,
+      "boundary_pct": 16.1,
+      "dot_pct": 38.7,
+      "outs": 4,
+      "outs_per100": 3.2,
+      "avg": 41.0,
+      "value_per100": 6.4
+     }
+    },
+    "innings": {
+     "1st innings": {
+      "balls": 76,
+      "runs": 104,
+      "sr": 136.8,
+      "boundary_pct": 23.7,
+      "dot_pct": 47.4,
+      "outs": 5,
+      "outs_per100": 6.6,
+      "avg": 20.8,
+      "value_per100": 27.4
+     },
+     "Chase (2nd innings)": {
+      "balls": 235,
+      "runs": 386,
+      "sr": 164.3,
+      "boundary_pct": 25.1,
+      "dot_pct": 39.1,
+      "outs": 9,
+      "outs_per100": 3.8,
+      "avg": 42.9,
+      "value_per100": 17.7
+     }
+    },
+    "phase": {
+     "Powerplay (1-6)": {
+      "balls": 233,
+      "runs": 341,
+      "sr": 146.4,
+      "boundary_pct": 24.0,
+      "dot_pct": 46.4,
+      "outs": 9,
+      "outs_per100": 3.9,
+      "avg": 37.9,
+      "value_per100": 3.7
+     },
+     "Middle (7-15)": {
+      "balls": 77,
+      "runs": 145,
+      "sr": 188.3,
+      "boundary_pct": 26.0,
+      "dot_pct": 26.0,
+      "outs": 5,
+      "outs_per100": 6.5,
+      "avg": 29.0,
+      "value_per100": 65.5
+     },
+     "Death (16-20)": {
+      "balls": 1,
+      "runs": 4,
+      "sr": 400.0,
+      "boundary_pct": 100.0,
+      "dot_pct": 0.0,
+      "outs": 0,
+      "outs_per100": 0.0,
+      "avg": null,
+      "value_per100": 330.5
+     }
+    },
+    "wickets_context": {
+     "0-2 wkts down": {
+      "balls": 296,
+      "runs": 472,
+      "sr": 159.5,
+      "boundary_pct": 25.3,
+      "dot_pct": 41.6,
+      "outs": 13,
+      "outs_per100": 4.4,
+      "avg": 36.3,
+      "value_per100": 20.9
+     },
+     "3-5 wkts down": {
+      "balls": 15,
+      "runs": 18,
+      "sr": 120.0,
+      "boundary_pct": 13.3,
+      "dot_pct": 33.3,
+      "outs": 1,
+      "outs_per100": 6.7,
+      "avg": 18.0,
+      "value_per100": 3.2
+     },
+     "6+ wkts down": {
+      "balls": 0
+     }
+    },
+    "season": {
+     "2024": {
+      "balls": 81,
+      "runs": 108,
+      "sr": 133.3,
+      "boundary_pct": 16.0,
+      "dot_pct": 42.0,
+      "outs": 3,
+      "outs_per100": 3.7,
+      "avg": 36.0,
+      "value_per100": -4.3
+     },
+     "2025": {
+      "balls": 120,
+      "runs": 167,
+      "sr": 139.2,
+      "boundary_pct": 23.3,
+      "dot_pct": 44.2,
+      "outs": 8,
+      "outs_per100": 6.7,
+      "avg": 20.9,
+      "value_per100": 7.8
+     },
+     "2026": {
+      "balls": 110,
+      "runs": 215,
+      "sr": 195.5,
+      "boundary_pct": 32.7,
+      "dot_pct": 37.3,
+      "outs": 3,
+      "outs_per100": 2.7,
+      "avg": 71.7,
+      "value_per100": 51.4
+     }
+    },
+    "match_series": [
+     {
+      "date": "2024-05-24",
+      "value": -13.56,
+      "balls": 7,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-05-26",
+      "value": 2.66,
+      "balls": 17,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-09-27",
+      "value": 8.86,
+      "balls": 15,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-09-29",
+      "value": 6.52,
+      "balls": 17,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-11-13",
+      "value": -11.08,
+      "balls": 14,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-03-23",
+      "value": -2.78,
+      "balls": 5,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-03-29",
+      "value": -8.95,
+      "balls": 9,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-04",
+      "value": 0.26,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-07",
+      "value": -4.27,
+      "balls": 10,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-13",
+      "value": 14.88,
+      "balls": 22,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-17",
+      "value": 5.5,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-20",
+      "value": -1.4,
+      "balls": 15,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-27",
+      "value": 6.33,
+      "balls": 17,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-08-10",
+      "value": -1.23,
+      "balls": 20,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-08-12",
+      "value": -2.45,
+      "balls": 4,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-01-29",
+      "value": 16.38,
+      "balls": 18,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-03-29",
+      "value": 17.78,
+      "balls": 31,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-12",
+      "value": -3.11,
+      "balls": 9,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-29",
+      "value": 3.51,
+      "balls": 5,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-04",
+      "value": 19.01,
+      "balls": 23,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-14",
+      "value": 5.13,
+      "balls": 9,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-20",
+      "value": -1.31,
+      "balls": 6,
+      "comp": "IPL"
+     }
+    ],
+    "percentiles": {
+     "P": 92.0,
+     "C": 70.0,
+     "dev": 82.0,
+     "n": 74.0,
+     "boundary_pct": 81.0
+    },
+    "strengths": [
+     "Scoring rate under pressure: strike rate 158 (better than 75% of eligible players)",
+     "Boundary hitting under pressure: 24.8% of balls reach the boundary (better than 81% of eligible players)",
+     "Chasing under pressure: 17.7 win-probability points per 100 balls (top 17% of eligible players)",
+     "Steps up: performs better under pressure than his own everyday level suggests"
+    ],
+    "weaknesses": [
+     "Dot-ball control under pressure: 41.2% dot balls (weaker than 75% of eligible players)",
+     "Ranking is not firm: stays in the top 10 in only 43% of bootstrap resamples"
+    ]
+   },
+   {
+    "rank": 7,
+    "name": "Josh Inglis",
+    "pid": 4736,
+    "score": 1.05,
+    "pressure_value": 10.4,
+    "everyday_skill": 8.1,
+    "stepup": 2.3,
+    "consistency_raw": 0.61,
+    "consistency_smoothed": 0.57,
+    "pressure_balls": 216,
+    "pressure_innings": 18,
+    "positive_innings": 11,
+    "top10_prob": 0.45,
+    "rank_p10": 3,
+    "rank_p90": 40,
+    "pressure": {
+     "balls": 216,
+     "runs": 350,
+     "sr": 162.0,
+     "boundary_pct": 26.4,
+     "dot_pct": 42.1,
+     "outs": 8,
+     "outs_per100": 3.7,
+     "avg": 43.8,
+     "value_per100": 26.7
+    },
+    "normal": {
+     "balls": 466,
+     "runs": 705,
+     "sr": 151.3,
+     "boundary_pct": 21.0,
+     "dot_pct": 32.6,
+     "outs": 26,
+     "outs_per100": 5.6,
+     "avg": 27.1,
+     "value_per100": 15.3
+    },
+    "comp": {
+     "IPL": {
+      "balls": 96,
+      "runs": 147,
+      "sr": 153.1,
+      "boundary_pct": 24.0,
+      "dot_pct": 43.8,
+      "outs": 2,
+      "outs_per100": 2.1,
+      "avg": 73.5,
+      "value_per100": 40.3
+     },
+     "T20I": {
+      "balls": 120,
+      "runs": 203,
+      "sr": 169.2,
+      "boundary_pct": 28.3,
+      "dot_pct": 40.8,
+      "outs": 6,
+      "outs_per100": 5.0,
+      "avg": 33.8,
+      "value_per100": 15.9
+     }
+    },
+    "innings": {
+     "1st innings": {
+      "balls": 35,
+      "runs": 35,
+      "sr": 100.0,
+      "boundary_pct": 17.1,
+      "dot_pct": 62.9,
+      "outs": 1,
+      "outs_per100": 2.9,
+      "avg": 35.0,
+      "value_per100": -22.0
+     },
+     "Chase (2nd innings)": {
+      "balls": 181,
+      "runs": 315,
+      "sr": 174.0,
+      "boundary_pct": 28.2,
+      "dot_pct": 38.1,
+      "outs": 7,
+      "outs_per100": 3.9,
+      "avg": 45.0,
+      "value_per100": 36.2
+     }
+    },
+    "phase": {
+     "Powerplay (1-6)": {
+      "balls": 116,
+      "runs": 188,
+      "sr": 162.1,
+      "boundary_pct": 29.3,
+      "dot_pct": 50.9,
+      "outs": 2,
+      "outs_per100": 1.7,
+      "avg": 94.0,
+      "value_per100": 23.9
+     },
+     "Middle (7-15)": {
+      "balls": 92,
+      "runs": 159,
+      "sr": 172.8,
+      "boundary_pct": 25.0,
+      "dot_pct": 29.3,
+      "outs": 5,
+      "outs_per100": 5.4,
+      "avg": 31.8,
+      "value_per100": 42.0
+     },
+     "Death (16-20)": {
+      "balls": 8,
+      "runs": 3,
+      "sr": 37.5,
+      "boundary_pct": 0.0,
+      "dot_pct": 62.5,
+      "outs": 1,
+      "outs_per100": 12.5,
+      "avg": 3.0,
+      "value_per100": -107.3
+     }
+    },
+    "wickets_context": {
+     "0-2 wkts down": {
+      "balls": 171,
+      "runs": 290,
+      "sr": 169.6,
+      "boundary_pct": 28.7,
+      "dot_pct": 44.4,
+      "outs": 5,
+      "outs_per100": 2.9,
+      "avg": 58.0,
+      "value_per100": 38.0
+     },
+     "3-5 wkts down": {
+      "balls": 45,
+      "runs": 60,
+      "sr": 133.3,
+      "boundary_pct": 17.8,
+      "dot_pct": 33.3,
+      "outs": 3,
+      "outs_per100": 6.7,
+      "avg": 20.0,
+      "value_per100": -16.0
+     },
+     "6+ wkts down": {
+      "balls": 0
+     }
+    },
+    "season": {
+     "2022": {
+      "balls": 11,
+      "runs": 21,
+      "sr": 190.9,
+      "boundary_pct": 36.4,
+      "dot_pct": 18.2,
+      "outs": 1,
+      "outs_per100": 9.1,
+      "avg": 21.0,
+      "value_per100": 29.9
+     },
+     "2023": {
+      "balls": 13,
+      "runs": 23,
+      "sr": 176.9,
+      "boundary_pct": 15.4,
+      "dot_pct": 23.1,
+      "outs": 0,
+      "outs_per100": 0.0,
+      "avg": null,
+      "value_per100": 50.6
+     },
+     "2024": {
+      "balls": 24,
+      "runs": 22,
+      "sr": 91.7,
+      "boundary_pct": 8.3,
+      "dot_pct": 50.0,
+      "outs": 1,
+      "outs_per100": 4.2,
+      "avg": 22.0,
+      "value_per100": -65.3
+     },
+     "2025": {
+      "balls": 147,
+      "runs": 247,
+      "sr": 168.0,
+      "boundary_pct": 28.6,
+      "dot_pct": 42.9,
+      "outs": 6,
+      "outs_per100": 4.1,
+      "avg": 41.2,
+      "value_per100": 33.7
+     },
+     "2026": {
+      "balls": 21,
+      "runs": 37,
+      "sr": 176.2,
+      "boundary_pct": 33.3,
+      "dot_pct": 52.4,
+      "outs": 0,
+      "outs_per100": 0.0,
+      "avg": null,
+      "value_per100": 67.2
+     }
+    },
+    "match_series": [
+     {
+      "date": "2022-09-20",
+      "value": -1.21,
+      "balls": 10,
+      "comp": "T20I"
+     },
+     {
+      "date": "2023-09-03",
+      "value": 7.0,
+      "balls": 10,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-02-21",
+      "value": -11.13,
+      "balls": 20,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-04-15",
+      "value": -9.12,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-20",
+      "value": 6.0,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-26",
+      "value": 18.6,
+      "balls": 29,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-29",
+      "value": -0.85,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-06-01",
+      "value": 3.3,
+      "balls": 15,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-06-03",
+      "value": 9.87,
+      "balls": 22,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-07-20",
+      "value": 8.76,
+      "balls": 4,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-07-22",
+      "value": 22.23,
+      "balls": 15,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-07-26",
+      "value": 18.14,
+      "balls": 25,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-07-28",
+      "value": -10.69,
+      "balls": 5,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-11-02",
+      "value": -5.09,
+      "balls": 4,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-11-06",
+      "value": -8.52,
+      "balls": 11,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-05-15",
+      "value": 3.55,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-23",
+      "value": 7.44,
+      "balls": 8,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-06-19",
+      "value": 3.21,
+      "balls": 5,
+      "comp": "T20I"
+     }
+    ],
+    "percentiles": {
+     "P": 88.0,
+     "C": 87.0,
+     "dev": 91.0,
+     "n": 47.0,
+     "boundary_pct": 91.0
+    },
+    "strengths": [
+     "Scoring rate under pressure: strike rate 162 (better than 84% of eligible players)",
+     "Boundary hitting under pressure: 26.4% of balls reach the boundary (better than 91% of eligible players)",
+     "Wicket preservation under pressure: 3.7 dismissals per 100 balls (better than 82% of eligible players)",
+     "Chasing under pressure: 36.2 win-probability points per 100 balls (top 3% of eligible players)",
+     "Consistency: positive in 11 of 18 pressure innings",
+     "Steps up: performs better under pressure than his own everyday level suggests"
+    ],
+    "weaknesses": [
+     "Dot-ball control under pressure: 42.1% dot balls (weaker than 79% of eligible players)",
+     "Ranking is not firm: stays in the top 10 in only 45% of bootstrap resamples"
+    ]
+   },
+   {
+    "rank": 8,
+    "name": "Virat Kohli",
+    "pid": 47,
+    "score": 0.99,
+    "pressure_value": 7.8,
+    "everyday_skill": 5.2,
+    "stepup": 2.6,
+    "consistency_raw": 0.68,
+    "consistency_smoothed": 0.63,
+    "pressure_balls": 533,
+    "pressure_innings": 31,
+    "positive_innings": 21,
+    "top10_prob": 0.43,
+    "rank_p10": 5,
+    "rank_p90": 27,
+    "pressure": {
+     "balls": 533,
+     "runs": 843,
+     "sr": 158.2,
+     "boundary_pct": 23.8,
+     "dot_pct": 30.2,
+     "outs": 13,
+     "outs_per100": 2.4,
+     "avg": 64.8,
+     "value_per100": 15.0
+    },
+    "normal": {
+     "balls": 1091,
+     "runs": 1609,
+     "sr": 147.5,
+     "boundary_pct": 18.5,
+     "dot_pct": 28.3,
+     "outs": 40,
+     "outs_per100": 3.7,
+     "avg": 40.2,
+     "value_per100": 9.1
+    },
+    "comp": {
+     "IPL": {
+      "balls": 476,
+      "runs": 776,
+      "sr": 163.0,
+      "boundary_pct": 25.2,
+      "dot_pct": 29.6,
+      "outs": 9,
+      "outs_per100": 1.9,
+      "avg": 86.2,
+      "value_per100": 18.8
+     },
+     "T20I": {
+      "balls": 57,
+      "runs": 67,
+      "sr": 117.5,
+      "boundary_pct": 12.3,
+      "dot_pct": 35.1,
+      "outs": 4,
+      "outs_per100": 7.0,
+      "avg": 16.8,
+      "value_per100": -16.2
+     }
+    },
+    "innings": {
+     "1st innings": {
+      "balls": 93,
+      "runs": 156,
+      "sr": 167.7,
+      "boundary_pct": 30.1,
+      "dot_pct": 34.4,
+      "outs": 2,
+      "outs_per100": 2.2,
+      "avg": 78.0,
+      "value_per100": 5.1
+     },
+     "Chase (2nd innings)": {
+      "balls": 440,
+      "runs": 687,
+      "sr": 156.1,
+      "boundary_pct": 22.5,
+      "dot_pct": 29.3,
+      "outs": 11,
+      "outs_per100": 2.5,
+      "avg": 62.5,
+      "value_per100": 17.2
+     }
+    },
+    "phase": {
+     "Powerplay (1-6)": {
+      "balls": 299,
+      "runs": 495,
+      "sr": 165.6,
+      "boundary_pct": 29.1,
+      "dot_pct": 35.1,
+      "outs": 7,
+      "outs_per100": 2.3,
+      "avg": 70.7,
+      "value_per100": 19.6
+     },
+     "Middle (7-15)": {
+      "balls": 195,
+      "runs": 272,
+      "sr": 139.5,
+      "boundary_pct": 14.9,
+      "dot_pct": 22.6,
+      "outs": 4,
+      "outs_per100": 2.1,
+      "avg": 68.0,
+      "value_per100": 11.9
+     },
+     "Death (16-20)": {
+      "balls": 39,
+      "runs": 76,
+      "sr": 194.9,
+      "boundary_pct": 28.2,
+      "dot_pct": 30.8,
+      "outs": 2,
+      "outs_per100": 5.1,
+      "avg": 38.0,
+      "value_per100": -4.2
+     }
+    },
+    "wickets_context": {
+     "0-2 wkts down": {
+      "balls": 461,
+      "runs": 736,
+      "sr": 159.7,
+      "boundary_pct": 24.9,
+      "dot_pct": 31.0,
+      "outs": 10,
+      "outs_per100": 2.2,
+      "avg": 73.6,
+      "value_per100": 18.0
+     },
+     "3-5 wkts down": {
+      "balls": 72,
+      "runs": 107,
+      "sr": 148.6,
+      "boundary_pct": 16.7,
+      "dot_pct": 25.0,
+      "outs": 3,
+      "outs_per100": 4.2,
+      "avg": 35.7,
+      "value_per100": -3.9
+     },
+     "6+ wkts down": {
+      "balls": 0
+     }
+    },
+    "season": {
+     "2022": {
+      "balls": 109,
+      "runs": 129,
+      "sr": 118.3,
+      "boundary_pct": 14.7,
+      "dot_pct": 37.6,
+      "outs": 5,
+      "outs_per100": 4.6,
+      "avg": 25.8,
+      "value_per100": -20.5
+     },
+     "2023": {
+      "balls": 94,
+      "runs": 156,
+      "sr": 166.0,
+      "boundary_pct": 27.7,
+      "dot_pct": 31.9,
+      "outs": 2,
+      "outs_per100": 2.1,
+      "avg": 78.0,
+      "value_per100": 37.8
+     },
+     "2024": {
+      "balls": 111,
+      "runs": 183,
+      "sr": 164.9,
+      "boundary_pct": 25.2,
+      "dot_pct": 31.5,
+      "outs": 3,
+      "outs_per100": 2.7,
+      "avg": 61.0,
+      "value_per100": 20.2
+     },
+     "2025": {
+      "balls": 97,
+      "runs": 153,
+      "sr": 157.7,
+      "boundary_pct": 23.7,
+      "dot_pct": 24.7,
+      "outs": 2,
+      "outs_per100": 2.1,
+      "avg": 76.5,
+      "value_per100": 6.7
+     },
+     "2026": {
+      "balls": 122,
+      "runs": 222,
+      "sr": 182.0,
+      "boundary_pct": 27.9,
+      "dot_pct": 25.4,
+      "outs": 1,
+      "outs_per100": 0.8,
+      "avg": 222.0,
+      "value_per100": 31.3
+     }
+    },
+    "match_series": [
+     {
+      "date": "2022-04-05",
+      "value": -3.64,
+      "balls": 5,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-04-30",
+      "value": 1.56,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-05-13",
+      "value": -9.85,
+      "balls": 14,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-05-19",
+      "value": 1.82,
+      "balls": 27,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-08-28",
+      "value": -5.49,
+      "balls": 8,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-09-25",
+      "value": 2.78,
+      "balls": 40,
+      "comp": "T20I"
+     },
+     {
+      "date": "2023-04-02",
+      "value": -0.19,
+      "balls": 15,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-06",
+      "value": 4.78,
+      "balls": 16,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-15",
+      "value": 4.73,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-17",
+      "value": 2.41,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-26",
+      "value": 1.8,
+      "balls": 11,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-18",
+      "value": 13.83,
+      "balls": 25,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-21",
+      "value": 12.3,
+      "balls": 11,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-01-14",
+      "value": 2.55,
+      "balls": 4,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-03-25",
+      "value": 13.66,
+      "balls": 45,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-04-02",
+      "value": -1.46,
+      "balls": 9,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-04-06",
+      "value": -9.12,
+      "balls": 19,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-04-21",
+      "value": 9.97,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-04-28",
+      "value": 13.18,
+      "balls": 21,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-13",
+      "value": -2.26,
+      "balls": 12,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-20",
+      "value": 3.55,
+      "balls": 11,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-27",
+      "value": 1.17,
+      "balls": 26,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-03",
+      "value": 7.43,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-23",
+      "value": -12.67,
+      "balls": 8,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-27",
+      "value": 3.96,
+      "balls": 30,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-03-28",
+      "value": 9.86,
+      "balls": 13,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-12",
+      "value": 4.81,
+      "balls": 8,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-18",
+      "value": -5.62,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-24",
+      "value": 15.73,
+      "balls": 32,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-13",
+      "value": 17.91,
+      "balls": 48,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-17",
+      "value": -0.08,
+      "balls": 6,
+      "comp": "IPL"
+     }
+    ],
+    "percentiles": {
+     "P": 71.0,
+     "C": 96.0,
+     "dev": 94.0,
+     "n": 94.0,
+     "boundary_pct": 79.0
+    },
+    "strengths": [
+     "Scoring rate under pressure: strike rate 158 (better than 77% of eligible players)",
+     "Boundary hitting under pressure: 23.8% of balls reach the boundary (better than 79% of eligible players)",
+     "Dot-ball control under pressure: 30.2% dot balls (better than 84% of eligible players)",
+     "Wicket preservation under pressure: 2.4 dismissals per 100 balls (better than 94% of eligible players)",
+     "Chasing under pressure: 17.2 win-probability points per 100 balls (top 18% of eligible players)",
+     "Consistency: positive in 21 of 31 pressure innings",
+     "Steps up: performs better under pressure than his own everyday level suggests"
+    ],
+    "weaknesses": [
+     "Ranking is not firm: stays in the top 10 in only 43% of bootstrap resamples"
+    ]
+   },
+   {
+    "rank": 9,
+    "name": "Priyansh Arya",
+    "pid": 25669,
+    "score": 0.96,
+    "pressure_value": 9.4,
+    "everyday_skill": 7.3,
+    "stepup": 2.0,
+    "consistency_raw": 0.64,
+    "consistency_smoothed": 0.58,
+    "pressure_balls": 128,
+    "pressure_innings": 14,
+    "positive_innings": 9,
+    "top10_prob": 0.38,
+    "rank_p10": 5,
+    "rank_p90": 28,
+    "pressure": {
+     "balls": 128,
+     "runs": 207,
+     "sr": 161.7,
+     "boundary_pct": 27.3,
+     "dot_pct": 40.6,
+     "outs": 9,
+     "outs_per100": 7.0,
+     "avg": 23.0,
+     "value_per100": 33.4
+    },
+    "normal": {
+     "balls": 151,
+     "runs": 299,
+     "sr": 198.0,
+     "boundary_pct": 30.5,
+     "dot_pct": 33.8,
+     "outs": 12,
+     "outs_per100": 7.9,
+     "avg": 24.9,
+     "value_per100": -3.9
+    },
+    "comp": {
+     "IPL": {
+      "balls": 128,
+      "runs": 207,
+      "sr": 161.7,
+      "boundary_pct": 27.3,
+      "dot_pct": 40.6,
+      "outs": 9,
+      "outs_per100": 7.0,
+      "avg": 23.0,
+      "value_per100": 33.4
+     },
+     "T20I": {
+      "balls": 0
+     }
+    },
+    "innings": {
+     "1st innings": {
+      "balls": 31,
+      "runs": 48,
+      "sr": 154.8,
+      "boundary_pct": 25.8,
+      "dot_pct": 45.2,
+      "outs": 2,
+      "outs_per100": 6.5,
+      "avg": 24.0,
+      "value_per100": 93.0
+     },
+     "Chase (2nd innings)": {
+      "balls": 97,
+      "runs": 159,
+      "sr": 163.9,
+      "boundary_pct": 27.8,
+      "dot_pct": 39.2,
+      "outs": 7,
+      "outs_per100": 7.2,
+      "avg": 22.7,
+      "value_per100": 14.4
+     }
+    },
+    "phase": {
+     "Powerplay (1-6)": {
+      "balls": 110,
+      "runs": 175,
+      "sr": 159.1,
+      "boundary_pct": 27.3,
+      "dot_pct": 44.5,
+      "outs": 8,
+      "outs_per100": 7.3,
+      "avg": 21.9,
+      "value_per100": 35.4
+     },
+     "Middle (7-15)": {
+      "balls": 18,
+      "runs": 32,
+      "sr": 177.8,
+      "boundary_pct": 27.8,
+      "dot_pct": 16.7,
+      "outs": 1,
+      "outs_per100": 5.6,
+      "avg": 32.0,
+      "value_per100": 21.5
+     },
+     "Death (16-20)": {
+      "balls": 0
+     }
+    },
+    "wickets_context": {
+     "0-2 wkts down": {
+      "balls": 128,
+      "runs": 207,
+      "sr": 161.7,
+      "boundary_pct": 27.3,
+      "dot_pct": 40.6,
+      "outs": 9,
+      "outs_per100": 7.0,
+      "avg": 23.0,
+      "value_per100": 33.4
+     },
+     "3-5 wkts down": {
+      "balls": 0
+     },
+     "6+ wkts down": {
+      "balls": 0
+     }
+    },
+    "season": {
+     "2025": {
+      "balls": 81,
+      "runs": 125,
+      "sr": 154.3,
+      "boundary_pct": 27.2,
+      "dot_pct": 38.3,
+      "outs": 4,
+      "outs_per100": 4.9,
+      "avg": 31.2,
+      "value_per100": 54.7
+     },
+     "2026": {
+      "balls": 47,
+      "runs": 82,
+      "sr": 174.5,
+      "boundary_pct": 27.7,
+      "dot_pct": 44.7,
+      "outs": 5,
+      "outs_per100": 10.6,
+      "avg": 16.4,
+      "value_per100": -3.2
+     }
+    },
+    "match_series": [
+     {
+      "date": "2025-03-25",
+      "value": 10.81,
+      "balls": 11,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-01",
+      "value": -8.35,
+      "balls": 9,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-15",
+      "value": 1.6,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-30",
+      "value": 1.94,
+      "balls": 10,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-26",
+      "value": 17.7,
+      "balls": 22,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-29",
+      "value": 16.31,
+      "balls": 5,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-06-01",
+      "value": 6.75,
+      "balls": 6,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-06-03",
+      "value": 0.1,
+      "balls": 12,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-03-31",
+      "value": -10.43,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-03",
+      "value": 13.49,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-11",
+      "value": 9.39,
+      "balls": 9,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-16",
+      "value": -5.19,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-25",
+      "value": -5.23,
+      "balls": 8,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-14",
+      "value": -1.87,
+      "balls": 4,
+      "comp": "IPL"
+     }
+    ],
+    "percentiles": {
+     "P": 81.0,
+     "C": 91.0,
+     "dev": 88.0,
+     "n": 1.0,
+     "boundary_pct": 96.0
+    },
+    "strengths": [
+     "Scoring rate under pressure: strike rate 162 (better than 83% of eligible players)",
+     "Boundary hitting under pressure: 27.3% of balls reach the boundary (better than 96% of eligible players)",
+     "Chasing under pressure: 14.4 win-probability points per 100 balls (top 23% of eligible players)",
+     "Consistency: positive in 9 of 14 pressure innings",
+     "Steps up: performs better under pressure than his own everyday level suggests"
+    ],
+    "weaknesses": [
+     "Wicket preservation under pressure: 7.0 dismissals per 100 balls (weaker than 90% of eligible players)",
+     "Evidence comes almost entirely from IPL matches (128 of 128 pressure balls)",
+     "Small sample: 128 pressure balls in 14 pressure innings, so higher uncertainty",
+     "Ranking is not firm: stays in the top 10 in only 38% of bootstrap resamples"
+    ]
+   },
+   {
+    "rank": 10,
+    "name": "Jonny Bairstow",
+    "pid": 1205,
+    "score": 0.89,
+    "pressure_value": 10.0,
+    "everyday_skill": 8.2,
+    "stepup": 1.8,
+    "consistency_raw": 0.57,
+    "consistency_smoothed": 0.54,
+    "pressure_balls": 148,
+    "pressure_innings": 14,
+    "positive_innings": 8,
+    "top10_prob": 0.4,
+    "rank_p10": 3,
+    "rank_p90": 36,
+    "pressure": {
+     "balls": 148,
+     "runs": 227,
+     "sr": 153.4,
+     "boundary_pct": 23.0,
+     "dot_pct": 37.8,
+     "outs": 5,
+     "outs_per100": 3.4,
+     "avg": 45.4,
+     "value_per100": 28.3
+    },
+    "normal": {
+     "balls": 300,
+     "runs": 457,
+     "sr": 152.3,
+     "boundary_pct": 22.0,
+     "dot_pct": 37.0,
+     "outs": 13,
+     "outs_per100": 4.3,
+     "avg": 35.2,
+     "value_per100": 21.9
+    },
+    "comp": {
+     "IPL": {
+      "balls": 121,
+      "runs": 189,
+      "sr": 156.2,
+      "boundary_pct": 24.0,
+      "dot_pct": 38.0,
+      "outs": 5,
+      "outs_per100": 4.1,
+      "avg": 37.8,
+      "value_per100": 35.6
+     },
+     "T20I": {
+      "balls": 27,
+      "runs": 38,
+      "sr": 140.7,
+      "boundary_pct": 18.5,
+      "dot_pct": 37.0,
+      "outs": 0,
+      "outs_per100": 0.0,
+      "avg": null,
+      "value_per100": -4.3
+     }
+    },
+    "innings": {
+     "1st innings": {
+      "balls": 44,
+      "runs": 73,
+      "sr": 165.9,
+      "boundary_pct": 25.0,
+      "dot_pct": 38.6,
+      "outs": 1,
+      "outs_per100": 2.3,
+      "avg": 73.0,
+      "value_per100": 43.9
+     },
+     "Chase (2nd innings)": {
+      "balls": 104,
+      "runs": 154,
+      "sr": 148.1,
+      "boundary_pct": 22.1,
+      "dot_pct": 37.5,
+      "outs": 4,
+      "outs_per100": 3.8,
+      "avg": 38.5,
+      "value_per100": 21.7
+     }
+    },
+    "phase": {
+     "Powerplay (1-6)": {
+      "balls": 93,
+      "runs": 144,
+      "sr": 154.8,
+      "boundary_pct": 24.7,
+      "dot_pct": 39.8,
+      "outs": 2,
+      "outs_per100": 2.2,
+      "avg": 72.0,
+      "value_per100": 47.2
+     },
+     "Middle (7-15)": {
+      "balls": 48,
+      "runs": 78,
+      "sr": 162.5,
+      "boundary_pct": 22.9,
+      "dot_pct": 33.3,
+      "outs": 1,
+      "outs_per100": 2.1,
+      "avg": 78.0,
+      "value_per100": 15.0
+     },
+     "Death (16-20)": {
+      "balls": 7,
+      "runs": 5,
+      "sr": 71.4,
+      "boundary_pct": 0.0,
+      "dot_pct": 42.9,
+      "outs": 2,
+      "outs_per100": 28.6,
+      "avg": 2.5,
+      "value_per100": -132.1
+     }
+    },
+    "wickets_context": {
+     "0-2 wkts down": {
+      "balls": 129,
+      "runs": 208,
+      "sr": 161.2,
+      "boundary_pct": 24.8,
+      "dot_pct": 38.0,
+      "outs": 3,
+      "outs_per100": 2.3,
+      "avg": 69.3,
+      "value_per100": 35.2
+     },
+     "3-5 wkts down": {
+      "balls": 19,
+      "runs": 19,
+      "sr": 100.0,
+      "boundary_pct": 10.5,
+      "dot_pct": 36.8,
+      "outs": 2,
+      "outs_per100": 10.5,
+      "avg": 9.5,
+      "value_per100": -18.7
+     },
+     "6+ wkts down": {
+      "balls": 0
+     }
+    },
+    "season": {
+     "2022": {
+      "balls": 33,
+      "runs": 50,
+      "sr": 151.5,
+      "boundary_pct": 24.2,
+      "dot_pct": 36.4,
+      "outs": 2,
+      "outs_per100": 6.1,
+      "avg": 25.0,
+      "value_per100": 42.1
+     },
+     "2023": {
+      "balls": 22,
+      "runs": 34,
+      "sr": 154.5,
+      "boundary_pct": 22.7,
+      "dot_pct": 40.9,
+      "outs": 0,
+      "outs_per100": 0.0,
+      "avg": null,
+      "value_per100": 7.4
+     },
+     "2024": {
+      "balls": 84,
+      "runs": 124,
+      "sr": 147.6,
+      "boundary_pct": 22.6,
+      "dot_pct": 40.5,
+      "outs": 3,
+      "outs_per100": 3.6,
+      "avg": 41.3,
+      "value_per100": 20.7
+     },
+     "2025": {
+      "balls": 9,
+      "runs": 19,
+      "sr": 211.1,
+      "boundary_pct": 22.2,
+      "dot_pct": 11.1,
+      "outs": 0,
+      "outs_per100": 0.0,
+      "avg": null,
+      "value_per100": 99.2
+     }
+    },
+    "match_series": [
+     {
+      "date": "2022-04-29",
+      "value": -1.33,
+      "balls": 13,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-05-13",
+      "value": 4.81,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-05-16",
+      "value": 12.27,
+      "balls": 8,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-07-28",
+      "value": -2.79,
+      "balls": 5,
+      "comp": "T20I"
+     },
+     {
+      "date": "2023-09-01",
+      "value": 0.33,
+      "balls": 4,
+      "comp": "T20I"
+     },
+     {
+      "date": "2023-09-03",
+      "value": -5.42,
+      "balls": 5,
+      "comp": "T20I"
+     },
+     {
+      "date": "2023-09-05",
+      "value": 6.72,
+      "balls": 13,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-03-30",
+      "value": 2.47,
+      "balls": 27,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-04-13",
+      "value": -1.36,
+      "balls": 9,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-04-26",
+      "value": 1.01,
+      "balls": 14,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-05-01",
+      "value": 4.65,
+      "balls": 19,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-05-05",
+      "value": -4.0,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-05-09",
+      "value": -3.25,
+      "balls": 5,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-30",
+      "value": 8.93,
+      "balls": 9,
+      "comp": "IPL"
+     }
+    ],
+    "percentiles": {
+     "P": 83.0,
+     "C": 75.0,
+     "dev": 86.0,
+     "n": 10.0,
+     "boundary_pct": 69.0
+    },
+    "strengths": [
+     "Wicket preservation under pressure: 3.4 dismissals per 100 balls (better than 89% of eligible players)",
+     "Chasing under pressure: 21.7 win-probability points per 100 balls (top 6% of eligible players)",
+     "Consistency: positive in 8 of 14 pressure innings",
+     "Steps up: performs better under pressure than his own everyday level suggests"
+    ],
+    "weaknesses": [
+     "Small sample: 148 pressure balls in 14 pressure innings, so higher uncertainty",
+     "Ranking is not firm: stays in the top 10 in only 40% of bootstrap resamples"
+    ]
+   }
+  ],
+  "bowl": [
+   {
+    "rank": 1,
+    "name": "Rashid Khan",
+    "pid": 4722,
+    "score": 2.27,
+    "pressure_value": 18.6,
+    "everyday_skill": 9.5,
+    "stepup": 9.1,
+    "consistency_raw": 0.62,
+    "consistency_smoothed": 0.59,
+    "pressure_balls": 438,
+    "pressure_innings": 34,
+    "positive_innings": 21,
+    "top10_prob": 0.93,
+    "rank_p10": 1,
+    "rank_p90": 9,
+    "pressure": {
+     "balls": 438,
+     "runs": 527,
+     "econ": 7.22,
+     "boundary_pct": 12.3,
+     "dot_pct": 34.0,
+     "wkts": 29,
+     "balls_per_wkt": 15.1,
+     "value_per100": 36.1
+    },
+    "normal": {
+     "balls": 1461,
+     "runs": 1756,
+     "econ": 7.21,
+     "boundary_pct": 12.5,
+     "dot_pct": 35.3,
+     "wkts": 79,
+     "balls_per_wkt": 18.5,
+     "value_per100": 15.2
+    },
+    "comp": {
+     "IPL": {
+      "balls": 284,
+      "runs": 358,
+      "econ": 7.56,
+      "boundary_pct": 13.7,
+      "dot_pct": 33.8,
+      "wkts": 19,
+      "balls_per_wkt": 14.9,
+      "value_per100": 37.5
+     },
+     "T20I": {
+      "balls": 154,
+      "runs": 169,
+      "econ": 6.58,
+      "boundary_pct": 9.7,
+      "dot_pct": 34.4,
+      "wkts": 10,
+      "balls_per_wkt": 15.4,
+      "value_per100": 33.5
+     }
+    },
+    "innings": {
+     "1st innings": {
+      "balls": 60,
+      "runs": 88,
+      "econ": 8.8,
+      "boundary_pct": 16.7,
+      "dot_pct": 31.7,
+      "wkts": 4,
+      "balls_per_wkt": 15.0,
+      "value_per100": 23.2
+     },
+     "Chase (2nd innings)": {
+      "balls": 378,
+      "runs": 439,
+      "econ": 6.97,
+      "boundary_pct": 11.6,
+      "dot_pct": 34.4,
+      "wkts": 25,
+      "balls_per_wkt": 15.1,
+      "value_per100": 38.2
+     }
+    },
+    "phase": {
+     "Powerplay (1-6)": {
+      "balls": 84,
+      "runs": 116,
+      "econ": 8.29,
+      "boundary_pct": 16.7,
+      "dot_pct": 33.3,
+      "wkts": 2,
+      "balls_per_wkt": 42.0,
+      "value_per100": 3.7
+     },
+     "Middle (7-15)": {
+      "balls": 277,
+      "runs": 302,
+      "econ": 6.54,
+      "boundary_pct": 9.7,
+      "dot_pct": 31.8,
+      "wkts": 11,
+      "balls_per_wkt": 25.2,
+      "value_per100": 36.7
+     },
+     "Death (16-20)": {
+      "balls": 77,
+      "runs": 109,
+      "econ": 8.49,
+      "boundary_pct": 16.9,
+      "dot_pct": 42.9,
+      "wkts": 16,
+      "balls_per_wkt": 4.8,
+      "value_per100": 69.3
+     }
+    },
+    "wickets_context": {
+     "0-2 wkts down": {
+      "balls": 257,
+      "runs": 317,
+      "econ": 7.4,
+      "boundary_pct": 12.5,
+      "dot_pct": 30.4,
+      "wkts": 8,
+      "balls_per_wkt": 32.1,
+      "value_per100": 13.7
+     },
+     "3-5 wkts down": {
+      "balls": 141,
+      "runs": 164,
+      "econ": 6.98,
+      "boundary_pct": 12.1,
+      "dot_pct": 36.9,
+      "wkts": 14,
+      "balls_per_wkt": 10.1,
+      "value_per100": 58.6
+     },
+     "6+ wkts down": {
+      "balls": 40,
+      "runs": 46,
+      "econ": 6.9,
+      "boundary_pct": 12.5,
+      "dot_pct": 47.5,
+      "wkts": 7,
+      "balls_per_wkt": 5.7,
+      "value_per100": 100.9
+     }
+    },
+    "season": {
+     "2022": {
+      "balls": 155,
+      "runs": 176,
+      "econ": 6.81,
+      "boundary_pct": 10.3,
+      "dot_pct": 34.8,
+      "wkts": 10,
+      "balls_per_wkt": 15.5,
+      "value_per100": 24.6
+     },
+     "2023": {
+      "balls": 74,
+      "runs": 112,
+      "econ": 9.08,
+      "boundary_pct": 20.3,
+      "dot_pct": 31.1,
+      "wkts": 6,
+      "balls_per_wkt": 12.3,
+      "value_per100": 32.9
+     },
+     "2024": {
+      "balls": 53,
+      "runs": 63,
+      "econ": 7.13,
+      "boundary_pct": 13.2,
+      "dot_pct": 34.0,
+      "wkts": 2,
+      "balls_per_wkt": 26.5,
+      "value_per100": 4.9
+     },
+     "2025": {
+      "balls": 88,
+      "runs": 93,
+      "econ": 6.34,
+      "boundary_pct": 6.8,
+      "dot_pct": 30.7,
+      "wkts": 4,
+      "balls_per_wkt": 22.0,
+      "value_per100": 61.7
+     },
+     "2026": {
+      "balls": 68,
+      "runs": 83,
+      "econ": 7.32,
+      "boundary_pct": 14.7,
+      "dot_pct": 39.7,
+      "wkts": 7,
+      "balls_per_wkt": 9.7,
+      "value_per100": 57.1
+     }
+    },
+    "match_series": [
+     {
+      "date": "2022-04-02",
+      "value": 4.28,
+      "balls": 25,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-04-11",
+      "value": -0.07,
+      "balls": 24,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-04-14",
+      "value": 7.06,
+      "balls": 12,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-04-23",
+      "value": 26.35,
+      "balls": 9,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-05-06",
+      "value": -7.88,
+      "balls": 6,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-05-10",
+      "value": 3.53,
+      "balls": 9,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-05-19",
+      "value": 0.27,
+      "balls": 6,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-06-12",
+      "value": 2.38,
+      "balls": 9,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-08-09",
+      "value": 3.18,
+      "balls": 23,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-09-03",
+      "value": -11.13,
+      "balls": 18,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-09-07",
+      "value": -0.52,
+      "balls": 9,
+      "comp": "T20I"
+     },
+     {
+      "date": "2023-04-04",
+      "value": 20.46,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-09",
+      "value": 7.02,
+      "balls": 19,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-16",
+      "value": -4.74,
+      "balls": 6,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-29",
+      "value": -2.87,
+      "balls": 5,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-07",
+      "value": 5.95,
+      "balls": 12,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-12",
+      "value": 0.89,
+      "balls": 5,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-23",
+      "value": -4.27,
+      "balls": 10,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-26",
+      "value": 2.8,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-03-17",
+      "value": 0.43,
+      "balls": 4,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-03-24",
+      "value": -1.61,
+      "balls": 13,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-04-04",
+      "value": 2.22,
+      "balls": 5,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-04-21",
+      "value": 2.61,
+      "balls": 6,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-04-28",
+      "value": -2.27,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-12-09",
+      "value": -0.29,
+      "balls": 13,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-03-29",
+      "value": 7.43,
+      "balls": 13,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-12",
+      "value": -8.51,
+      "balls": 13,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-09-01",
+      "value": 19.4,
+      "balls": 18,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-09-02",
+      "value": 3.56,
+      "balls": 9,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-09-18",
+      "value": 8.61,
+      "balls": 24,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-04-08",
+      "value": 29.57,
+      "balls": 24,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-20",
+      "value": -6.1,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-24",
+      "value": -3.88,
+      "balls": 10,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-10-27",
+      "value": 17.6,
+      "balls": 20,
+      "comp": "T20I"
+     }
+    ],
+    "percentiles": {
+     "P": 100.0,
+     "C": 84.0,
+     "dev": 99.0,
+     "n": 93.0,
+     "boundary_pct": 7.0
+    },
+    "strengths": [
+     "Economy under pressure: economy 7.22 (better than 89% of eligible players)",
+     "Boundary prevention: 12.3% of balls conceded for four or six (better than 93% of eligible players)",
+     "Wicket-taking under pressure: a wicket every 15.1 balls (better than 80% of eligible players)",
+     "Chasing under pressure: 38.2 win-probability points per 100 balls (top 2% of eligible players)",
+     "Death overs (16-20) under pressure: 69.3 win-probability points per 100 balls (top 2% of eligible players)",
+     "Consistency: positive in 21 of 34 pressure innings",
+     "Steps up: performs better under pressure than his own everyday level suggests",
+     "Highly stable pick: in the top 10 in 93% of bootstrap resamples"
+    ],
+    "weaknesses": []
+   },
+   {
+    "rank": 2,
+    "name": "Kuldeep Yadav",
+    "pid": 3644,
+    "score": 1.66,
+    "pressure_value": 11.6,
+    "everyday_skill": 5.4,
+    "stepup": 6.3,
+    "consistency_raw": 0.73,
+    "consistency_smoothed": 0.66,
+    "pressure_balls": 294,
+    "pressure_innings": 22,
+    "positive_innings": 16,
+    "top10_prob": 0.75,
+    "rank_p10": 1,
+    "rank_p90": 18,
+    "pressure": {
+     "balls": 294,
+     "runs": 342,
+     "econ": 6.98,
+     "boundary_pct": 10.9,
+     "dot_pct": 31.3,
+     "wkts": 20,
+     "balls_per_wkt": 14.7,
+     "value_per100": 29.6
+    },
+    "normal": {
+     "balls": 1010,
+     "runs": 1365,
+     "econ": 8.11,
+     "boundary_pct": 14.9,
+     "dot_pct": 32.0,
+     "wkts": 65,
+     "balls_per_wkt": 15.5,
+     "value_per100": 3.9
+    },
+    "comp": {
+     "IPL": {
+      "balls": 239,
+      "runs": 277,
+      "econ": 6.95,
+      "boundary_pct": 10.9,
+      "dot_pct": 30.1,
+      "wkts": 16,
+      "balls_per_wkt": 14.9,
+      "value_per100": 36.0
+     },
+     "T20I": {
+      "balls": 55,
+      "runs": 65,
+      "econ": 7.09,
+      "boundary_pct": 10.9,
+      "dot_pct": 36.4,
+      "wkts": 4,
+      "balls_per_wkt": 13.8,
+      "value_per100": 1.9
+     }
+    },
+    "innings": {
+     "1st innings": {
+      "balls": 25,
+      "runs": 17,
+      "econ": 4.08,
+      "boundary_pct": 8.0,
+      "dot_pct": 56.0,
+      "wkts": 3,
+      "balls_per_wkt": 8.3,
+      "value_per100": 56.9
+     },
+     "Chase (2nd innings)": {
+      "balls": 269,
+      "runs": 325,
+      "econ": 7.25,
+      "boundary_pct": 11.2,
+      "dot_pct": 29.0,
+      "wkts": 17,
+      "balls_per_wkt": 15.8,
+      "value_per100": 27.1
+     }
+    },
+    "phase": {
+     "Powerplay (1-6)": {
+      "balls": 0
+     },
+     "Middle (7-15)": {
+      "balls": 245,
+      "runs": 267,
+      "econ": 6.54,
+      "boundary_pct": 9.0,
+      "dot_pct": 31.0,
+      "wkts": 16,
+      "balls_per_wkt": 15.3,
+      "value_per100": 36.2
+     },
+     "Death (16-20)": {
+      "balls": 49,
+      "runs": 75,
+      "econ": 9.18,
+      "boundary_pct": 20.4,
+      "dot_pct": 32.7,
+      "wkts": 4,
+      "balls_per_wkt": 12.2,
+      "value_per100": -3.2
+     }
+    },
+    "wickets_context": {
+     "0-2 wkts down": {
+      "balls": 148,
+      "runs": 182,
+      "econ": 7.38,
+      "boundary_pct": 12.8,
+      "dot_pct": 30.4,
+      "wkts": 9,
+      "balls_per_wkt": 16.4,
+      "value_per100": 23.7
+     },
+     "3-5 wkts down": {
+      "balls": 139,
+      "runs": 157,
+      "econ": 6.78,
+      "boundary_pct": 9.4,
+      "dot_pct": 30.2,
+      "wkts": 9,
+      "balls_per_wkt": 15.4,
+      "value_per100": 31.9
+     },
+     "6+ wkts down": {
+      "balls": 7,
+      "runs": 3,
+      "econ": 2.57,
+      "boundary_pct": 0.0,
+      "dot_pct": 71.4,
+      "wkts": 2,
+      "balls_per_wkt": 3.5,
+      "value_per100": 108.6
+     }
+    },
+    "season": {
+     "2022": {
+      "balls": 37,
+      "runs": 35,
+      "econ": 5.68,
+      "boundary_pct": 8.1,
+      "dot_pct": 37.8,
+      "wkts": 3,
+      "balls_per_wkt": 12.3,
+      "value_per100": 67.6
+     },
+     "2023": {
+      "balls": 57,
+      "runs": 48,
+      "econ": 5.05,
+      "boundary_pct": 3.5,
+      "dot_pct": 28.1,
+      "wkts": 1,
+      "balls_per_wkt": 57.0,
+      "value_per100": 11.9
+     },
+     "2024": {
+      "balls": 24,
+      "runs": 18,
+      "econ": 4.5,
+      "boundary_pct": 0.0,
+      "dot_pct": 29.2,
+      "wkts": 3,
+      "balls_per_wkt": 8.0,
+      "value_per100": 103.4
+     },
+     "2025": {
+      "balls": 113,
+      "runs": 135,
+      "econ": 7.17,
+      "boundary_pct": 11.5,
+      "dot_pct": 30.1,
+      "wkts": 6,
+      "balls_per_wkt": 18.8,
+      "value_per100": 13.8
+     },
+     "2026": {
+      "balls": 63,
+      "runs": 106,
+      "econ": 10.1,
+      "boundary_pct": 22.2,
+      "dot_pct": 33.3,
+      "wkts": 7,
+      "balls_per_wkt": 9.0,
+      "value_per100": 23.7
+     }
+    },
+    "match_series": [
+     {
+      "date": "2022-04-10",
+      "value": 3.85,
+      "balls": 10,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-04-16",
+      "value": 0.69,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-05-21",
+      "value": 4.38,
+      "balls": 16,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-04",
+      "value": -1.61,
+      "balls": 15,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-24",
+      "value": 8.33,
+      "balls": 18,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-02",
+      "value": 1.21,
+      "balls": 18,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-12-12",
+      "value": -1.13,
+      "balls": 6,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-01-17",
+      "value": 2.95,
+      "balls": 4,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-03-23",
+      "value": 9.78,
+      "balls": 16,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-05-07",
+      "value": 12.07,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-13",
+      "value": 0.85,
+      "balls": 11,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-16",
+      "value": 1.46,
+      "balls": 21,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-19",
+      "value": 14.16,
+      "balls": 13,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-27",
+      "value": 1.25,
+      "balls": 16,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-18",
+      "value": -4.81,
+      "balls": 14,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-09-21",
+      "value": 1.38,
+      "balls": 4,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-09-24",
+      "value": 6.65,
+      "balls": 6,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-09-26",
+      "value": -1.53,
+      "balls": 25,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-04-25",
+      "value": 2.41,
+      "balls": 26,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-05",
+      "value": -7.1,
+      "balls": 12,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-24",
+      "value": 15.32,
+      "balls": 15,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-10-09",
+      "value": -3.43,
+      "balls": 7,
+      "comp": "T20I"
+     }
+    ],
+    "percentiles": {
+     "P": 96.0,
+     "C": 97.0,
+     "dev": 91.0,
+     "n": 72.0,
+     "boundary_pct": 3.0
+    },
+    "strengths": [
+     "Economy under pressure: economy 6.98 (better than 93% of eligible players)",
+     "Boundary prevention: 10.9% of balls conceded for four or six (better than 97% of eligible players)",
+     "Wicket-taking under pressure: a wicket every 14.7 balls (better than 86% of eligible players)",
+     "Chasing under pressure: 27.1 win-probability points per 100 balls (top 15% of eligible players)",
+     "Consistency: positive in 16 of 22 pressure innings",
+     "Steps up: performs better under pressure than his own everyday level suggests"
+    ],
+    "weaknesses": []
+   },
+   {
+    "rank": 3,
+    "name": "Mohammad Nawaz",
+    "pid": 2490,
+    "score": 1.61,
+    "pressure_value": 11.3,
+    "everyday_skill": 7.8,
+    "stepup": 3.5,
+    "consistency_raw": 0.81,
+    "consistency_smoothed": 0.69,
+    "pressure_balls": 199,
+    "pressure_innings": 16,
+    "positive_innings": 13,
+    "top10_prob": 0.63,
+    "rank_p10": 2,
+    "rank_p90": 24,
+    "pressure": {
+     "balls": 199,
+     "runs": 241,
+     "econ": 7.27,
+     "boundary_pct": 12.6,
+     "dot_pct": 31.7,
+     "wkts": 14,
+     "balls_per_wkt": 14.2,
+     "value_per100": 26.0
+    },
+    "normal": {
+     "balls": 480,
+     "runs": 575,
+     "econ": 7.19,
+     "boundary_pct": 12.1,
+     "dot_pct": 33.5,
+     "wkts": 26,
+     "balls_per_wkt": 18.5,
+     "value_per100": 2.7
+    },
+    "comp": {
+     "IPL": {
+      "balls": 0
+     },
+     "T20I": {
+      "balls": 199,
+      "runs": 241,
+      "econ": 7.27,
+      "boundary_pct": 12.6,
+      "dot_pct": 31.7,
+      "wkts": 14,
+      "balls_per_wkt": 14.2,
+      "value_per100": 26.0
+     }
+    },
+    "innings": {
+     "1st innings": {
+      "balls": 7,
+      "runs": 12,
+      "econ": 10.29,
+      "boundary_pct": 28.6,
+      "dot_pct": 28.6,
+      "wkts": 1,
+      "balls_per_wkt": 7.0,
+      "value_per100": 33.5
+     },
+     "Chase (2nd innings)": {
+      "balls": 192,
+      "runs": 229,
+      "econ": 7.16,
+      "boundary_pct": 12.0,
+      "dot_pct": 31.8,
+      "wkts": 13,
+      "balls_per_wkt": 14.8,
+      "value_per100": 25.7
+     }
+    },
+    "phase": {
+     "Powerplay (1-6)": {
+      "balls": 46,
+      "runs": 65,
+      "econ": 8.48,
+      "boundary_pct": 23.9,
+      "dot_pct": 37.0,
+      "wkts": 2,
+      "balls_per_wkt": 23.0,
+      "value_per100": 6.8
+     },
+     "Middle (7-15)": {
+      "balls": 149,
+      "runs": 169,
+      "econ": 6.81,
+      "boundary_pct": 8.7,
+      "dot_pct": 29.5,
+      "wkts": 11,
+      "balls_per_wkt": 13.5,
+      "value_per100": 31.2
+     },
+     "Death (16-20)": {
+      "balls": 4,
+      "runs": 7,
+      "econ": 10.5,
+      "boundary_pct": 25.0,
+      "dot_pct": 50.0,
+      "wkts": 1,
+      "balls_per_wkt": 4.0,
+      "value_per100": 51.0
+     }
+    },
+    "wickets_context": {
+     "0-2 wkts down": {
+      "balls": 84,
+      "runs": 104,
+      "econ": 7.43,
+      "boundary_pct": 15.5,
+      "dot_pct": 36.9,
+      "wkts": 7,
+      "balls_per_wkt": 12.0,
+      "value_per100": 36.6
+     },
+     "3-5 wkts down": {
+      "balls": 113,
+      "runs": 135,
+      "econ": 7.17,
+      "boundary_pct": 10.6,
+      "dot_pct": 28.3,
+      "wkts": 7,
+      "balls_per_wkt": 16.1,
+      "value_per100": 16.3
+     },
+     "6+ wkts down": {
+      "balls": 2,
+      "runs": 2,
+      "econ": 6.0,
+      "boundary_pct": 0.0,
+      "dot_pct": 0.0,
+      "wkts": 0,
+      "balls_per_wkt": null,
+      "value_per100": 125.6
+     }
+    },
+    "season": {
+     "2022": {
+      "balls": 68,
+      "runs": 96,
+      "econ": 8.47,
+      "boundary_pct": 17.6,
+      "dot_pct": 26.5,
+      "wkts": 6,
+      "balls_per_wkt": 11.3,
+      "value_per100": 29.7
+     },
+     "2024": {
+      "balls": 26,
+      "runs": 42,
+      "econ": 9.69,
+      "boundary_pct": 19.2,
+      "dot_pct": 15.4,
+      "wkts": 0,
+      "balls_per_wkt": null,
+      "value_per100": -81.8
+     },
+     "2025": {
+      "balls": 89,
+      "runs": 85,
+      "econ": 5.73,
+      "boundary_pct": 7.9,
+      "dot_pct": 41.6,
+      "wkts": 5,
+      "balls_per_wkt": 17.8,
+      "value_per100": 44.7
+     },
+     "2026": {
+      "balls": 16,
+      "runs": 18,
+      "econ": 6.75,
+      "boundary_pct": 6.2,
+      "dot_pct": 25.0,
+      "wkts": 3,
+      "balls_per_wkt": 5.3,
+      "value_per100": 81.1
+     }
+    },
+    "match_series": [
+     {
+      "date": "2022-08-28",
+      "value": 3.13,
+      "balls": 20,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-09-20",
+      "value": 2.6,
+      "balls": 16,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-09-25",
+      "value": 7.49,
+      "balls": 22,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-09-30",
+      "value": -2.77,
+      "balls": 4,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-10-07",
+      "value": 9.73,
+      "balls": 5,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-01-19",
+      "value": -21.08,
+      "balls": 24,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-07-31",
+      "value": 9.98,
+      "balls": 13,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-08-02",
+      "value": 12.97,
+      "balls": 8,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-08-03",
+      "value": 0.2,
+      "balls": 13,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-08-29",
+      "value": 5.59,
+      "balls": 10,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-08-30",
+      "value": 7.21,
+      "balls": 12,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-09-04",
+      "value": 8.01,
+      "balls": 12,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-09-17",
+      "value": -7.11,
+      "balls": 9,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-09-25",
+      "value": 2.94,
+      "balls": 12,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-01-12",
+      "value": 2.35,
+      "balls": 6,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-01-29",
+      "value": 4.34,
+      "balls": 9,
+      "comp": "T20I"
+     }
+    ],
+    "percentiles": {
+     "P": 95.0,
+     "C": 99.0,
+     "dev": 74.0,
+     "n": 41.0,
+     "boundary_pct": 11.0
+    },
+    "strengths": [
+     "Economy under pressure: economy 7.27 (better than 88% of eligible players)",
+     "Boundary prevention: 12.6% of balls conceded for four or six (better than 89% of eligible players)",
+     "Wicket-taking under pressure: a wicket every 14.2 balls (better than 92% of eligible players)",
+     "Chasing under pressure: 25.7 win-probability points per 100 balls (top 17% of eligible players)",
+     "Consistency: positive in 13 of 16 pressure innings"
+    ],
+    "weaknesses": [
+     "Evidence comes almost entirely from T20I matches (199 of 199 pressure balls)"
+    ]
+   },
+   {
+    "rank": 4,
+    "name": "Mujeeb Ur Rahman",
+    "pid": 6450,
+    "score": 1.45,
+    "pressure_value": 11.7,
+    "everyday_skill": 6.9,
+    "stepup": 4.8,
+    "consistency_raw": 0.65,
+    "consistency_smoothed": 0.59,
+    "pressure_balls": 200,
+    "pressure_innings": 17,
+    "positive_innings": 11,
+    "top10_prob": 0.56,
+    "rank_p10": 3,
+    "rank_p90": 25,
+    "pressure": {
+     "balls": 200,
+     "runs": 229,
+     "econ": 6.87,
+     "boundary_pct": 12.5,
+     "dot_pct": 41.0,
+     "wkts": 14,
+     "balls_per_wkt": 14.3,
+     "value_per100": 31.9
+    },
+    "normal": {
+     "balls": 415,
+     "runs": 471,
+     "econ": 6.81,
+     "boundary_pct": 13.7,
+     "dot_pct": 39.8,
+     "wkts": 26,
+     "balls_per_wkt": 16.0,
+     "value_per100": 14.0
+    },
+    "comp": {
+     "IPL": {
+      "balls": 0
+     },
+     "T20I": {
+      "balls": 200,
+      "runs": 229,
+      "econ": 6.87,
+      "boundary_pct": 12.5,
+      "dot_pct": 41.0,
+      "wkts": 14,
+      "balls_per_wkt": 14.3,
+      "value_per100": 31.9
+     }
+    },
+    "innings": {
+     "1st innings": {
+      "balls": 10,
+      "runs": 7,
+      "econ": 4.2,
+      "boundary_pct": 0.0,
+      "dot_pct": 40.0,
+      "wkts": 0,
+      "balls_per_wkt": null,
+      "value_per100": 49.2
+     },
+     "Chase (2nd innings)": {
+      "balls": 190,
+      "runs": 222,
+      "econ": 7.01,
+      "boundary_pct": 13.2,
+      "dot_pct": 41.1,
+      "wkts": 14,
+      "balls_per_wkt": 13.6,
+      "value_per100": 31.0
+     }
+    },
+    "phase": {
+     "Powerplay (1-6)": {
+      "balls": 101,
+      "runs": 124,
+      "econ": 7.37,
+      "boundary_pct": 14.9,
+      "dot_pct": 42.6,
+      "wkts": 5,
+      "balls_per_wkt": 20.2,
+      "value_per100": 17.4
+     },
+     "Middle (7-15)": {
+      "balls": 74,
+      "runs": 74,
+      "econ": 6.0,
+      "boundary_pct": 10.8,
+      "dot_pct": 43.2,
+      "wkts": 8,
+      "balls_per_wkt": 9.2,
+      "value_per100": 48.1
+     },
+     "Death (16-20)": {
+      "balls": 25,
+      "runs": 31,
+      "econ": 7.44,
+      "boundary_pct": 8.0,
+      "dot_pct": 28.0,
+      "wkts": 1,
+      "balls_per_wkt": 25.0,
+      "value_per100": 43.0
+     }
+    },
+    "wickets_context": {
+     "0-2 wkts down": {
+      "balls": 133,
+      "runs": 156,
+      "econ": 7.04,
+      "boundary_pct": 13.5,
+      "dot_pct": 42.1,
+      "wkts": 10,
+      "balls_per_wkt": 13.3,
+      "value_per100": 25.7
+     },
+     "3-5 wkts down": {
+      "balls": 62,
+      "runs": 69,
+      "econ": 6.68,
+      "boundary_pct": 9.7,
+      "dot_pct": 35.5,
+      "wkts": 4,
+      "balls_per_wkt": 15.5,
+      "value_per100": 51.4
+     },
+     "6+ wkts down": {
+      "balls": 5,
+      "runs": 4,
+      "econ": 4.8,
+      "boundary_pct": 20.0,
+      "dot_pct": 80.0,
+      "wkts": 0,
+      "balls_per_wkt": null,
+      "value_per100": -42.4
+     }
+    },
+    "season": {
+     "2022": {
+      "balls": 36,
+      "runs": 44,
+      "econ": 7.33,
+      "boundary_pct": 16.7,
+      "dot_pct": 47.2,
+      "wkts": 3,
+      "balls_per_wkt": 12.0,
+      "value_per100": 5.0
+     },
+     "2023": {
+      "balls": 7,
+      "runs": 7,
+      "econ": 6.0,
+      "boundary_pct": 0.0,
+      "dot_pct": 0.0,
+      "wkts": 0,
+      "balls_per_wkt": null,
+      "value_per100": 8.9
+     },
+     "2024": {
+      "balls": 39,
+      "runs": 34,
+      "econ": 5.23,
+      "boundary_pct": 7.7,
+      "dot_pct": 41.0,
+      "wkts": 2,
+      "balls_per_wkt": 19.5,
+      "value_per100": 82.4
+     },
+     "2025": {
+      "balls": 71,
+      "runs": 93,
+      "econ": 7.86,
+      "boundary_pct": 14.1,
+      "dot_pct": 38.0,
+      "wkts": 5,
+      "balls_per_wkt": 14.2,
+      "value_per100": 19.1
+     },
+     "2026": {
+      "balls": 47,
+      "runs": 51,
+      "econ": 6.51,
+      "boundary_pct": 12.8,
+      "dot_pct": 46.8,
+      "wkts": 4,
+      "balls_per_wkt": 11.8,
+      "value_per100": 33.6
+     }
+    },
+    "match_series": [
+     {
+      "date": "2022-08-09",
+      "value": -1.49,
+      "balls": 9,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-08-15",
+      "value": -2.12,
+      "balls": 5,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-09-03",
+      "value": 5.39,
+      "balls": 22,
+      "comp": "T20I"
+     },
+     {
+      "date": "2023-07-14",
+      "value": 0.63,
+      "balls": 7,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-01-11",
+      "value": 7.96,
+      "balls": 12,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-01-14",
+      "value": -2.55,
+      "balls": 4,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-12-09",
+      "value": 7.84,
+      "balls": 11,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-12-11",
+      "value": 14.67,
+      "balls": 6,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-12-12",
+      "value": 4.22,
+      "balls": 6,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-09-01",
+      "value": -6.05,
+      "balls": 18,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-09-05",
+      "value": 7.64,
+      "balls": 19,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-09-18",
+      "value": -7.1,
+      "balls": 15,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-10-29",
+      "value": 12.98,
+      "balls": 4,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-11-02",
+      "value": 5.4,
+      "balls": 14,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-01-19",
+      "value": 10.19,
+      "balls": 6,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-10-27",
+      "value": 9.39,
+      "balls": 29,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-10-29",
+      "value": -0.43,
+      "balls": 7,
+      "comp": "T20I"
+     }
+    ],
+    "percentiles": {
+     "P": 97.0,
+     "C": 87.0,
+     "dev": 82.0,
+     "n": 42.0,
+     "boundary_pct": 10.0
+    },
+    "strengths": [
+     "Economy under pressure: economy 6.87 (better than 96% of eligible players)",
+     "Dot-ball pressure: 41.0% dot balls (better than 85% of eligible players)",
+     "Boundary prevention: 12.5% of balls conceded for four or six (better than 90% of eligible players)",
+     "Wicket-taking under pressure: a wicket every 14.3 balls (better than 90% of eligible players)",
+     "Chasing under pressure: 31.0 win-probability points per 100 balls (top 12% of eligible players)",
+     "Consistency: positive in 11 of 17 pressure innings",
+     "Steps up: performs better under pressure than his own everyday level suggests"
+    ],
+    "weaknesses": [
+     "Evidence comes almost entirely from T20I matches (200 of 200 pressure balls)"
+    ]
+   },
+   {
+    "rank": 5,
+    "name": "Krunal Pandya",
+    "pid": 4219,
+    "score": 1.43,
+    "pressure_value": 9.8,
+    "everyday_skill": 2.8,
+    "stepup": 7.1,
+    "consistency_raw": 0.67,
+    "consistency_smoothed": 0.62,
+    "pressure_balls": 354,
+    "pressure_innings": 27,
+    "positive_innings": 18,
+    "top10_prob": 0.57,
+    "rank_p10": 2,
+    "rank_p90": 31,
+    "pressure": {
+     "balls": 354,
+     "runs": 412,
+     "econ": 6.98,
+     "boundary_pct": 12.4,
+     "dot_pct": 35.0,
+     "wkts": 19,
+     "balls_per_wkt": 18.6,
+     "value_per100": 26.7
+    },
+    "normal": {
+     "balls": 584,
+     "runs": 747,
+     "econ": 7.67,
+     "boundary_pct": 13.4,
+     "dot_pct": 28.8,
+     "wkts": 26,
+     "balls_per_wkt": 22.5,
+     "value_per100": 2.6
+    },
+    "comp": {
+     "IPL": {
+      "balls": 354,
+      "runs": 412,
+      "econ": 6.98,
+      "boundary_pct": 12.4,
+      "dot_pct": 35.0,
+      "wkts": 19,
+      "balls_per_wkt": 18.6,
+      "value_per100": 26.7
+     },
+     "T20I": {
+      "balls": 0
+     }
+    },
+    "innings": {
+     "1st innings": {
+      "balls": 72,
+      "runs": 95,
+      "econ": 7.92,
+      "boundary_pct": 18.1,
+      "dot_pct": 38.9,
+      "wkts": 2,
+      "balls_per_wkt": 36.0,
+      "value_per100": 3.1
+     },
+     "Chase (2nd innings)": {
+      "balls": 282,
+      "runs": 317,
+      "econ": 6.74,
+      "boundary_pct": 11.0,
+      "dot_pct": 34.0,
+      "wkts": 17,
+      "balls_per_wkt": 16.6,
+      "value_per100": 32.7
+     }
+    },
+    "phase": {
+     "Powerplay (1-6)": {
+      "balls": 76,
+      "runs": 103,
+      "econ": 8.13,
+      "boundary_pct": 18.4,
+      "dot_pct": 32.9,
+      "wkts": 2,
+      "balls_per_wkt": 38.0,
+      "value_per100": -4.4
+     },
+     "Middle (7-15)": {
+      "balls": 261,
+      "runs": 285,
+      "econ": 6.55,
+      "boundary_pct": 10.3,
+      "dot_pct": 35.2,
+      "wkts": 14,
+      "balls_per_wkt": 18.6,
+      "value_per100": 36.7
+     },
+     "Death (16-20)": {
+      "balls": 17,
+      "runs": 24,
+      "econ": 8.47,
+      "boundary_pct": 17.6,
+      "dot_pct": 41.2,
+      "wkts": 3,
+      "balls_per_wkt": 5.7,
+      "value_per100": 11.7
+     }
+    },
+    "wickets_context": {
+     "0-2 wkts down": {
+      "balls": 195,
+      "runs": 239,
+      "econ": 7.35,
+      "boundary_pct": 14.4,
+      "dot_pct": 34.4,
+      "wkts": 9,
+      "balls_per_wkt": 21.7,
+      "value_per100": 10.4
+     },
+     "3-5 wkts down": {
+      "balls": 151,
+      "runs": 164,
+      "econ": 6.52,
+      "boundary_pct": 9.3,
+      "dot_pct": 34.4,
+      "wkts": 7,
+      "balls_per_wkt": 21.6,
+      "value_per100": 46.2
+     },
+     "6+ wkts down": {
+      "balls": 8,
+      "runs": 9,
+      "econ": 6.75,
+      "boundary_pct": 25.0,
+      "dot_pct": 62.5,
+      "wkts": 3,
+      "balls_per_wkt": 2.7,
+      "value_per100": 57.3
+     }
+    },
+    "season": {
+     "2022": {
+      "balls": 69,
+      "runs": 52,
+      "econ": 4.52,
+      "boundary_pct": 4.3,
+      "dot_pct": 43.5,
+      "wkts": 4,
+      "balls_per_wkt": 17.2,
+      "value_per100": 69.8
+     },
+     "2023": {
+      "balls": 85,
+      "runs": 108,
+      "econ": 7.62,
+      "boundary_pct": 20.0,
+      "dot_pct": 40.0,
+      "wkts": 3,
+      "balls_per_wkt": 28.3,
+      "value_per100": -8.6
+     },
+     "2024": {
+      "balls": 61,
+      "runs": 74,
+      "econ": 7.28,
+      "boundary_pct": 8.2,
+      "dot_pct": 26.2,
+      "wkts": 3,
+      "balls_per_wkt": 20.3,
+      "value_per100": 39.8
+     },
+     "2025": {
+      "balls": 89,
+      "runs": 117,
+      "econ": 7.89,
+      "boundary_pct": 15.7,
+      "dot_pct": 32.6,
+      "wkts": 7,
+      "balls_per_wkt": 12.7,
+      "value_per100": 22.7
+     },
+     "2026": {
+      "balls": 50,
+      "runs": 61,
+      "econ": 7.32,
+      "boundary_pct": 10.0,
+      "dot_pct": 30.0,
+      "wkts": 2,
+      "balls_per_wkt": 25.0,
+      "value_per100": 18.3
+     }
+    },
+    "match_series": [
+     {
+      "date": "2022-03-28",
+      "value": 6.02,
+      "balls": 22,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-04-04",
+      "value": 10.55,
+      "balls": 21,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-04-16",
+      "value": 4.54,
+      "balls": 8,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-04-24",
+      "value": 4.79,
+      "balls": 6,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-04-29",
+      "value": 22.27,
+      "balls": 12,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-03",
+      "value": 2.63,
+      "balls": 5,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-07",
+      "value": 4.58,
+      "balls": 5,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-15",
+      "value": -11.29,
+      "balls": 18,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-13",
+      "value": 3.85,
+      "balls": 12,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-16",
+      "value": -1.47,
+      "balls": 20,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-20",
+      "value": 5.0,
+      "balls": 6,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-24",
+      "value": -10.82,
+      "balls": 16,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-03-30",
+      "value": -1.8,
+      "balls": 12,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-04-02",
+      "value": -1.07,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-04-07",
+      "value": 17.42,
+      "balls": 9,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-04-12",
+      "value": -8.8,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-04-27",
+      "value": 11.25,
+      "balls": 24,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-05-17",
+      "value": 7.32,
+      "balls": 8,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-02",
+      "value": -10.98,
+      "balls": 15,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-07",
+      "value": 3.05,
+      "balls": 11,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-24",
+      "value": -1.6,
+      "balls": 19,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-03",
+      "value": 4.09,
+      "balls": 18,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-27",
+      "value": 1.68,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-06-03",
+      "value": 21.21,
+      "balls": 19,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-18",
+      "value": 10.9,
+      "balls": 24,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-07",
+      "value": 1.87,
+      "balls": 19,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-13",
+      "value": -1.34,
+      "balls": 4,
+      "comp": "IPL"
+     }
+    ],
+    "percentiles": {
+     "P": 89.0,
+     "C": 91.0,
+     "dev": 96.0,
+     "n": 83.0,
+     "boundary_pct": 9.0
+    },
+    "strengths": [
+     "Economy under pressure: economy 6.98 (better than 93% of eligible players)",
+     "Boundary prevention: 12.4% of balls conceded for four or six (better than 91% of eligible players)",
+     "Chasing under pressure: 32.7 win-probability points per 100 balls (top 10% of eligible players)",
+     "Consistency: positive in 18 of 27 pressure innings",
+     "Steps up: performs better under pressure than his own everyday level suggests"
+    ],
+    "weaknesses": [
+     "Evidence comes almost entirely from IPL matches (354 of 354 pressure balls)"
+    ]
+   },
+   {
+    "rank": 6,
+    "name": "Sikandar Raza",
+    "pid": 2984,
+    "score": 1.4,
+    "pressure_value": 12.1,
+    "everyday_skill": 7.9,
+    "stepup": 4.3,
+    "consistency_raw": 0.62,
+    "consistency_smoothed": 0.57,
+    "pressure_balls": 165,
+    "pressure_innings": 13,
+    "positive_innings": 8,
+    "top10_prob": 0.51,
+    "rank_p10": 3,
+    "rank_p90": 25,
+    "pressure": {
+     "balls": 165,
+     "runs": 170,
+     "econ": 6.18,
+     "boundary_pct": 8.5,
+     "dot_pct": 33.9,
+     "wkts": 7,
+     "balls_per_wkt": 23.6,
+     "value_per100": 34.0
+    },
+    "normal": {
+     "balls": 669,
+     "runs": 791,
+     "econ": 7.09,
+     "boundary_pct": 11.4,
+     "dot_pct": 32.3,
+     "wkts": 27,
+     "balls_per_wkt": 24.8,
+     "value_per100": 17.1
+    },
+    "comp": {
+     "IPL": {
+      "balls": 15,
+      "runs": 15,
+      "econ": 6.0,
+      "boundary_pct": 0.0,
+      "dot_pct": 26.7,
+      "wkts": 1,
+      "balls_per_wkt": 15.0,
+      "value_per100": 54.4
+     },
+     "T20I": {
+      "balls": 150,
+      "runs": 155,
+      "econ": 6.2,
+      "boundary_pct": 9.3,
+      "dot_pct": 34.7,
+      "wkts": 6,
+      "balls_per_wkt": 25.0,
+      "value_per100": 32.0
+     }
+    },
+    "innings": {
+     "1st innings": {
+      "balls": 14,
+      "runs": 16,
+      "econ": 6.86,
+      "boundary_pct": 14.3,
+      "dot_pct": 35.7,
+      "wkts": 0,
+      "balls_per_wkt": null,
+      "value_per100": 9.8
+     },
+     "Chase (2nd innings)": {
+      "balls": 151,
+      "runs": 154,
+      "econ": 6.12,
+      "boundary_pct": 7.9,
+      "dot_pct": 33.8,
+      "wkts": 7,
+      "balls_per_wkt": 21.6,
+      "value_per100": 36.3
+     }
+    },
+    "phase": {
+     "Powerplay (1-6)": {
+      "balls": 20,
+      "runs": 29,
+      "econ": 8.7,
+      "boundary_pct": 20.0,
+      "dot_pct": 30.0,
+      "wkts": 0,
+      "balls_per_wkt": null,
+      "value_per100": -33.4
+     },
+     "Middle (7-15)": {
+      "balls": 132,
+      "runs": 133,
+      "econ": 6.05,
+      "boundary_pct": 6.8,
+      "dot_pct": 32.6,
+      "wkts": 6,
+      "balls_per_wkt": 22.0,
+      "value_per100": 44.1
+     },
+     "Death (16-20)": {
+      "balls": 13,
+      "runs": 8,
+      "econ": 3.69,
+      "boundary_pct": 7.7,
+      "dot_pct": 53.8,
+      "wkts": 1,
+      "balls_per_wkt": 13.0,
+      "value_per100": 35.3
+     }
+    },
+    "wickets_context": {
+     "0-2 wkts down": {
+      "balls": 43,
+      "runs": 59,
+      "econ": 8.23,
+      "boundary_pct": 16.3,
+      "dot_pct": 27.9,
+      "wkts": 1,
+      "balls_per_wkt": 43.0,
+      "value_per100": -11.4
+     },
+     "3-5 wkts down": {
+      "balls": 95,
+      "runs": 87,
+      "econ": 5.49,
+      "boundary_pct": 5.3,
+      "dot_pct": 33.7,
+      "wkts": 4,
+      "balls_per_wkt": 23.8,
+      "value_per100": 43.4
+     },
+     "6+ wkts down": {
+      "balls": 27,
+      "runs": 24,
+      "econ": 5.33,
+      "boundary_pct": 7.4,
+      "dot_pct": 44.4,
+      "wkts": 2,
+      "balls_per_wkt": 13.5,
+      "value_per100": 73.3
+     }
+    },
+    "season": {
+     "2022": {
+      "balls": 53,
+      "runs": 55,
+      "econ": 6.23,
+      "boundary_pct": 7.5,
+      "dot_pct": 30.2,
+      "wkts": 1,
+      "balls_per_wkt": 53.0,
+      "value_per100": 17.6
+     },
+     "2023": {
+      "balls": 15,
+      "runs": 15,
+      "econ": 6.0,
+      "boundary_pct": 0.0,
+      "dot_pct": 26.7,
+      "wkts": 1,
+      "balls_per_wkt": 15.0,
+      "value_per100": 54.4
+     },
+     "2024": {
+      "balls": 50,
+      "runs": 42,
+      "econ": 5.04,
+      "boundary_pct": 8.0,
+      "dot_pct": 46.0,
+      "wkts": 4,
+      "balls_per_wkt": 12.5,
+      "value_per100": 59.1
+     },
+     "2025": {
+      "balls": 33,
+      "runs": 32,
+      "econ": 5.82,
+      "boundary_pct": 6.1,
+      "dot_pct": 30.3,
+      "wkts": 1,
+      "balls_per_wkt": 33.0,
+      "value_per100": 50.9
+     },
+     "2026": {
+      "balls": 14,
+      "runs": 26,
+      "econ": 11.14,
+      "boundary_pct": 28.6,
+      "dot_pct": 21.4,
+      "wkts": 0,
+      "balls_per_wkt": null,
+      "value_per100": -55.0
+     }
+    },
+    "match_series": [
+     {
+      "date": "2022-06-11",
+      "value": 5.14,
+      "balls": 12,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-07-30",
+      "value": 4.87,
+      "balls": 17,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-08-02",
+      "value": -0.7,
+      "balls": 24,
+      "comp": "T20I"
+     },
+     {
+      "date": "2023-04-05",
+      "value": -3.09,
+      "balls": 9,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-13",
+      "value": 4.47,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-01-14",
+      "value": 16.07,
+      "balls": 18,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-05-12",
+      "value": 1.45,
+      "balls": 5,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-07-06",
+      "value": 12.02,
+      "balls": 24,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-09-03",
+      "value": 18.36,
+      "balls": 12,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-09-07",
+      "value": -3.57,
+      "balls": 6,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-11-17",
+      "value": 2.03,
+      "balls": 15,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-07-15",
+      "value": -7.64,
+      "balls": 8,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-07-25",
+      "value": -0.31,
+      "balls": 4,
+      "comp": "T20I"
+     }
+    ],
+    "percentiles": {
+     "P": 99.0,
+     "C": 82.0,
+     "dev": 77.0,
+     "n": 23.0,
+     "boundary_pct": 1.0
+    },
+    "strengths": [
+     "Economy under pressure: economy 6.18 (better than 99% of eligible players)",
+     "Boundary prevention: 8.5% of balls conceded for four or six (better than 99% of eligible players)",
+     "Chasing under pressure: 36.3 win-probability points per 100 balls (top 7% of eligible players)",
+     "Consistency: positive in 8 of 13 pressure innings",
+     "Steps up: performs better under pressure than his own everyday level suggests"
+    ],
+    "weaknesses": [
+     "Wicket-taking under pressure: a wicket every 23.6 balls (weaker than 77% of eligible players)",
+     "Evidence comes almost entirely from T20I matches (150 of 165 pressure balls)",
+     "Small sample: 165 pressure balls in 13 pressure innings, so higher uncertainty"
+    ]
+   },
+   {
+    "rank": 7,
+    "name": "Sunil Narine",
+    "pid": 781,
+    "score": 1.34,
+    "pressure_value": 12.1,
+    "everyday_skill": 6.3,
+    "stepup": 5.8,
+    "consistency_raw": 0.53,
+    "consistency_smoothed": 0.52,
+    "pressure_balls": 243,
+    "pressure_innings": 19,
+    "positive_innings": 10,
+    "top10_prob": 0.5,
+    "rank_p10": 3,
+    "rank_p90": 27,
+    "pressure": {
+     "balls": 243,
+     "runs": 280,
+     "econ": 6.91,
+     "boundary_pct": 11.1,
+     "dot_pct": 36.2,
+     "wkts": 13,
+     "balls_per_wkt": 18.7,
+     "value_per100": 32.2
+    },
+    "normal": {
+     "balls": 821,
+     "runs": 910,
+     "econ": 6.65,
+     "boundary_pct": 10.6,
+     "dot_pct": 36.1,
+     "wkts": 31,
+     "balls_per_wkt": 26.5,
+     "value_per100": 6.5
+    },
+    "comp": {
+     "IPL": {
+      "balls": 243,
+      "runs": 280,
+      "econ": 6.91,
+      "boundary_pct": 11.1,
+      "dot_pct": 36.2,
+      "wkts": 13,
+      "balls_per_wkt": 18.7,
+      "value_per100": 32.2
+     },
+     "T20I": {
+      "balls": 0
+     }
+    },
+    "innings": {
+     "1st innings": {
+      "balls": 9,
+      "runs": 11,
+      "econ": 7.33,
+      "boundary_pct": 11.1,
+      "dot_pct": 33.3,
+      "wkts": 0,
+      "balls_per_wkt": null,
+      "value_per100": -21.7
+     },
+     "Chase (2nd innings)": {
+      "balls": 234,
+      "runs": 269,
+      "econ": 6.9,
+      "boundary_pct": 11.1,
+      "dot_pct": 36.3,
+      "wkts": 13,
+      "balls_per_wkt": 18.0,
+      "value_per100": 34.2
+     }
+    },
+    "phase": {
+     "Powerplay (1-6)": {
+      "balls": 34,
+      "runs": 42,
+      "econ": 7.41,
+      "boundary_pct": 17.6,
+      "dot_pct": 32.4,
+      "wkts": 2,
+      "balls_per_wkt": 17.0,
+      "value_per100": 15.9
+     },
+     "Middle (7-15)": {
+      "balls": 181,
+      "runs": 217,
+      "econ": 7.19,
+      "boundary_pct": 10.5,
+      "dot_pct": 33.7,
+      "wkts": 8,
+      "balls_per_wkt": 22.6,
+      "value_per100": 26.6
+     },
+     "Death (16-20)": {
+      "balls": 28,
+      "runs": 21,
+      "econ": 4.5,
+      "boundary_pct": 7.1,
+      "dot_pct": 57.1,
+      "wkts": 3,
+      "balls_per_wkt": 9.3,
+      "value_per100": 87.7
+     }
+    },
+    "wickets_context": {
+     "0-2 wkts down": {
+      "balls": 143,
+      "runs": 180,
+      "econ": 7.55,
+      "boundary_pct": 12.6,
+      "dot_pct": 30.1,
+      "wkts": 6,
+      "balls_per_wkt": 23.8,
+      "value_per100": 14.8
+     },
+     "3-5 wkts down": {
+      "balls": 78,
+      "runs": 88,
+      "econ": 6.77,
+      "boundary_pct": 11.5,
+      "dot_pct": 43.6,
+      "wkts": 6,
+      "balls_per_wkt": 13.0,
+      "value_per100": 48.1
+     },
+     "6+ wkts down": {
+      "balls": 22,
+      "runs": 12,
+      "econ": 3.27,
+      "boundary_pct": 0.0,
+      "dot_pct": 50.0,
+      "wkts": 1,
+      "balls_per_wkt": 22.0,
+      "value_per100": 88.2
+     }
+    },
+    "season": {
+     "2022": {
+      "balls": 47,
+      "runs": 51,
+      "econ": 6.51,
+      "boundary_pct": 8.5,
+      "dot_pct": 38.3,
+      "wkts": 0,
+      "balls_per_wkt": null,
+      "value_per100": -4.9
+     },
+     "2023": {
+      "balls": 32,
+      "runs": 44,
+      "econ": 8.25,
+      "boundary_pct": 12.5,
+      "dot_pct": 21.9,
+      "wkts": 2,
+      "balls_per_wkt": 16.0,
+      "value_per100": -11.2
+     },
+     "2024": {
+      "balls": 58,
+      "runs": 67,
+      "econ": 6.93,
+      "boundary_pct": 12.1,
+      "dot_pct": 41.4,
+      "wkts": 6,
+      "balls_per_wkt": 9.7,
+      "value_per100": 79.4
+     },
+     "2025": {
+      "balls": 37,
+      "runs": 45,
+      "econ": 7.3,
+      "boundary_pct": 10.8,
+      "dot_pct": 35.1,
+      "wkts": 3,
+      "balls_per_wkt": 12.3,
+      "value_per100": 43.1
+     },
+     "2026": {
+      "balls": 69,
+      "runs": 73,
+      "econ": 6.35,
+      "boundary_pct": 11.6,
+      "dot_pct": 37.7,
+      "wkts": 2,
+      "balls_per_wkt": 34.5,
+      "value_per100": 31.9
+     }
+    },
+    "match_series": [
+     {
+      "date": "2022-04-15",
+      "value": -2.74,
+      "balls": 13,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-04-28",
+      "value": -1.08,
+      "balls": 5,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-05-09",
+      "value": -0.07,
+      "balls": 12,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-05-14",
+      "value": -0.44,
+      "balls": 15,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-06",
+      "value": 6.01,
+      "balls": 6,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-29",
+      "value": -0.77,
+      "balls": 18,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-04",
+      "value": -1.26,
+      "balls": 6,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-03-23",
+      "value": 4.62,
+      "balls": 12,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-04-16",
+      "value": 21.8,
+      "balls": 13,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-04-21",
+      "value": 3.13,
+      "balls": 12,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-04-26",
+      "value": 12.02,
+      "balls": 12,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-05-03",
+      "value": 8.85,
+      "balls": 6,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-29",
+      "value": 13.04,
+      "balls": 19,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-04",
+      "value": -0.95,
+      "balls": 12,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-07",
+      "value": 3.87,
+      "balls": 6,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-03-29",
+      "value": -4.3,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-09",
+      "value": 8.42,
+      "balls": 17,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-26",
+      "value": 13.54,
+      "balls": 21,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-13",
+      "value": -0.75,
+      "balls": 22,
+      "comp": "IPL"
+     }
+    ],
+    "percentiles": {
+     "P": 98.0,
+     "C": 55.0,
+     "dev": 89.0,
+     "n": 55.0,
+     "boundary_pct": 4.0
+    },
+    "strengths": [
+     "Economy under pressure: economy 6.91 (better than 95% of eligible players)",
+     "Boundary prevention: 11.1% of balls conceded for four or six (better than 96% of eligible players)",
+     "Chasing under pressure: 34.2 win-probability points per 100 balls (top 9% of eligible players)",
+     "Steps up: performs better under pressure than his own everyday level suggests"
+    ],
+    "weaknesses": [
+     "Evidence comes almost entirely from IPL matches (243 of 243 pressure balls)"
+    ]
+   },
+   {
+    "rank": 8,
+    "name": "Josh Hazlewood",
+    "pid": 830,
+    "score": 1.32,
+    "pressure_value": 9.1,
+    "everyday_skill": -0.1,
+    "stepup": 9.2,
+    "consistency_raw": 0.59,
+    "consistency_smoothed": 0.57,
+    "pressure_balls": 412,
+    "pressure_innings": 37,
+    "positive_innings": 22,
+    "top10_prob": 0.53,
+    "rank_p10": 2,
+    "rank_p90": 29,
+    "pressure": {
+     "balls": 412,
+     "runs": 511,
+     "econ": 7.44,
+     "boundary_pct": 18.9,
+     "dot_pct": 46.8,
+     "wkts": 34,
+     "balls_per_wkt": 12.1,
+     "value_per100": 28.0
+    },
+    "normal": {
+     "balls": 581,
+     "runs": 814,
+     "econ": 8.41,
+     "boundary_pct": 20.7,
+     "dot_pct": 39.9,
+     "wkts": 30,
+     "balls_per_wkt": 19.4,
+     "value_per100": -5.6
+    },
+    "comp": {
+     "IPL": {
+      "balls": 253,
+      "runs": 359,
+      "econ": 8.51,
+      "boundary_pct": 21.7,
+      "dot_pct": 40.7,
+      "wkts": 16,
+      "balls_per_wkt": 15.8,
+      "value_per100": 16.6
+     },
+     "T20I": {
+      "balls": 159,
+      "runs": 152,
+      "econ": 5.74,
+      "boundary_pct": 14.5,
+      "dot_pct": 56.6,
+      "wkts": 18,
+      "balls_per_wkt": 8.8,
+      "value_per100": 46.1
+     }
+    },
+    "innings": {
+     "1st innings": {
+      "balls": 118,
+      "runs": 148,
+      "econ": 7.53,
+      "boundary_pct": 19.5,
+      "dot_pct": 44.1,
+      "wkts": 7,
+      "balls_per_wkt": 16.9,
+      "value_per100": 3.8
+     },
+     "Chase (2nd innings)": {
+      "balls": 294,
+      "runs": 363,
+      "econ": 7.41,
+      "boundary_pct": 18.7,
+      "dot_pct": 48.0,
+      "wkts": 27,
+      "balls_per_wkt": 10.9,
+      "value_per100": 37.7
+     }
+    },
+    "phase": {
+     "Powerplay (1-6)": {
+      "balls": 279,
+      "runs": 331,
+      "econ": 7.12,
+      "boundary_pct": 19.4,
+      "dot_pct": 51.6,
+      "wkts": 17,
+      "balls_per_wkt": 16.4,
+      "value_per100": 18.0
+     },
+     "Middle (7-15)": {
+      "balls": 41,
+      "runs": 51,
+      "econ": 7.46,
+      "boundary_pct": 19.5,
+      "dot_pct": 43.9,
+      "wkts": 5,
+      "balls_per_wkt": 8.2,
+      "value_per100": 18.6
+     },
+     "Death (16-20)": {
+      "balls": 92,
+      "runs": 129,
+      "econ": 8.41,
+      "boundary_pct": 17.4,
+      "dot_pct": 33.7,
+      "wkts": 12,
+      "balls_per_wkt": 7.7,
+      "value_per100": 62.4
+     }
+    },
+    "wickets_context": {
+     "0-2 wkts down": {
+      "balls": 286,
+      "runs": 348,
+      "econ": 7.3,
+      "boundary_pct": 19.6,
+      "dot_pct": 49.7,
+      "wkts": 18,
+      "balls_per_wkt": 15.9,
+      "value_per100": 11.1
+     },
+     "3-5 wkts down": {
+      "balls": 88,
+      "runs": 113,
+      "econ": 7.7,
+      "boundary_pct": 19.3,
+      "dot_pct": 42.0,
+      "wkts": 11,
+      "balls_per_wkt": 8.0,
+      "value_per100": 54.1
+     },
+     "6+ wkts down": {
+      "balls": 38,
+      "runs": 50,
+      "econ": 7.89,
+      "boundary_pct": 13.2,
+      "dot_pct": 36.8,
+      "wkts": 5,
+      "balls_per_wkt": 7.6,
+      "value_per100": 94.5
+     }
+    },
+    "season": {
+     "2022": {
+      "balls": 159,
+      "runs": 164,
+      "econ": 6.19,
+      "boundary_pct": 11.9,
+      "dot_pct": 45.9,
+      "wkts": 14,
+      "balls_per_wkt": 11.4,
+      "value_per100": 54.7
+     },
+     "2023": {
+      "balls": 23,
+      "runs": 43,
+      "econ": 11.22,
+      "boundary_pct": 34.8,
+      "dot_pct": 34.8,
+      "wkts": 1,
+      "balls_per_wkt": 23.0,
+      "value_per100": -78.3
+     },
+     "2024": {
+      "balls": 34,
+      "runs": 38,
+      "econ": 6.71,
+      "boundary_pct": 17.6,
+      "dot_pct": 58.8,
+      "wkts": 3,
+      "balls_per_wkt": 11.3,
+      "value_per100": 32.0
+     },
+     "2025": {
+      "balls": 109,
+      "runs": 139,
+      "econ": 7.65,
+      "boundary_pct": 22.9,
+      "dot_pct": 53.2,
+      "wkts": 14,
+      "balls_per_wkt": 7.8,
+      "value_per100": 29.5
+     },
+     "2026": {
+      "balls": 87,
+      "runs": 127,
+      "econ": 8.76,
+      "boundary_pct": 23.0,
+      "dot_pct": 39.1,
+      "wkts": 2,
+      "balls_per_wkt": 43.5,
+      "value_per100": 3.7
+     }
+    },
+    "match_series": [
+     {
+      "date": "2022-02-11",
+      "value": 23.73,
+      "balls": 10,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-02-13",
+      "value": 5.73,
+      "balls": 16,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-02-15",
+      "value": -2.08,
+      "balls": 7,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-04-16",
+      "value": 8.77,
+      "balls": 14,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-04-19",
+      "value": 14.53,
+      "balls": 10,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-04-30",
+      "value": -5.33,
+      "balls": 22,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-05-04",
+      "value": 9.83,
+      "balls": 12,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-05-13",
+      "value": -11.03,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-05-25",
+      "value": 9.48,
+      "balls": 15,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-06-07",
+      "value": 2.65,
+      "balls": 5,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-06-11",
+      "value": 20.56,
+      "balls": 17,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-09-25",
+      "value": -1.91,
+      "balls": 14,
+      "comp": "T20I"
+     },
+     {
+      "date": "2023-05-06",
+      "value": -6.79,
+      "balls": 10,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-05-09",
+      "value": -11.23,
+      "balls": 13,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-02-09",
+      "value": 1.08,
+      "balls": 7,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-02-11",
+      "value": 2.78,
+      "balls": 5,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-02-23",
+      "value": 4.73,
+      "balls": 9,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-09-11",
+      "value": 5.68,
+      "balls": 12,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-04-02",
+      "value": -4.18,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-07",
+      "value": 9.31,
+      "balls": 14,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-10",
+      "value": -17.54,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-04-24",
+      "value": 15.69,
+      "balls": 17,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-29",
+      "value": 4.37,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-06-03",
+      "value": 3.96,
+      "balls": 8,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-08-10",
+      "value": 16.96,
+      "balls": 17,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-08-12",
+      "value": -1.1,
+      "balls": 7,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-10-01",
+      "value": -3.13,
+      "balls": 4,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-10-04",
+      "value": -6.59,
+      "balls": 15,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-04-10",
+      "value": -6.47,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-15",
+      "value": 6.72,
+      "balls": 10,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-18",
+      "value": 0.98,
+      "balls": 23,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-24",
+      "value": 0.31,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-07",
+      "value": -2.33,
+      "balls": 19,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-10",
+      "value": -0.45,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-13",
+      "value": 2.27,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-17",
+      "value": 2.7,
+      "balls": 5,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-05-22",
+      "value": -0.53,
+      "balls": 5,
+      "comp": "IPL"
+     }
+    ],
+    "percentiles": {
+     "P": 87.0,
+     "C": 77.0,
+     "dev": 100.0,
+     "n": 90.0,
+     "boundary_pct": 50.0
+    },
+    "strengths": [
+     "Economy under pressure: economy 7.44 (better than 84% of eligible players)",
+     "Dot-ball pressure: 46.8% dot balls (better than 99% of eligible players)",
+     "Wicket-taking under pressure: a wicket every 12.1 balls (better than 97% of eligible players)",
+     "Chasing under pressure: 37.7 win-probability points per 100 balls (top 3% of eligible players)",
+     "Death overs (16-20) under pressure: 62.4 win-probability points per 100 balls (top 3% of eligible players)",
+     "Consistency: positive in 22 of 37 pressure innings",
+     "Steps up: performs better under pressure than his own everyday level suggests"
+    ],
+    "weaknesses": []
+   },
+   {
+    "rank": 9,
+    "name": "Joshua Little",
+    "pid": 4807,
+    "score": 1.3,
+    "pressure_value": 8.0,
+    "everyday_skill": 3.7,
+    "stepup": 4.3,
+    "consistency_raw": 0.83,
+    "consistency_smoothed": 0.68,
+    "pressure_balls": 129,
+    "pressure_innings": 12,
+    "positive_innings": 10,
+    "top10_prob": 0.36,
+    "rank_p10": 4,
+    "rank_p90": 33,
+    "pressure": {
+     "balls": 129,
+     "runs": 134,
+     "econ": 6.23,
+     "boundary_pct": 10.9,
+     "dot_pct": 42.6,
+     "wkts": 5,
+     "balls_per_wkt": 25.8,
+     "value_per100": 36.0
+    },
+    "normal": {
+     "balls": 403,
+     "runs": 567,
+     "econ": 8.44,
+     "boundary_pct": 19.9,
+     "dot_pct": 33.3,
+     "wkts": 24,
+     "balls_per_wkt": 16.8,
+     "value_per100": 12.5
+    },
+    "comp": {
+     "IPL": {
+      "balls": 52,
+      "runs": 45,
+      "econ": 5.19,
+      "boundary_pct": 9.6,
+      "dot_pct": 50.0,
+      "wkts": 2,
+      "balls_per_wkt": 26.0,
+      "value_per100": 54.8
+     },
+     "T20I": {
+      "balls": 77,
+      "runs": 89,
+      "econ": 6.94,
+      "boundary_pct": 11.7,
+      "dot_pct": 37.7,
+      "wkts": 3,
+      "balls_per_wkt": 25.7,
+      "value_per100": 23.3
+     }
+    },
+    "innings": {
+     "1st innings": {
+      "balls": 69,
+      "runs": 58,
+      "econ": 5.04,
+      "boundary_pct": 7.2,
+      "dot_pct": 50.7,
+      "wkts": 3,
+      "balls_per_wkt": 23.0,
+      "value_per100": 49.3
+     },
+     "Chase (2nd innings)": {
+      "balls": 60,
+      "runs": 76,
+      "econ": 7.6,
+      "boundary_pct": 15.0,
+      "dot_pct": 33.3,
+      "wkts": 2,
+      "balls_per_wkt": 30.0,
+      "value_per100": 20.7
+     }
+    },
+    "phase": {
+     "Powerplay (1-6)": {
+      "balls": 65,
+      "runs": 44,
+      "econ": 4.06,
+      "boundary_pct": 6.2,
+      "dot_pct": 56.9,
+      "wkts": 1,
+      "balls_per_wkt": 65.0,
+      "value_per100": 53.0
+     },
+     "Middle (7-15)": {
+      "balls": 34,
+      "runs": 46,
+      "econ": 8.12,
+      "boundary_pct": 17.6,
+      "dot_pct": 32.4,
+      "wkts": 1,
+      "balls_per_wkt": 34.0,
+      "value_per100": 0.6
+     },
+     "Death (16-20)": {
+      "balls": 30,
+      "runs": 44,
+      "econ": 8.8,
+      "boundary_pct": 13.3,
+      "dot_pct": 23.3,
+      "wkts": 3,
+      "balls_per_wkt": 10.0,
+      "value_per100": 39.4
+     }
+    },
+    "wickets_context": {
+     "0-2 wkts down": {
+      "balls": 68,
+      "runs": 52,
+      "econ": 4.59,
+      "boundary_pct": 7.4,
+      "dot_pct": 54.4,
+      "wkts": 1,
+      "balls_per_wkt": 68.0,
+      "value_per100": 49.7
+     },
+     "3-5 wkts down": {
+      "balls": 46,
+      "runs": 65,
+      "econ": 8.48,
+      "boundary_pct": 17.4,
+      "dot_pct": 30.4,
+      "wkts": 2,
+      "balls_per_wkt": 23.0,
+      "value_per100": 13.7
+     },
+     "6+ wkts down": {
+      "balls": 15,
+      "runs": 17,
+      "econ": 6.8,
+      "boundary_pct": 6.7,
+      "dot_pct": 26.7,
+      "wkts": 2,
+      "balls_per_wkt": 7.5,
+      "value_per100": 42.2
+     }
+    },
+    "season": {
+     "2022": {
+      "balls": 41,
+      "runs": 44,
+      "econ": 6.44,
+      "boundary_pct": 9.8,
+      "dot_pct": 41.5,
+      "wkts": 2,
+      "balls_per_wkt": 20.5,
+      "value_per100": 47.2
+     },
+     "2023": {
+      "balls": 63,
+      "runs": 60,
+      "econ": 5.71,
+      "boundary_pct": 9.5,
+      "dot_pct": 44.4,
+      "wkts": 2,
+      "balls_per_wkt": 31.5,
+      "value_per100": 39.7
+     },
+     "2024": {
+      "balls": 6,
+      "runs": 2,
+      "econ": 2.0,
+      "boundary_pct": 0.0,
+      "dot_pct": 66.7,
+      "wkts": 0,
+      "balls_per_wkt": null,
+      "value_per100": 68.5
+     },
+     "2025": {
+      "balls": 19,
+      "runs": 28,
+      "econ": 8.84,
+      "boundary_pct": 21.1,
+      "dot_pct": 31.6,
+      "wkts": 1,
+      "balls_per_wkt": 19.0,
+      "value_per100": -10.5
+     }
+    },
+    "match_series": [
+     {
+      "date": "2022-07-18",
+      "value": 8.58,
+      "balls": 5,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-07-22",
+      "value": 4.0,
+      "balls": 15,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-08-11",
+      "value": 3.61,
+      "balls": 4,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-08-17",
+      "value": 5.48,
+      "balls": 9,
+      "comp": "T20I"
+     },
+     {
+      "date": "2023-03-31",
+      "value": -1.81,
+      "balls": 4,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-04",
+      "value": 11.53,
+      "balls": 19,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-09",
+      "value": 1.49,
+      "balls": 13,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-13",
+      "value": 10.43,
+      "balls": 11,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-12-07",
+      "value": 3.53,
+      "balls": 6,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-03-15",
+      "value": 1.91,
+      "balls": 5,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-02-23",
+      "value": 3.8,
+      "balls": 11,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-11-29",
+      "value": -5.79,
+      "balls": 8,
+      "comp": "T20I"
+     }
+    ],
+    "percentiles": {
+     "P": 85.0,
+     "C": 100.0,
+     "dev": 78.0,
+     "n": 8.0,
+     "boundary_pct": 3.0
+    },
+    "strengths": [
+     "Economy under pressure: economy 6.23 (better than 98% of eligible players)",
+     "Dot-ball pressure: 42.6% dot balls (better than 90% of eligible players)",
+     "Boundary prevention: 10.9% of balls conceded for four or six (better than 97% of eligible players)",
+     "Chasing under pressure: 20.7 win-probability points per 100 balls (top 23% of eligible players)",
+     "Death overs (16-20) under pressure: 39.4 win-probability points per 100 balls (top 11% of eligible players)",
+     "Consistency: positive in 10 of 12 pressure innings",
+     "Steps up: performs better under pressure than his own everyday level suggests"
+    ],
+    "weaknesses": [
+     "Wicket-taking under pressure: a wicket every 25.8 balls (weaker than 83% of eligible players)",
+     "Small sample: 129 pressure balls in 12 pressure innings, so higher uncertainty",
+     "Ranking is not firm: stays in the top 10 in only 36% of bootstrap resamples"
+    ]
+   },
+   {
+    "rank": 10,
+    "name": "Mitchell Santner",
+    "pid": 4101,
+    "score": 1.28,
+    "pressure_value": 10.2,
+    "everyday_skill": 4.2,
+    "stepup": 6.0,
+    "consistency_raw": 0.59,
+    "consistency_smoothed": 0.56,
+    "pressure_balls": 213,
+    "pressure_innings": 22,
+    "positive_innings": 13,
+    "top10_prob": 0.45,
+    "rank_p10": 3,
+    "rank_p90": 32,
+    "pressure": {
+     "balls": 213,
+     "runs": 277,
+     "econ": 7.8,
+     "boundary_pct": 15.5,
+     "dot_pct": 31.0,
+     "wkts": 14,
+     "balls_per_wkt": 15.2,
+     "value_per100": 34.2
+    },
+    "normal": {
+     "balls": 991,
+     "runs": 1190,
+     "econ": 7.2,
+     "boundary_pct": 13.3,
+     "dot_pct": 34.9,
+     "wkts": 44,
+     "balls_per_wkt": 22.5,
+     "value_per100": 3.0
+    },
+    "comp": {
+     "IPL": {
+      "balls": 109,
+      "runs": 149,
+      "econ": 8.2,
+      "boundary_pct": 17.4,
+      "dot_pct": 29.4,
+      "wkts": 6,
+      "balls_per_wkt": 18.2,
+      "value_per100": 7.9
+     },
+     "T20I": {
+      "balls": 104,
+      "runs": 128,
+      "econ": 7.38,
+      "boundary_pct": 13.5,
+      "dot_pct": 32.7,
+      "wkts": 8,
+      "balls_per_wkt": 13.0,
+      "value_per100": 61.8
+     }
+    },
+    "innings": {
+     "1st innings": {
+      "balls": 24,
+      "runs": 41,
+      "econ": 10.25,
+      "boundary_pct": 29.2,
+      "dot_pct": 33.3,
+      "wkts": 1,
+      "balls_per_wkt": 24.0,
+      "value_per100": 0.9
+     },
+     "Chase (2nd innings)": {
+      "balls": 189,
+      "runs": 236,
+      "econ": 7.49,
+      "boundary_pct": 13.8,
+      "dot_pct": 30.7,
+      "wkts": 13,
+      "balls_per_wkt": 14.5,
+      "value_per100": 38.5
+     }
+    },
+    "phase": {
+     "Powerplay (1-6)": {
+      "balls": 56,
+      "runs": 73,
+      "econ": 7.82,
+      "boundary_pct": 19.6,
+      "dot_pct": 42.9,
+      "wkts": 2,
+      "balls_per_wkt": 28.0,
+      "value_per100": 27.6
+     },
+     "Middle (7-15)": {
+      "balls": 119,
+      "runs": 143,
+      "econ": 7.21,
+      "boundary_pct": 11.8,
+      "dot_pct": 27.7,
+      "wkts": 8,
+      "balls_per_wkt": 14.9,
+      "value_per100": 46.3
+     },
+     "Death (16-20)": {
+      "balls": 38,
+      "runs": 61,
+      "econ": 9.63,
+      "boundary_pct": 21.1,
+      "dot_pct": 23.7,
+      "wkts": 4,
+      "balls_per_wkt": 9.5,
+      "value_per100": 6.0
+     }
+    },
+    "wickets_context": {
+     "0-2 wkts down": {
+      "balls": 128,
+      "runs": 162,
+      "econ": 7.59,
+      "boundary_pct": 15.6,
+      "dot_pct": 34.4,
+      "wkts": 8,
+      "balls_per_wkt": 16.0,
+      "value_per100": 34.5
+     },
+     "3-5 wkts down": {
+      "balls": 67,
+      "runs": 84,
+      "econ": 7.52,
+      "boundary_pct": 13.4,
+      "dot_pct": 26.9,
+      "wkts": 4,
+      "balls_per_wkt": 16.8,
+      "value_per100": 41.6
+     },
+     "6+ wkts down": {
+      "balls": 18,
+      "runs": 31,
+      "econ": 10.33,
+      "boundary_pct": 22.2,
+      "dot_pct": 22.2,
+      "wkts": 2,
+      "balls_per_wkt": 9.0,
+      "value_per100": 5.0
+     }
+    },
+    "season": {
+     "2022": {
+      "balls": 33,
+      "runs": 48,
+      "econ": 8.73,
+      "boundary_pct": 18.2,
+      "dot_pct": 30.3,
+      "wkts": 2,
+      "balls_per_wkt": 16.5,
+      "value_per100": 3.5
+     },
+     "2023": {
+      "balls": 39,
+      "runs": 34,
+      "econ": 5.23,
+      "boundary_pct": 12.8,
+      "dot_pct": 56.4,
+      "wkts": 3,
+      "balls_per_wkt": 13.0,
+      "value_per100": 70.6
+     },
+     "2024": {
+      "balls": 55,
+      "runs": 68,
+      "econ": 7.42,
+      "boundary_pct": 10.9,
+      "dot_pct": 25.5,
+      "wkts": 3,
+      "balls_per_wkt": 18.3,
+      "value_per100": 69.9
+     },
+     "2025": {
+      "balls": 49,
+      "runs": 74,
+      "econ": 9.06,
+      "boundary_pct": 18.4,
+      "dot_pct": 18.4,
+      "wkts": 2,
+      "balls_per_wkt": 24.5,
+      "value_per100": -36.3
+     },
+     "2026": {
+      "balls": 37,
+      "runs": 53,
+      "econ": 8.59,
+      "boundary_pct": 18.9,
+      "dot_pct": 29.7,
+      "wkts": 4,
+      "balls_per_wkt": 9.2,
+      "value_per100": 63.7
+     }
+    },
+    "match_series": [
+     {
+      "date": "2022-05-01",
+      "value": -8.21,
+      "balls": 13,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-05-20",
+      "value": 4.03,
+      "balls": 6,
+      "comp": "IPL"
+     },
+     {
+      "date": "2022-07-20",
+      "value": -1.64,
+      "balls": 6,
+      "comp": "T20I"
+     },
+     {
+      "date": "2022-10-11",
+      "value": 0.29,
+      "balls": 5,
+      "comp": "T20I"
+     },
+     {
+      "date": "2023-01-27",
+      "value": 9.82,
+      "balls": 5,
+      "comp": "T20I"
+     },
+     {
+      "date": "2023-03-31",
+      "value": -0.87,
+      "balls": 8,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-04-03",
+      "value": 14.15,
+      "balls": 6,
+      "comp": "IPL"
+     },
+     {
+      "date": "2023-08-17",
+      "value": 5.55,
+      "balls": 6,
+      "comp": "T20I"
+     },
+     {
+      "date": "2023-08-20",
+      "value": 0.97,
+      "balls": 6,
+      "comp": "T20I"
+     },
+     {
+      "date": "2023-09-05",
+      "value": -2.07,
+      "balls": 8,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-01-14",
+      "value": 2.1,
+      "balls": 11,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-02-21",
+      "value": 9.28,
+      "balls": 15,
+      "comp": "T20I"
+     },
+     {
+      "date": "2024-05-05",
+      "value": 6.29,
+      "balls": 10,
+      "comp": "IPL"
+     },
+     {
+      "date": "2024-12-30",
+      "value": 19.65,
+      "balls": 15,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-01-02",
+      "value": -0.45,
+      "balls": 5,
+      "comp": "T20I"
+     },
+     {
+      "date": "2025-04-13",
+      "value": -7.28,
+      "balls": 14,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-21",
+      "value": -0.93,
+      "balls": 6,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-05-26",
+      "value": -7.54,
+      "balls": 14,
+      "comp": "IPL"
+     },
+     {
+      "date": "2025-06-01",
+      "value": -4.03,
+      "balls": 7,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-04-04",
+      "value": 8.16,
+      "balls": 16,
+      "comp": "IPL"
+     },
+     {
+      "date": "2026-10-22",
+      "value": 0.33,
+      "balls": 13,
+      "comp": "T20I"
+     },
+     {
+      "date": "2026-10-24",
+      "value": 15.07,
+      "balls": 7,
+      "comp": "T20I"
+     }
+    ],
+    "percentiles": {
+     "P": 91.0,
+     "C": 75.0,
+     "dev": 90.0,
+     "n": 47.0,
+     "boundary_pct": 24.0
+    },
+    "strengths": [
+     "Boundary prevention: 15.5% of balls conceded for four or six (better than 76% of eligible players)",
+     "Wicket-taking under pressure: a wicket every 15.2 balls (better than 78% of eligible players)",
+     "Chasing under pressure: 38.5 win-probability points per 100 balls (top 1% of eligible players)",
+     "Consistency: positive in 13 of 22 pressure innings",
+     "Steps up: performs better under pressure than his own everyday level suggests"
+    ],
+    "weaknesses": [
+     "Ranking is not firm: stays in the top 10 in only 45% of bootstrap resamples"
+    ]
+   }
+  ]
+ },
+ "leaderboard": {
+  "bat": [
+   {
+    "rank": 1,
+    "name": "Phil Salt",
+    "score": 2.17,
+    "pressure_value": 22.4,
+    "consistency": 0.71,
+    "stepup": -1.2,
+    "pressure_balls": 361,
+    "pressure_innings": 28,
+    "top10_prob": 0.98
+   },
+   {
+    "rank": 2,
+    "name": "Vaibhav Sooryavanshi",
+    "score": 2.16,
+    "pressure_value": 20.3,
+    "consistency": 0.69,
+    "stepup": 3.7,
+    "pressure_balls": 164,
+    "pressure_innings": 13,
+    "top10_prob": 0.91
+   },
+   {
+    "rank": 3,
+    "name": "Abhishek Sharma",
+    "score": 1.73,
+    "pressure_value": 21.0,
+    "consistency": 0.6,
+    "stepup": -2.8,
+    "pressure_balls": 550,
+    "pressure_innings": 48,
+    "top10_prob": 0.88
+   },
+   {
+    "rank": 4,
+    "name": "Yashasvi Jaiswal",
+    "score": 1.47,
+    "pressure_value": 15.1,
+    "consistency": 0.66,
+    "stepup": -0.1,
+    "pressure_balls": 531,
+    "pressure_innings": 38,
+    "top10_prob": 0.81
+   },
+   {
+    "rank": 5,
+    "name": "Travis Head",
+    "score": 1.21,
+    "pressure_value": 14.9,
+    "consistency": 0.55,
+    "stepup": -0.0,
+    "pressure_balls": 303,
+    "pressure_innings": 31,
+    "top10_prob": 0.52
+   },
+   {
+    "rank": 6,
+    "name": "Ryan Rickelton",
+    "score": 1.11,
+    "pressure_value": 12.8,
+    "consistency": 0.55,
+    "stepup": 1.5,
+    "pressure_balls": 311,
+    "pressure_innings": 22,
+    "top10_prob": 0.43
+   },
+   {
+    "rank": 7,
+    "name": "Josh Inglis",
+    "score": 1.05,
+    "pressure_value": 10.4,
+    "consistency": 0.61,
+    "stepup": 2.3,
+    "pressure_balls": 216,
+    "pressure_innings": 18,
+    "top10_prob": 0.45
+   },
+   {
+    "rank": 8,
+    "name": "Virat Kohli",
+    "score": 0.99,
+    "pressure_value": 7.8,
+    "consistency": 0.68,
+    "stepup": 2.6,
+    "pressure_balls": 533,
+    "pressure_innings": 31,
+    "top10_prob": 0.43
+   },
+   {
+    "rank": 9,
+    "name": "Priyansh Arya",
+    "score": 0.96,
+    "pressure_value": 9.4,
+    "consistency": 0.64,
+    "stepup": 2.0,
+    "pressure_balls": 128,
+    "pressure_innings": 14,
+    "top10_prob": 0.38
+   },
+   {
+    "rank": 10,
+    "name": "Jonny Bairstow",
+    "score": 0.89,
+    "pressure_value": 10.0,
+    "consistency": 0.57,
+    "stepup": 1.8,
+    "pressure_balls": 148,
+    "pressure_innings": 14,
+    "top10_prob": 0.4
+   },
+   {
+    "rank": 11,
+    "name": "Pathum Nissanka",
+    "score": 0.86,
+    "pressure_value": 9.7,
+    "consistency": 0.58,
+    "stepup": 0.7,
+    "pressure_balls": 535,
+    "pressure_innings": 36,
+    "top10_prob": 0.26
+   },
+   {
+    "rank": 12,
+    "name": "Rovman Powell",
+    "score": 0.86,
+    "pressure_value": 7.4,
+    "consistency": 0.69,
+    "stepup": 1.9,
+    "pressure_balls": 219,
+    "pressure_innings": 16,
+    "top10_prob": 0.18
+   },
+   {
+    "rank": 13,
+    "name": "Tim Seifert",
+    "score": 0.85,
+    "pressure_value": 9.2,
+    "consistency": 0.53,
+    "stepup": 3.2,
+    "pressure_balls": 169,
+    "pressure_innings": 15,
+    "top10_prob": 0.42
+   },
+   {
+    "rank": 14,
+    "name": "Tim David",
+    "score": 0.82,
+    "pressure_value": 8.2,
+    "consistency": 0.6,
+    "stepup": 2.3,
+    "pressure_balls": 289,
+    "pressure_innings": 20,
+    "top10_prob": 0.34
+   },
+   {
+    "rank": 15,
+    "name": "Suryakumar Yadav",
+    "score": 0.81,
+    "pressure_value": 12.8,
+    "consistency": 0.5,
+    "stepup": -1.6,
+    "pressure_balls": 444,
+    "pressure_innings": 32,
+    "top10_prob": 0.23
+   },
+   {
+    "rank": 16,
+    "name": "Heinrich Klaasen",
+    "score": 0.8,
+    "pressure_value": 10.1,
+    "consistency": 0.44,
+    "stepup": 3.4,
+    "pressure_balls": 190,
+    "pressure_innings": 18,
+    "top10_prob": 0.29
+   },
+   {
+    "rank": 17,
+    "name": "Reeza Hendricks",
+    "score": 0.77,
+    "pressure_value": 10.7,
+    "consistency": 0.56,
+    "stepup": -0.8,
+    "pressure_balls": 229,
+    "pressure_innings": 16,
+    "top10_prob": 0.17
+   },
+   {
+    "rank": 18,
+    "name": "Kusal Mendis",
+    "score": 0.73,
+    "pressure_value": 8.1,
+    "consistency": 0.58,
+    "stepup": 1.4,
+    "pressure_balls": 381,
+    "pressure_innings": 24,
+    "top10_prob": 0.21
+   },
+   {
+    "rank": 19,
+    "name": "Cameron Green",
+    "score": 0.7,
+    "pressure_value": 6.4,
+    "consistency": 0.59,
+    "stepup": 3.1,
+    "pressure_balls": 228,
+    "pressure_innings": 22,
+    "top10_prob": 0.25
+   },
+   {
+    "rank": 20,
+    "name": "Prabhsimran Singh",
+    "score": 0.57,
+    "pressure_value": 10.8,
+    "consistency": 0.5,
+    "stepup": -2.5,
+    "pressure_balls": 293,
+    "pressure_innings": 24,
+    "top10_prob": 0.22
+   },
+   {
+    "rank": 21,
+    "name": "Shreyas Iyer",
+    "score": 0.49,
+    "pressure_value": 6.5,
+    "consistency": 0.53,
+    "stepup": 1.7,
+    "pressure_balls": 310,
+    "pressure_innings": 17,
+    "top10_prob": 0.15
+   },
+   {
+    "rank": 22,
+    "name": "Nicholas Pooran",
+    "score": 0.49,
+    "pressure_value": 5.2,
+    "consistency": 0.57,
+    "stepup": 2.3,
+    "pressure_balls": 324,
+    "pressure_innings": 23,
+    "top10_prob": 0.2
+   },
+   {
+    "rank": 23,
+    "name": "Sai Sudharsan",
+    "score": 0.47,
+    "pressure_value": 10.2,
+    "consistency": 0.46,
+    "stepup": -2.0,
+    "pressure_balls": 417,
+    "pressure_innings": 28,
+    "top10_prob": 0.09
+   },
+   {
+    "rank": 24,
+    "name": "David Warner",
+    "score": 0.45,
+    "pressure_value": 7.9,
+    "consistency": 0.5,
+    "stepup": -0.1,
+    "pressure_balls": 296,
+    "pressure_innings": 18,
+    "top10_prob": 0.06
+   },
+   {
+    "rank": 25,
+    "name": "Lokesh Rahul",
+    "score": 0.44,
+    "pressure_value": 10.0,
+    "consistency": 0.48,
+    "stepup": -2.6,
+    "pressure_balls": 419,
+    "pressure_innings": 27,
+    "top10_prob": 0.11
+   },
+   {
+    "rank": 26,
+    "name": "Shai Hope",
+    "score": 0.34,
+    "pressure_value": 8.8,
+    "consistency": 0.45,
+    "stepup": -1.7,
+    "pressure_balls": 179,
+    "pressure_innings": 20,
+    "top10_prob": 0.11
+   },
+   {
+    "rank": 27,
+    "name": "Shubman Gill",
+    "score": 0.29,
+    "pressure_value": 6.9,
+    "consistency": 0.5,
+    "stepup": -1.1,
+    "pressure_balls": 558,
+    "pressure_innings": 40,
+    "top10_prob": 0.04
+   },
+   {
+    "rank": 28,
+    "name": "Sanju Samson",
+    "score": 0.28,
+    "pressure_value": 3.3,
+    "consistency": 0.62,
+    "stepup": 0.1,
+    "pressure_balls": 421,
+    "pressure_innings": 34,
+    "top10_prob": 0.04
+   },
+   {
+    "rank": 29,
+    "name": "Glenn Maxwell",
+    "score": 0.27,
+    "pressure_value": 2.2,
+    "consistency": 0.67,
+    "stepup": 1.4,
+    "pressure_balls": 132,
+    "pressure_innings": 12,
+    "top10_prob": 0.07
+   },
+   {
+    "rank": 30,
+    "name": "Jos Buttler",
+    "score": 0.26,
+    "pressure_value": 5.7,
+    "consistency": 0.52,
+    "stepup": -0.5,
+    "pressure_balls": 414,
+    "pressure_innings": 27,
+    "top10_prob": 0.03
+   },
+   {
+    "rank": 31,
+    "name": "Rahul Tripathi",
+    "score": 0.21,
+    "pressure_value": 2.9,
+    "consistency": 0.6,
+    "stepup": 0.8,
+    "pressure_balls": 182,
+    "pressure_innings": 15,
+    "top10_prob": 0.08
+   },
+   {
+    "rank": 32,
+    "name": "Kyle Mayers",
+    "score": 0.15,
+    "pressure_value": 7.5,
+    "consistency": 0.37,
+    "stepup": -0.6,
+    "pressure_balls": 193,
+    "pressure_innings": 19,
+    "top10_prob": 0.05
+   },
+   {
+    "rank": 33,
+    "name": "Brian Bennett",
+    "score": 0.12,
+    "pressure_value": 1.4,
+    "consistency": 0.61,
+    "stepup": 0.8,
+    "pressure_balls": 264,
+    "pressure_innings": 23,
+    "top10_prob": 0.02
+   },
+   {
+    "rank": 34,
+    "name": "Ajinkya Rahane",
+    "score": 0.05,
+    "pressure_value": 3.3,
+    "consistency": 0.62,
+    "stepup": -2.3,
+    "pressure_balls": 196,
+    "pressure_innings": 13,
+    "top10_prob": 0.03
+   },
+   {
+    "rank": 35,
+    "name": "David Miller",
+    "score": 0.01,
+    "pressure_value": 3.1,
+    "consistency": 0.5,
+    "stepup": -0.0,
+    "pressure_balls": 312,
+    "pressure_innings": 22,
+    "top10_prob": 0.03
+   },
+   {
+    "rank": 36,
+    "name": "Riyan Parag",
+    "score": 0.0,
+    "pressure_value": 4.5,
+    "consistency": 0.47,
+    "stepup": -1.3,
+    "pressure_balls": 214,
+    "pressure_innings": 15,
+    "top10_prob": 0.01
+   },
+   {
+    "rank": 37,
+    "name": "Wriddhiman Saha",
+    "score": -0.02,
+    "pressure_value": 5.1,
+    "consistency": 0.5,
+    "stepup": -3.2,
+    "pressure_balls": 224,
+    "pressure_innings": 16,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 38,
+    "name": "Mitchell Marsh",
+    "score": -0.03,
+    "pressure_value": 8.3,
+    "consistency": 0.45,
+    "stepup": -6.4,
+    "pressure_balls": 519,
+    "pressure_innings": 31,
+    "top10_prob": 0.03
+   },
+   {
+    "rank": 39,
+    "name": "Sikandar Raza",
+    "score": -0.1,
+    "pressure_value": 0.3,
+    "consistency": 0.58,
+    "stepup": 0.5,
+    "pressure_balls": 169,
+    "pressure_innings": 12,
+    "top10_prob": 0.01
+   },
+   {
+    "rank": 40,
+    "name": "Shivam Dube",
+    "score": -0.16,
+    "pressure_value": 2.8,
+    "consistency": 0.47,
+    "stepup": -1.4,
+    "pressure_balls": 230,
+    "pressure_innings": 15,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 41,
+    "name": "Sahibzada Farhan",
+    "score": -0.17,
+    "pressure_value": 4.9,
+    "consistency": 0.36,
+    "stepup": -1.7,
+    "pressure_balls": 134,
+    "pressure_innings": 14,
+    "top10_prob": 0.01
+   },
+   {
+    "rank": 42,
+    "name": "Faf du Plessis",
+    "score": -0.18,
+    "pressure_value": 1.9,
+    "consistency": 0.5,
+    "stepup": -1.1,
+    "pressure_balls": 257,
+    "pressure_innings": 22,
+    "top10_prob": 0.01
+   },
+   {
+    "rank": 43,
+    "name": "Ruturaj Gaikwad",
+    "score": -0.18,
+    "pressure_value": 4.2,
+    "consistency": 0.45,
+    "stepup": -3.0,
+    "pressure_balls": 241,
+    "pressure_innings": 20,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 44,
+    "name": "Fakhar Zaman",
+    "score": -0.22,
+    "pressure_value": -4.1,
+    "consistency": 0.67,
+    "stepup": 2.9,
+    "pressure_balls": 172,
+    "pressure_innings": 12,
+    "top10_prob": 0.01
+   },
+   {
+    "rank": 45,
+    "name": "Namboori Tilak Varma",
+    "score": -0.24,
+    "pressure_value": 2.5,
+    "consistency": 0.46,
+    "stepup": -1.6,
+    "pressure_balls": 488,
+    "pressure_innings": 35,
+    "top10_prob": 0.01
+   },
+   {
+    "rank": 46,
+    "name": "Ishan Kishan",
+    "score": -0.26,
+    "pressure_value": -1.0,
+    "consistency": 0.5,
+    "stepup": 1.6,
+    "pressure_balls": 595,
+    "pressure_innings": 42,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 47,
+    "name": "Saim Ayub",
+    "score": -0.29,
+    "pressure_value": -0.6,
+    "consistency": 0.53,
+    "stepup": -0.2,
+    "pressure_balls": 169,
+    "pressure_innings": 15,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 48,
+    "name": "Devon Conway",
+    "score": -0.31,
+    "pressure_value": 3.3,
+    "consistency": 0.43,
+    "stepup": -3.4,
+    "pressure_balls": 192,
+    "pressure_innings": 14,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 49,
+    "name": "Rohit Sharma",
+    "score": -0.37,
+    "pressure_value": 0.6,
+    "consistency": 0.49,
+    "stepup": -1.7,
+    "pressure_balls": 539,
+    "pressure_innings": 39,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 50,
+    "name": "Rahmanullah Gurbaz",
+    "score": -0.38,
+    "pressure_value": 4.0,
+    "consistency": 0.38,
+    "stepup": -3.8,
+    "pressure_balls": 222,
+    "pressure_innings": 21,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 51,
+    "name": "Liam Livingstone",
+    "score": -0.39,
+    "pressure_value": 1.6,
+    "consistency": 0.46,
+    "stepup": -3.1,
+    "pressure_balls": 147,
+    "pressure_innings": 13,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 52,
+    "name": "Venkatesh Iyer",
+    "score": -0.42,
+    "pressure_value": 3.2,
+    "consistency": 0.25,
+    "stepup": -0.9,
+    "pressure_balls": 131,
+    "pressure_innings": 12,
+    "top10_prob": 0.01
+   },
+   {
+    "rank": 53,
+    "name": "Tristan Stubbs",
+    "score": -0.42,
+    "pressure_value": -1.1,
+    "consistency": 0.5,
+    "stepup": -0.5,
+    "pressure_balls": 191,
+    "pressure_innings": 16,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 54,
+    "name": "Quinton de Kock",
+    "score": -0.42,
+    "pressure_value": 2.1,
+    "consistency": 0.38,
+    "stepup": -1.4,
+    "pressure_balls": 328,
+    "pressure_innings": 24,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 55,
+    "name": "Shimron Hetmyer",
+    "score": -0.46,
+    "pressure_value": 0.0,
+    "consistency": 0.5,
+    "stepup": -2.6,
+    "pressure_balls": 205,
+    "pressure_innings": 20,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 56,
+    "name": "Paul Stirling",
+    "score": -0.49,
+    "pressure_value": 2.3,
+    "consistency": 0.33,
+    "stepup": -2.2,
+    "pressure_balls": 164,
+    "pressure_innings": 15,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 57,
+    "name": "Brandon King",
+    "score": -0.51,
+    "pressure_value": 2.4,
+    "consistency": 0.43,
+    "stepup": -4.8,
+    "pressure_balls": 242,
+    "pressure_innings": 21,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 58,
+    "name": "Aiden Markram",
+    "score": -0.51,
+    "pressure_value": 3.0,
+    "consistency": 0.41,
+    "stepup": -4.9,
+    "pressure_balls": 309,
+    "pressure_innings": 27,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 59,
+    "name": "Babar Azam",
+    "score": -0.58,
+    "pressure_value": 1.8,
+    "consistency": 0.35,
+    "stepup": -3.3,
+    "pressure_balls": 240,
+    "pressure_innings": 17,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 60,
+    "name": "Nitish Rana",
+    "score": -0.61,
+    "pressure_value": -1.7,
+    "consistency": 0.46,
+    "stepup": -1.7,
+    "pressure_balls": 189,
+    "pressure_innings": 13,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 61,
+    "name": "Rahul Tewatia",
+    "score": -0.64,
+    "pressure_value": -2.5,
+    "consistency": 0.43,
+    "stepup": -0.3,
+    "pressure_balls": 172,
+    "pressure_innings": 14,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 62,
+    "name": "Rinku Singh",
+    "score": -0.66,
+    "pressure_value": -3.1,
+    "consistency": 0.43,
+    "stepup": 0.2,
+    "pressure_balls": 176,
+    "pressure_innings": 14,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 63,
+    "name": "Mohammad Rizwan",
+    "score": -0.7,
+    "pressure_value": -0.4,
+    "consistency": 0.31,
+    "stepup": -1.1,
+    "pressure_balls": 320,
+    "pressure_innings": 16,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 64,
+    "name": "Liton Das",
+    "score": -0.72,
+    "pressure_value": -1.2,
+    "consistency": 0.38,
+    "stepup": -1.7,
+    "pressure_balls": 159,
+    "pressure_innings": 16,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 65,
+    "name": "Rachin Ravindra",
+    "score": -0.74,
+    "pressure_value": -3.5,
+    "consistency": 0.46,
+    "stepup": -1.1,
+    "pressure_balls": 167,
+    "pressure_innings": 13,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 66,
+    "name": "William Jacks",
+    "score": -0.77,
+    "pressure_value": -1.6,
+    "consistency": 0.47,
+    "stepup": -4.5,
+    "pressure_balls": 154,
+    "pressure_innings": 19,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 67,
+    "name": "Dasun Shanaka",
+    "score": -0.83,
+    "pressure_value": -2.3,
+    "consistency": 0.4,
+    "stepup": -2.6,
+    "pressure_balls": 202,
+    "pressure_innings": 15,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 68,
+    "name": "Dhruv Jurel",
+    "score": -0.87,
+    "pressure_value": -2.3,
+    "consistency": 0.44,
+    "stepup": -4.1,
+    "pressure_balls": 227,
+    "pressure_innings": 16,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 69,
+    "name": "Hardik Pandya",
+    "score": -0.93,
+    "pressure_value": -2.6,
+    "consistency": 0.36,
+    "stepup": -2.3,
+    "pressure_balls": 302,
+    "pressure_innings": 22,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 70,
+    "name": "Sherfane Rutherford",
+    "score": -0.94,
+    "pressure_value": -2.0,
+    "consistency": 0.33,
+    "stepup": -3.3,
+    "pressure_balls": 158,
+    "pressure_innings": 12,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 71,
+    "name": "Andrew Balbirnie",
+    "score": -0.98,
+    "pressure_value": -3.6,
+    "consistency": 0.31,
+    "stepup": -1.0,
+    "pressure_balls": 179,
+    "pressure_innings": 13,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 72,
+    "name": "Jitesh Sharma",
+    "score": -0.98,
+    "pressure_value": -4.4,
+    "consistency": 0.38,
+    "stepup": -1.6,
+    "pressure_balls": 149,
+    "pressure_innings": 13,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 73,
+    "name": "Ayush Badoni",
+    "score": -1.0,
+    "pressure_value": -5.7,
+    "consistency": 0.42,
+    "stepup": -1.1,
+    "pressure_balls": 133,
+    "pressure_innings": 12,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 74,
+    "name": "Rishabh Pant",
+    "score": -1.02,
+    "pressure_value": -8.6,
+    "consistency": 0.53,
+    "stepup": 0.1,
+    "pressure_balls": 205,
+    "pressure_innings": 15,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 75,
+    "name": "Axar Patel",
+    "score": -1.63,
+    "pressure_value": -11.4,
+    "consistency": 0.47,
+    "stepup": -3.5,
+    "pressure_balls": 261,
+    "pressure_innings": 19,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 76,
+    "name": "Ibrahim Zadran",
+    "score": -2.24,
+    "pressure_value": -10.7,
+    "consistency": 0.0,
+    "stepup": -3.2,
+    "pressure_balls": 147,
+    "pressure_innings": 12,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 77,
+    "name": "Charith Asalanka",
+    "score": -2.45,
+    "pressure_value": -15.8,
+    "consistency": 0.25,
+    "stepup": -4.8,
+    "pressure_balls": 153,
+    "pressure_innings": 12,
+    "top10_prob": 0.0
+   }
+  ],
+  "bowl": [
+   {
+    "rank": 1,
+    "name": "Rashid Khan",
+    "score": 2.27,
+    "pressure_value": 18.6,
+    "consistency": 0.62,
+    "stepup": 9.1,
+    "pressure_balls": 438,
+    "pressure_innings": 34,
+    "top10_prob": 0.93
+   },
+   {
+    "rank": 2,
+    "name": "Kuldeep Yadav",
+    "score": 1.66,
+    "pressure_value": 11.6,
+    "consistency": 0.73,
+    "stepup": 6.3,
+    "pressure_balls": 294,
+    "pressure_innings": 22,
+    "top10_prob": 0.75
+   },
+   {
+    "rank": 3,
+    "name": "Mohammad Nawaz",
+    "score": 1.61,
+    "pressure_value": 11.3,
+    "consistency": 0.81,
+    "stepup": 3.5,
+    "pressure_balls": 199,
+    "pressure_innings": 16,
+    "top10_prob": 0.63
+   },
+   {
+    "rank": 4,
+    "name": "Mujeeb Ur Rahman",
+    "score": 1.45,
+    "pressure_value": 11.7,
+    "consistency": 0.65,
+    "stepup": 4.8,
+    "pressure_balls": 200,
+    "pressure_innings": 17,
+    "top10_prob": 0.56
+   },
+   {
+    "rank": 5,
+    "name": "Krunal Pandya",
+    "score": 1.43,
+    "pressure_value": 9.8,
+    "consistency": 0.67,
+    "stepup": 7.1,
+    "pressure_balls": 354,
+    "pressure_innings": 27,
+    "top10_prob": 0.57
+   },
+   {
+    "rank": 6,
+    "name": "Sikandar Raza",
+    "score": 1.4,
+    "pressure_value": 12.1,
+    "consistency": 0.62,
+    "stepup": 4.3,
+    "pressure_balls": 165,
+    "pressure_innings": 13,
+    "top10_prob": 0.51
+   },
+   {
+    "rank": 7,
+    "name": "Sunil Narine",
+    "score": 1.34,
+    "pressure_value": 12.1,
+    "consistency": 0.53,
+    "stepup": 5.8,
+    "pressure_balls": 243,
+    "pressure_innings": 19,
+    "top10_prob": 0.5
+   },
+   {
+    "rank": 8,
+    "name": "Josh Hazlewood",
+    "score": 1.32,
+    "pressure_value": 9.1,
+    "consistency": 0.59,
+    "stepup": 9.2,
+    "pressure_balls": 412,
+    "pressure_innings": 37,
+    "top10_prob": 0.53
+   },
+   {
+    "rank": 9,
+    "name": "Joshua Little",
+    "score": 1.3,
+    "pressure_value": 8.0,
+    "consistency": 0.83,
+    "stepup": 4.3,
+    "pressure_balls": 129,
+    "pressure_innings": 12,
+    "top10_prob": 0.36
+   },
+   {
+    "rank": 10,
+    "name": "Mitchell Santner",
+    "score": 1.28,
+    "pressure_value": 10.2,
+    "consistency": 0.59,
+    "stepup": 6.0,
+    "pressure_balls": 213,
+    "pressure_innings": 22,
+    "top10_prob": 0.45
+   },
+   {
+    "rank": 11,
+    "name": "Axar Patel",
+    "score": 1.19,
+    "pressure_value": 8.9,
+    "consistency": 0.62,
+    "stepup": 5.0,
+    "pressure_balls": 450,
+    "pressure_innings": 39,
+    "top10_prob": 0.49
+   },
+   {
+    "rank": 12,
+    "name": "Varun Chakravarthy",
+    "score": 1.17,
+    "pressure_value": 11.1,
+    "consistency": 0.58,
+    "stepup": 1.0,
+    "pressure_balls": 329,
+    "pressure_innings": 24,
+    "top10_prob": 0.46
+   },
+   {
+    "rank": 13,
+    "name": "Mark Adair",
+    "score": 1.09,
+    "pressure_value": 9.9,
+    "consistency": 0.65,
+    "stepup": -0.5,
+    "pressure_balls": 187,
+    "pressure_innings": 20,
+    "top10_prob": 0.25
+   },
+   {
+    "rank": 14,
+    "name": "Ravichandran Ashwin",
+    "score": 0.98,
+    "pressure_value": 4.9,
+    "consistency": 0.65,
+    "stepup": 8.5,
+    "pressure_balls": 284,
+    "pressure_innings": 26,
+    "top10_prob": 0.22
+   },
+   {
+    "rank": 15,
+    "name": "Abrar Ahmed",
+    "score": 0.97,
+    "pressure_value": 7.8,
+    "consistency": 0.62,
+    "stepup": 4.0,
+    "pressure_balls": 158,
+    "pressure_innings": 13,
+    "top10_prob": 0.29
+   },
+   {
+    "rank": 16,
+    "name": "Wanindu Hasaranga",
+    "score": 0.95,
+    "pressure_value": 10.4,
+    "consistency": 0.54,
+    "stepup": -0.9,
+    "pressure_balls": 321,
+    "pressure_innings": 24,
+    "top10_prob": 0.23
+   },
+   {
+    "rank": 17,
+    "name": "Jasprit Bumrah",
+    "score": 0.92,
+    "pressure_value": 9.6,
+    "consistency": 0.57,
+    "stepup": -1.3,
+    "pressure_balls": 352,
+    "pressure_innings": 28,
+    "top10_prob": 0.24
+   },
+   {
+    "rank": 18,
+    "name": "Adil Rashid",
+    "score": 0.92,
+    "pressure_value": 7.8,
+    "consistency": 0.58,
+    "stepup": 3.7,
+    "pressure_balls": 159,
+    "pressure_innings": 12,
+    "top10_prob": 0.3
+   },
+   {
+    "rank": 19,
+    "name": "Avesh Khan",
+    "score": 0.87,
+    "pressure_value": 4.9,
+    "consistency": 0.62,
+    "stepup": 6.6,
+    "pressure_balls": 405,
+    "pressure_innings": 32,
+    "top10_prob": 0.22
+   },
+   {
+    "rank": 20,
+    "name": "Akeal Hosein",
+    "score": 0.87,
+    "pressure_value": 3.9,
+    "consistency": 0.71,
+    "stepup": 4.9,
+    "pressure_balls": 373,
+    "pressure_innings": 31,
+    "top10_prob": 0.15
+   },
+   {
+    "rank": 21,
+    "name": "Tim Southee",
+    "score": 0.73,
+    "pressure_value": 5.6,
+    "consistency": 0.6,
+    "stepup": 3.1,
+    "pressure_balls": 186,
+    "pressure_innings": 20,
+    "top10_prob": 0.12
+   },
+   {
+    "rank": 22,
+    "name": "Patrick Cummins",
+    "score": 0.66,
+    "pressure_value": 0.8,
+    "consistency": 0.76,
+    "stepup": 6.8,
+    "pressure_balls": 161,
+    "pressure_innings": 17,
+    "top10_prob": 0.08
+   },
+   {
+    "rank": 23,
+    "name": "Kagiso Rabada",
+    "score": 0.58,
+    "pressure_value": 1.6,
+    "consistency": 0.68,
+    "stepup": 4.9,
+    "pressure_balls": 382,
+    "pressure_innings": 31,
+    "top10_prob": 0.06
+   },
+   {
+    "rank": 24,
+    "name": "Nathan Ellis",
+    "score": 0.54,
+    "pressure_value": 4.7,
+    "consistency": 0.58,
+    "stepup": 1.0,
+    "pressure_balls": 215,
+    "pressure_innings": 19,
+    "top10_prob": 0.08
+   },
+   {
+    "rank": 25,
+    "name": "Michael Bracewell",
+    "score": 0.53,
+    "pressure_value": 4.7,
+    "consistency": 0.53,
+    "stepup": 2.9,
+    "pressure_balls": 168,
+    "pressure_innings": 15,
+    "top10_prob": 0.07
+   },
+   {
+    "rank": 26,
+    "name": "Taskin Ahmed",
+    "score": 0.49,
+    "pressure_value": 4.8,
+    "consistency": 0.57,
+    "stepup": -0.2,
+    "pressure_balls": 169,
+    "pressure_innings": 21,
+    "top10_prob": 0.06
+   },
+   {
+    "rank": 27,
+    "name": "Mohsin Khan",
+    "score": 0.48,
+    "pressure_value": 6.6,
+    "consistency": 0.53,
+    "stepup": -3.1,
+    "pressure_balls": 178,
+    "pressure_innings": 15,
+    "top10_prob": 0.14
+   },
+   {
+    "rank": 28,
+    "name": "Adam Zampa",
+    "score": 0.43,
+    "pressure_value": 4.5,
+    "consistency": 0.5,
+    "stepup": 2.4,
+    "pressure_balls": 173,
+    "pressure_innings": 14,
+    "top10_prob": 0.06
+   },
+   {
+    "rank": 29,
+    "name": "Ravindra Jadeja",
+    "score": 0.38,
+    "pressure_value": 5.4,
+    "consistency": 0.42,
+    "stepup": 2.5,
+    "pressure_balls": 318,
+    "pressure_innings": 26,
+    "top10_prob": 0.05
+   },
+   {
+    "rank": 30,
+    "name": "Lockie Ferguson",
+    "score": 0.37,
+    "pressure_value": -0.4,
+    "consistency": 0.69,
+    "stepup": 5.5,
+    "pressure_balls": 212,
+    "pressure_innings": 16,
+    "top10_prob": 0.07
+   },
+   {
+    "rank": 31,
+    "name": "Haris Rauf",
+    "score": 0.34,
+    "pressure_value": 4.3,
+    "consistency": 0.53,
+    "stepup": -0.7,
+    "pressure_balls": 221,
+    "pressure_innings": 19,
+    "top10_prob": 0.08
+   },
+   {
+    "rank": 32,
+    "name": "Moeen Ali",
+    "score": 0.31,
+    "pressure_value": -0.4,
+    "consistency": 0.67,
+    "stepup": 4.9,
+    "pressure_balls": 146,
+    "pressure_innings": 15,
+    "top10_prob": 0.03
+   },
+   {
+    "rank": 33,
+    "name": "Harpreet Brar",
+    "score": 0.3,
+    "pressure_value": 1.2,
+    "consistency": 0.67,
+    "stepup": 1.2,
+    "pressure_balls": 160,
+    "pressure_innings": 12,
+    "top10_prob": 0.04
+   },
+   {
+    "rank": 34,
+    "name": "FazalHaq Farooqi",
+    "score": 0.29,
+    "pressure_value": 1.3,
+    "consistency": 0.54,
+    "stepup": 4.8,
+    "pressure_balls": 249,
+    "pressure_innings": 24,
+    "top10_prob": 0.03
+   },
+   {
+    "rank": 35,
+    "name": "Matheesha Pathirana",
+    "score": 0.28,
+    "pressure_value": 3.8,
+    "consistency": 0.5,
+    "stepup": 0.2,
+    "pressure_balls": 243,
+    "pressure_innings": 16,
+    "top10_prob": 0.02
+   },
+   {
+    "rank": 36,
+    "name": "Harshit Rana",
+    "score": 0.26,
+    "pressure_value": 1.8,
+    "consistency": 0.55,
+    "stepup": 2.5,
+    "pressure_balls": 267,
+    "pressure_innings": 20,
+    "top10_prob": 0.08
+   },
+   {
+    "rank": 37,
+    "name": "Reece Topley",
+    "score": 0.21,
+    "pressure_value": 3.9,
+    "consistency": 0.5,
+    "stepup": -2.1,
+    "pressure_balls": 116,
+    "pressure_innings": 12,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 38,
+    "name": "Mustafizur Rahman",
+    "score": 0.2,
+    "pressure_value": 3.0,
+    "consistency": 0.5,
+    "stepup": -0.1,
+    "pressure_balls": 261,
+    "pressure_innings": 22,
+    "top10_prob": 0.03
+   },
+   {
+    "rank": 39,
+    "name": "Jacob Duffy",
+    "score": 0.15,
+    "pressure_value": -2.0,
+    "consistency": 0.6,
+    "stepup": 7.0,
+    "pressure_balls": 234,
+    "pressure_innings": 20,
+    "top10_prob": 0.01
+   },
+   {
+    "rank": 40,
+    "name": "Jason Holder",
+    "score": 0.13,
+    "pressure_value": 1.3,
+    "consistency": 0.5,
+    "stepup": 2.7,
+    "pressure_balls": 382,
+    "pressure_innings": 30,
+    "top10_prob": 0.03
+   },
+   {
+    "rank": 41,
+    "name": "Shaheen Afridi",
+    "score": 0.1,
+    "pressure_value": 1.9,
+    "consistency": 0.52,
+    "stepup": -0.8,
+    "pressure_balls": 284,
+    "pressure_innings": 27,
+    "top10_prob": 0.01
+   },
+   {
+    "rank": 42,
+    "name": "Deepak Chahar",
+    "score": 0.1,
+    "pressure_value": -0.9,
+    "consistency": 0.55,
+    "stepup": 4.7,
+    "pressure_balls": 310,
+    "pressure_innings": 29,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 43,
+    "name": "Ish Sodhi",
+    "score": 0.07,
+    "pressure_value": 0.6,
+    "consistency": 0.53,
+    "stepup": 1.4,
+    "pressure_balls": 170,
+    "pressure_innings": 15,
+    "top10_prob": 0.04
+   },
+   {
+    "rank": 44,
+    "name": "Noor Ahmad",
+    "score": 0.04,
+    "pressure_value": 4.2,
+    "consistency": 0.41,
+    "stepup": -3.4,
+    "pressure_balls": 262,
+    "pressure_innings": 17,
+    "top10_prob": 0.04
+   },
+   {
+    "rank": 45,
+    "name": "Rahul Chahar",
+    "score": 0.01,
+    "pressure_value": 1.2,
+    "consistency": 0.5,
+    "stepup": -0.4,
+    "pressure_balls": 211,
+    "pressure_innings": 14,
+    "top10_prob": 0.03
+   },
+   {
+    "rank": 46,
+    "name": "Jofra Archer",
+    "score": -0.04,
+    "pressure_value": -0.6,
+    "consistency": 0.55,
+    "stepup": 0.3,
+    "pressure_balls": 310,
+    "pressure_innings": 29,
+    "top10_prob": 0.01
+   },
+   {
+    "rank": 47,
+    "name": "Harshal Patel",
+    "score": -0.04,
+    "pressure_value": 0.5,
+    "consistency": 0.46,
+    "stepup": 1.8,
+    "pressure_balls": 398,
+    "pressure_innings": 28,
+    "top10_prob": 0.03
+   },
+   {
+    "rank": 48,
+    "name": "Maheesh Theekshana",
+    "score": -0.04,
+    "pressure_value": 0.3,
+    "consistency": 0.48,
+    "stepup": 1.5,
+    "pressure_balls": 317,
+    "pressure_innings": 27,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 49,
+    "name": "Bhuvneshwar Kumar",
+    "score": -0.05,
+    "pressure_value": 1.5,
+    "consistency": 0.52,
+    "stepup": -3.8,
+    "pressure_balls": 657,
+    "pressure_innings": 58,
+    "top10_prob": 0.01
+   },
+   {
+    "rank": 50,
+    "name": "Ravi Bishnoi",
+    "score": -0.11,
+    "pressure_value": -2.4,
+    "consistency": 0.64,
+    "stepup": -1.8,
+    "pressure_balls": 595,
+    "pressure_innings": 44,
+    "top10_prob": 0.01
+   },
+   {
+    "rank": 51,
+    "name": "Dushmantha Chameera",
+    "score": -0.11,
+    "pressure_value": -1.1,
+    "consistency": 0.52,
+    "stepup": 1.1,
+    "pressure_balls": 189,
+    "pressure_innings": 21,
+    "top10_prob": 0.02
+   },
+   {
+    "rank": 52,
+    "name": "Mukesh Kumar",
+    "score": -0.12,
+    "pressure_value": -2.7,
+    "consistency": 0.59,
+    "stepup": 1.6,
+    "pressure_balls": 282,
+    "pressure_innings": 27,
+    "top10_prob": 0.01
+   },
+   {
+    "rank": 53,
+    "name": "Obed McCoy",
+    "score": -0.16,
+    "pressure_value": -1.8,
+    "consistency": 0.58,
+    "stepup": -0.2,
+    "pressure_balls": 143,
+    "pressure_innings": 12,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 54,
+    "name": "Shoriful Islam",
+    "score": -0.22,
+    "pressure_value": -2.9,
+    "consistency": 0.57,
+    "stepup": 1.4,
+    "pressure_balls": 190,
+    "pressure_innings": 14,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 55,
+    "name": "Lungi Ngidi",
+    "score": -0.24,
+    "pressure_value": -0.9,
+    "consistency": 0.5,
+    "stepup": -1.7,
+    "pressure_balls": 167,
+    "pressure_innings": 14,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 56,
+    "name": "Yuzvendra Chahal",
+    "score": -0.25,
+    "pressure_value": 1.5,
+    "consistency": 0.44,
+    "stepup": -4.8,
+    "pressure_balls": 431,
+    "pressure_innings": 32,
+    "top10_prob": 0.01
+   },
+   {
+    "rank": 57,
+    "name": "Sandeep Sharma",
+    "score": -0.3,
+    "pressure_value": -2.5,
+    "consistency": 0.5,
+    "stepup": 0.9,
+    "pressure_balls": 196,
+    "pressure_innings": 14,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 58,
+    "name": "Glenn Maxwell",
+    "score": -0.3,
+    "pressure_value": -2.0,
+    "consistency": 0.47,
+    "stepup": 0.6,
+    "pressure_balls": 198,
+    "pressure_innings": 19,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 59,
+    "name": "Marcus Stoinis",
+    "score": -0.32,
+    "pressure_value": -3.4,
+    "consistency": 0.5,
+    "stepup": 2.5,
+    "pressure_balls": 207,
+    "pressure_innings": 24,
+    "top10_prob": 0.01
+   },
+   {
+    "rank": 60,
+    "name": "Mahedi Hasan",
+    "score": -0.34,
+    "pressure_value": 4.3,
+    "consistency": 0.25,
+    "stepup": -8.5,
+    "pressure_balls": 140,
+    "pressure_innings": 12,
+    "top10_prob": 0.02
+   },
+   {
+    "rank": 61,
+    "name": "Umesh Yadav",
+    "score": -0.35,
+    "pressure_value": -0.3,
+    "consistency": 0.38,
+    "stepup": -1.0,
+    "pressure_balls": 142,
+    "pressure_innings": 16,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 62,
+    "name": "Anshul Kamboj",
+    "score": -0.4,
+    "pressure_value": -1.9,
+    "consistency": 0.42,
+    "stepup": -0.2,
+    "pressure_balls": 121,
+    "pressure_innings": 12,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 63,
+    "name": "Alzarri Joseph",
+    "score": -0.41,
+    "pressure_value": -7.5,
+    "consistency": 0.57,
+    "stepup": 7.5,
+    "pressure_balls": 240,
+    "pressure_innings": 21,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 64,
+    "name": "Mohammad Nabi",
+    "score": -0.48,
+    "pressure_value": -3.5,
+    "consistency": 0.43,
+    "stepup": 1.3,
+    "pressure_balls": 153,
+    "pressure_innings": 14,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 65,
+    "name": "Nandre Burger",
+    "score": -0.52,
+    "pressure_value": -4.9,
+    "consistency": 0.54,
+    "stepup": -0.4,
+    "pressure_balls": 125,
+    "pressure_innings": 13,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 66,
+    "name": "Spencer Johnson",
+    "score": -0.55,
+    "pressure_value": -5.1,
+    "consistency": 0.5,
+    "stepup": 0.7,
+    "pressure_balls": 117,
+    "pressure_innings": 12,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 67,
+    "name": "Prasidh Krishna",
+    "score": -0.64,
+    "pressure_value": -3.1,
+    "consistency": 0.43,
+    "stepup": -3.8,
+    "pressure_balls": 271,
+    "pressure_innings": 23,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 68,
+    "name": "T Natarajan",
+    "score": -0.64,
+    "pressure_value": -5.1,
+    "consistency": 0.5,
+    "stepup": -1.7,
+    "pressure_balls": 181,
+    "pressure_innings": 14,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 69,
+    "name": "Cameron Green",
+    "score": -0.67,
+    "pressure_value": -5.2,
+    "consistency": 0.41,
+    "stepup": 1.7,
+    "pressure_balls": 165,
+    "pressure_innings": 17,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 70,
+    "name": "Khaleel Ahmed",
+    "score": -0.68,
+    "pressure_value": -5.5,
+    "consistency": 0.48,
+    "stepup": -0.9,
+    "pressure_balls": 304,
+    "pressure_innings": 29,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 71,
+    "name": "Prince Yadav",
+    "score": -0.69,
+    "pressure_value": -1.4,
+    "consistency": 0.31,
+    "stepup": -5.1,
+    "pressure_balls": 128,
+    "pressure_innings": 13,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 72,
+    "name": "Anrich Nortje",
+    "score": -0.74,
+    "pressure_value": -4.7,
+    "consistency": 0.38,
+    "stepup": -0.9,
+    "pressure_balls": 115,
+    "pressure_innings": 13,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 73,
+    "name": "Marco Jansen",
+    "score": -0.76,
+    "pressure_value": -6.5,
+    "consistency": 0.36,
+    "stepup": 5.0,
+    "pressure_balls": 261,
+    "pressure_innings": 22,
+    "top10_prob": 0.01
+   },
+   {
+    "rank": 74,
+    "name": "Nuwan Thushara",
+    "score": -0.76,
+    "pressure_value": -6.6,
+    "consistency": 0.47,
+    "stepup": 0.2,
+    "pressure_balls": 155,
+    "pressure_innings": 17,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 75,
+    "name": "Matt Henry",
+    "score": -0.8,
+    "pressure_value": -7.3,
+    "consistency": 0.5,
+    "stepup": -0.2,
+    "pressure_balls": 162,
+    "pressure_innings": 14,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 76,
+    "name": "Tushar Deshpande",
+    "score": -0.88,
+    "pressure_value": -6.0,
+    "consistency": 0.39,
+    "stepup": -0.7,
+    "pressure_balls": 261,
+    "pressure_innings": 23,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 77,
+    "name": "Naveen ul Haq",
+    "score": -0.91,
+    "pressure_value": -5.9,
+    "consistency": 0.43,
+    "stepup": -3.7,
+    "pressure_balls": 181,
+    "pressure_innings": 14,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 78,
+    "name": "Andre Russell",
+    "score": -0.92,
+    "pressure_value": -5.8,
+    "consistency": 0.36,
+    "stepup": -1.5,
+    "pressure_balls": 168,
+    "pressure_innings": 14,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 79,
+    "name": "Romario Shepherd",
+    "score": -0.94,
+    "pressure_value": -8.1,
+    "consistency": 0.44,
+    "stepup": 0.9,
+    "pressure_balls": 265,
+    "pressure_innings": 27,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 80,
+    "name": "Sam Curran",
+    "score": -1.02,
+    "pressure_value": -8.8,
+    "consistency": 0.48,
+    "stepup": -1.3,
+    "pressure_balls": 353,
+    "pressure_innings": 29,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 81,
+    "name": "Yash Dayal",
+    "score": -1.04,
+    "pressure_value": -7.3,
+    "consistency": 0.36,
+    "stepup": -0.1,
+    "pressure_balls": 255,
+    "pressure_innings": 22,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 82,
+    "name": "Mohammed Siraj",
+    "score": -1.1,
+    "pressure_value": -8.1,
+    "consistency": 0.46,
+    "stepup": -4.1,
+    "pressure_balls": 636,
+    "pressure_innings": 54,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 83,
+    "name": "Shardul Thakur",
+    "score": -1.12,
+    "pressure_value": -9.4,
+    "consistency": 0.45,
+    "stepup": -1.4,
+    "pressure_balls": 216,
+    "pressure_innings": 22,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 84,
+    "name": "Hardik Pandya",
+    "score": -1.16,
+    "pressure_value": -9.2,
+    "consistency": 0.46,
+    "stepup": -3.0,
+    "pressure_balls": 427,
+    "pressure_innings": 41,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 85,
+    "name": "Arshdeep Singh",
+    "score": -1.38,
+    "pressure_value": -9.8,
+    "consistency": 0.4,
+    "stepup": -3.2,
+    "pressure_balls": 1012,
+    "pressure_innings": 88,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 86,
+    "name": "Trent Boult",
+    "score": -1.39,
+    "pressure_value": -9.6,
+    "consistency": 0.4,
+    "stepup": -4.4,
+    "pressure_balls": 479,
+    "pressure_innings": 43,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 87,
+    "name": "Mitchell Starc",
+    "score": -1.43,
+    "pressure_value": -10.5,
+    "consistency": 0.32,
+    "stepup": -0.8,
+    "pressure_balls": 219,
+    "pressure_innings": 19,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 88,
+    "name": "Vaibhav Arora",
+    "score": -1.44,
+    "pressure_value": -9.7,
+    "consistency": 0.38,
+    "stepup": -5.2,
+    "pressure_balls": 286,
+    "pressure_innings": 29,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 89,
+    "name": "Azmatullah Omarzai",
+    "score": -1.5,
+    "pressure_value": -7.0,
+    "consistency": 0.33,
+    "stepup": -11.3,
+    "pressure_balls": 285,
+    "pressure_innings": 30,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 90,
+    "name": "Shahbaz Ahmed",
+    "score": -1.59,
+    "pressure_value": -15.2,
+    "consistency": 0.46,
+    "stepup": 0.5,
+    "pressure_balls": 144,
+    "pressure_innings": 13,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 91,
+    "name": "Xavier Bartlett",
+    "score": -1.66,
+    "pressure_value": -6.6,
+    "consistency": 0.11,
+    "stepup": -8.0,
+    "pressure_balls": 161,
+    "pressure_innings": 18,
+    "top10_prob": 0.0
+   },
+   {
+    "rank": 92,
+    "name": "Mohammed Shami",
+    "score": -1.76,
+    "pressure_value": -9.6,
+    "consistency": 0.26,
+    "stepup": -7.2,
+    "pressure_balls": 354,
+    "pressure_innings": 35,
+    "top10_prob": 0.0
+   }
+  ]
+ },
+ "league": {
+  "bat_eligible_pressure_avg": {
+   "balls": 20614,
+   "runs": 30427,
+   "sr": 147.6,
+   "boundary_pct": 21.3,
+   "dot_pct": 36.6,
+   "outs": 985,
+   "outs_per100": 4.8,
+   "avg": 30.9,
+   "value_per100": 0.1
+  },
+  "bat_eligible_normal_avg": {
+   "balls": 44960,
+   "runs": 68899,
+   "sr": 153.2,
+   "boundary_pct": 21.0,
+   "dot_pct": 32.8,
+   "outs": 2113,
+   "outs_per100": 4.7,
+   "avg": 32.6,
+   "value_per100": 8.8
+  },
+  "bowl_eligible_pressure_avg": {
+   "balls": 24105,
+   "runs": 33946,
+   "econ": 8.45,
+   "boundary_pct": 19.1,
+   "dot_pct": 34.8,
+   "wkts": 1277,
+   "balls_per_wkt": 18.9,
+   "value_per100": 2.9
+  },
+  "bowl_eligible_normal_avg": {
+   "balls": 53268,
+   "runs": 73855,
+   "econ": 8.32,
+   "boundary_pct": 17.6,
+   "dot_pct": 33.4,
+   "wkts": 2870,
+   "balls_per_wkt": 18.6,
+   "value_per100": -0.5
+  },
+  "pressure_index_by_over": {
+   "1": [
+    1.58,
+    1.06,
+    0.95,
+    0.84,
+    0.83,
+    0.77,
+    0.64,
+    0.62,
+    0.62,
+    0.61,
+    0.6,
+    0.6,
+    0.6,
+    0.6,
+    0.6,
+    0.59,
+    0.59,
+    0.62,
+    0.64,
+    1.37
+   ],
+   "2": [
+    1.48,
+    1.3,
+    1.21,
+    1.15,
+    1.1,
+    1.06,
+    1.03,
+    1.01,
+    1.01,
+    1.01,
+    1.04,
+    1.05,
+    1.12,
+    1.09,
+    1.21,
+    1.26,
+    1.44,
+    1.53,
+    2.04,
+    3.51
+   ]
+  },
+  "pressure_index_by_win_prob": [
+   {
+    "bucket": "0-10%",
+    "value": 0.43
+   },
+   {
+    "bucket": "10-25%",
+    "value": 1.33
+   },
+   {
+    "bucket": "25-40%",
+    "value": 2.02
+   },
+   {
+    "bucket": "40-60%",
+    "value": 2.03
+   },
+   {
+    "bucket": "60-75%",
+    "value": 1.93
+   },
+   {
+    "bucket": "75-90%",
+    "value": 1.2
+   },
+   {
+    "bucket": "90-100%",
+    "value": 0.41
+   }
+  ],
+  "pressure_index_by_rrr": [
+   {
+    "bucket": "<4",
+    "value": 0.79
+   },
+   {
+    "bucket": "4-6",
+    "value": 0.41
+   },
+   {
+    "bucket": "6-8",
+    "value": 0.82
+   },
+   {
+    "bucket": "8-10",
+    "value": 1.8
+   },
+   {
+    "bucket": "10-12",
+    "value": 1.83
+   },
+   {
+    "bucket": "12-15",
+    "value": 1.01
+   },
+   {
+    "bucket": "15+",
+    "value": 0.64
+   }
+  ],
+  "pressure_index_by_wickets_lost": [
+   {
+    "bucket": "(-1, 2]",
+    "value": 0.99
+   },
+   {
+    "bucket": "(2, 4]",
+    "value": 0.99
+   },
+   {
+    "bucket": "(4, 6]",
+    "value": 1.05
+   },
+   {
+    "bucket": "(6, 10]",
+    "value": 1.02
+   }
+  ],
+  "high_pressure_share_by_over": [
+   47.9,
+   29.8,
+   23.8,
+   21.5,
+   18.7,
+   15.4,
+   13.6,
+   14.4,
+   15.7,
+   16.0,
+   17.4,
+   17.0,
+   17.4,
+   16.2,
+   17.7,
+   16.9,
+   16.2,
+   16.6,
+   17.0,
+   31.8
+  ],
+  "high_pressure_threshold": 1.51,
+  "class_profile": [
+   {
+    "metric": "Avg win-probability swing per ball (pts)",
+    "normal": 0.52,
+    "mid": 1.54,
+    "high": 3.61
+   },
+   {
+    "metric": "Win probability lost on a wicket (pts)",
+    "normal": 2.5,
+    "mid": 5.6,
+    "high": 9.4
+   },
+   {
+    "metric": "Win probability lost on a dot ball (pts)",
+    "normal": 0.24,
+    "mid": 1.1,
+    "high": 2.78
+   },
+   {
+    "metric": "Share of balls in 2nd innings (%)",
+    "normal": 38,
+    "mid": 44,
+    "high": 80
+   }
+  ],
+  "calibration": [
+   {
+    "predicted": 0.051,
+    "actual": 0.055
+   },
+   {
+    "predicted": 0.15,
+    "actual": 0.141
+   },
+   {
+    "predicted": 0.252,
+    "actual": 0.25
+   },
+   {
+    "predicted": 0.35,
+    "actual": 0.342
+   },
+   {
+    "predicted": 0.452,
+    "actual": 0.468
+   },
+   {
+    "predicted": 0.552,
+    "actual": 0.564
+   },
+   {
+    "predicted": 0.647,
+    "actual": 0.656
+   },
+   {
+    "predicted": 0.747,
+    "actual": 0.736
+   },
+   {
+    "predicted": 0.85,
+    "actual": 0.819
+   },
+   {
+    "predicted": 0.946,
+    "actual": 0.954
+   }
+  ],
+  "predictive_validity": [
+   {
+    "method": "Raw pressure average",
+    "batters": 0.093,
+    "bowlers": 0.057
+   },
+   {
+    "method": "Shrunk to league average",
+    "batters": 0.118,
+    "bowlers": 0.085
+   },
+   {
+    "method": "Shrunk to own everyday skill (our method)",
+    "batters": 0.185,
+    "bowlers": 0.125
+   }
+  ],
+  "sensitivity": [
+   {
+    "variant": "Pressure value only",
+    "batters": 7,
+    "bowlers": 7
+   },
+   {
+    "variant": "Equal weights (1/3 each)",
+    "batters": 6,
+    "bowlers": 8
+   },
+   {
+    "variant": "Without step-up term (75/25)",
+    "batters": 9,
+    "bowlers": 8
+   },
+   {
+    "variant": "Stricter pressure: top 10% of balls",
+    "batters": 5,
+    "bowlers": 4
+   },
+   {
+    "variant": "Looser pressure: top 30% of balls",
+    "batters": 5,
+    "bowlers": 5
+   },
+   {
+    "variant": "Chases only",
+    "batters": 7,
+    "bowlers": 8
+   },
+   {
+    "variant": "IPL data only",
+    "batters": 8,
+    "bowlers": 4
+   },
+   {
+    "variant": "T20I data only",
+    "batters": 3,
+    "bowlers": 6
+   }
+  ]
+ }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "pressure-players-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": { "dev": "vite --host 0.0.0.0", "build": "tsc -b && vite build", "preview": "vite preview --host 0.0.0.0" },
+  "dependencies": { "@vitejs/plugin-react": "latest", "vite": "latest", "typescript": "5.7.3", "react": "^19.0.0", "react-dom": "^19.0.0", "react-router-dom": "latest", "recharts": "latest", "framer-motion": "latest", "lucide-react": "^1.16.0" },
+  "devDependencies": { "@types/react": "^19.0.0", "@types/react-dom": "^19.0.0", "tailwindcss": "^4.3.3", "@tailwindcss/vite": "latest" }
+}
